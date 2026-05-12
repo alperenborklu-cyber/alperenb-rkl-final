@@ -644,6 +644,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // --- 6. Bilingual Support (i18n) ---
     const langToggleBtn = document.getElementById('lang-toggle');
     const langToggleBtnMobile = document.getElementById('lang-toggle-mobile');
+    const langToggleBtnHeader = document.getElementById('lang-toggle-header');
     let currentLang = localStorage.getItem('lang') || 'en';
 
     function setLanguage(lang) {
@@ -652,6 +653,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if(langToggleBtn) langToggleBtn.innerText = lang === 'en' ? 'TR' : 'EN';
         if(langToggleBtnMobile) langToggleBtnMobile.innerText = lang === 'en' ? 'TR' : 'EN';
+        if(langToggleBtnHeader) langToggleBtnHeader.innerText = lang === 'en' ? 'TR' : 'EN';
 
         document.documentElement.lang = lang;
 
@@ -680,6 +682,13 @@ document.addEventListener('DOMContentLoaded', () => {
     
     if (langToggleBtnMobile) {
         langToggleBtnMobile.addEventListener('click', (e) => {
+            e.preventDefault();
+            setLanguage(currentLang === 'en' ? 'tr' : 'en');
+        });
+    }
+
+    if (langToggleBtnHeader) {
+        langToggleBtnHeader.addEventListener('click', (e) => {
             e.preventDefault();
             setLanguage(currentLang === 'en' ? 'tr' : 'en');
         });
