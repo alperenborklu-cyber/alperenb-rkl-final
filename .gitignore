@@ -1,0 +1,13 @@
+*.mp4
+*.mov
+*.avi
+*.psd
+*.zip
+*.py
+portfolio-v1/
+ai/
+newwwwww/
+renderlanacak/
+__pycache__/
+.history/
+.vscode/
