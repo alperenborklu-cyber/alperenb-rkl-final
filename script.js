@@ -22,9 +22,9 @@ const translations = {
         "form_details": "Project Details",
         "form_send_request": "Send Request",
 
-        "hero_title": "Visual Artist",
+        "hero_title": "3D Animator & Motion Designer — Ankara, Turkey",
         "hero_heading": "Hello, <br class=\"hidden lg:block\"/><span class=\"italic text-primary pr-2\">I'm Alperen.</span>",
-        "hero_desc": "I turn pixels into stories. Crafting digital environments, motion, and art direction.",
+        "hero_desc": "Cinematic 3D animation, motion design, and premium web design for brands and films. Based in Ankara, serving clients worldwide.",
         "hero_watch": "Watch Showreel",
         "hero_view": "View Works",
         "hero_scroll": "Scroll",
@@ -286,7 +286,7 @@ const translations = {
         "form_details": "Proje Detayları",
         "form_send_request": "Gönder",
 
-        "hero_title": "Görsel Sanatçı",
+        "hero_title": "3D Animatör & Hareket Tasarımcısı — Ankara, Türkiye",
         "hero_heading": "Merhaba, <br class=\"hidden lg:block\"/><span class=\"italic text-primary pr-2\">Ben Alperen.</span>",
         "hero_desc": "Pikselleri hikayelere dönüştürüyorum. Dijital ortamlar, hareketli grafikler ve sanat yönetmenliği üretiyorum.",
         "hero_watch": "Showreel İzle",
