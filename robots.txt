@@ -1,4 +1,12 @@
-User-agent: *
+﻿User-agent: *
+Disallow: /ai/
+Disallow: /portfolio-v1/
+Disallow: /newwwwww/
+Disallow: /renderlanacak/
+Disallow: /scratch/
+Disallow: /old_index.html
+Disallow: /old_index_utf8.html
+Disallow: /temp_line123.html
 Allow: /
 
 Sitemap: https://alperenborklu.com/sitemap.xml
