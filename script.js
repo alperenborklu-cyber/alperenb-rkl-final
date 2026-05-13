@@ -431,13 +431,15 @@ document.addEventListener('DOMContentLoaded', () => {
                 setTimeout(() => {
                     preloader.style.display = 'none';
                 }, 1000);
-            }, 500); // Small delay to let user see it briefly
+            }, 2000); // Increased for typing animation to let user see it briefly
         };
 
-        if (document.readyState === 'complete') {
+                if (document.readyState === 'complete') {
             hidePreloader();
         } else {
             window.addEventListener('load', hidePreloader);
+            // Safety timeout
+            setTimeout(hidePreloader, 5000);
         }
     }
 
