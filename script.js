@@ -1,4 +1,4 @@
-
+﻿
 const translations = {
     "en": {
         "nav_work": "Work",
@@ -109,36 +109,48 @@ const translations = {
         "blog_cat_13": "Future Tech",
         "blog_13_title": "The Future of AI in Web Design",
         "blog_13_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Machines as co-creators.</strong><span> AI is rapidly evolving from a backend utility to an active participant in the design process.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Generative Interfaces</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Imagine websites that dynamically adapt their layout, content, and color schemes based on the real-time emotional state and preferences of the user.</span></p>",
-        "blog_cat_14": "Web Design",
-        "blog_14_title": "The Role of White Space in UI Design",
+        "blog_cat_14": "Vibe Coding",
+        "blog_14_title": "What Is Vibe Coding?",
         "blog_14_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">White space is not empty space.</strong><span> It is a powerful design element that guides the user's eye, creates balance, and emphasizes the most important parts of a webpage.</span></p>",
-        "blog_cat_15": "Web Architecture",
-        "blog_15_title": "SSR vs. CSR",
+        "blog_cat_15": "AI Tools",
+        "blog_15_title": "Lovable: AI-Powered App Building",
         "blog_15_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Understanding your site's backbone.</strong><span> SSR offers faster initial page loads and better SEO, while CSR provides a smoother, app-like experience once loaded.</span></p>",
-        "blog_cat_16": "Web Typography",
-        "blog_16_title": "Choosing the Right Font Pairing",
+        "blog_cat_16": "AI Coding",
+        "blog_16_title": "Claude Code: The Terminal AI Agent",
         "blog_16_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Establish your brand's voice.</strong><span> Combining a strong serif header with a clean sans-serif body text ensures high readability and a professional aesthetic.</span></p>",
-        "blog_cat_17": "UI/UX",
-        "blog_17_title": "Designing Effective CTAs",
+        "blog_cat_17": "AI Agents",
+        "blog_17_title": "Antigravity: Google's Agentic Coder",
         "blog_17_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">The gateway to conversion.</strong><span> A CTA button's color, size, placement, and micro-copy must be meticulously crafted to encourage user interaction.</span></p>",
-        "blog_cat_18": "Web Animation",
-        "blog_18_title": "Scroll-Triggered Animations",
+        "blog_cat_18": "Vibe Coding",
+        "blog_18_title": "Cursor vs. Windsurf: AI Editor Battle",
         "blog_18_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Interactive narratives.</strong><span> When used subtly, scroll animations reward the user's behavior without overwhelming the core message.</span></p>",
-        "blog_cat_19": "SEO Basics",
-        "blog_19_title": "Technical SEO for Web Designers",
+        "blog_cat_19": "AI Development",
+        "blog_19_title": "Bolt.new: Full-Stack AI in the Browser",
         "blog_19_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Beautiful design needs an audience.</strong><span> Semantic HTML, optimized image load times, and structured heading tags are foundational to technical SEO.</span></p>",
-        "blog_cat_20": "E-Commerce",
-        "blog_20_title": "Streamlining Checkout",
+        "blog_cat_20": "AI Coding",
+        "blog_20_title": "GitHub Copilot: Your AI Pair Programmer",
         "blog_20_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Cart abandonment is the enemy.</strong><span> Designing a clean, multi-step checkout with minimal fields dramatically improves conversion rates.</span></p>",
-        "blog_cat_21": "Web Accessibility",
-        "blog_21_title": "Color Contrast & Inclusive Design",
+        "blog_cat_21": "Vibe Coding",
+        "blog_21_title": "Prompt Engineering for Developers",
         "blog_21_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Design for everyone.</strong><span> Ensuring your color palettes meet WCAG contrast guidelines guarantees content is readable for all users.</span></p>",
-        "blog_cat_22": "Performance",
-        "blog_22_title": "Core Web Vitals",
+        "blog_cat_22": "AI Tools",
+        "blog_22_title": "Replit Agent: Code While You Sleep",
         "blog_22_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Measure what matters.</strong><span> Optimizing loading, interactivity, and visual stability is mandatory for high search engine rankings.</span></p>",
-        "blog_cat_23": "Design Systems",
-        "blog_23_title": "Building a Scalable System",
-        "blog_23_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Consistency is key.</strong><span> Creating a robust design system with reusable components accelerates development and unifies the brand.</span></p>",
+        "blog_cat_23": "AI Agents",
+        "blog_23_title": "The Rise of Agentic Coding",
+        "blog_23_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">From autocomplete to autonomy.</strong> Agentic coders plan, execute, test, and iterate across entire codebases independently.</p>",
+        "blog_cat_24": "AI Coding",
+        "blog_24_title": "V0 by Vercel: Design to Code Instantly",
+        "blog_cat_25": "Vibe Coding",
+        "blog_25_title": "Why Designers Should Learn Vibe Coding",
+        "blog_cat_26": "AI Tools",
+        "blog_26_title": "Devin: The First AI Software Engineer",
+        "blog_cat_27": "AI Agents",
+        "blog_27_title": "AI Coding Agents: The 2026 Landscape",
+        "blog_cat_28": "Vibe Coding",
+        "blog_28_title": "Building a Portfolio Site With AI",
+        "blog_cat_29": "Future Tech",
+        "blog_29_title": "Will AI Replace Developers?",
         "blog_3_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">After years of disruption, the industry is finding its footing.</strong><span> Here&#x27;s where we stand\u2014and where we&#x27;re heading.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>The industry is balancing uncertainty with opportunity. While business has been roller-coaster, technology like AI, virtual production, and real-time rendering is surging.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Key Technologies Reshaping the Industry</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">AI and Machine Learning:</strong><span> Doing the heavy lifting (roto, clean-up) so artists focus on creative.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Real-Time Rendering:</strong><span> Unreal Engine is speeding up decisions and bringing everyone into the creative process earlier.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Cloud Workflows:</strong><span> Teams in different countries work like they&#x27;re in the same room.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">LED Stages:</strong><span> Becoming cost-effective even for simple sequences.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">The Human Element</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Despite tech, human connection remains essential. &quot;The value of human connection will outweigh the pursuit of displacing staff.&quot;</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">What This Means for Motion Designers:</strong><span> Specialization in human craft, cross-industry applications, and hybrid workflows are the keys to 2026.</span></p>",
         "blog_2_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Timelines and keyframes are giving way to rules and logic.</strong><span> Here&#x27;s how &quot;programming motion&quot; is changing what it means to be a motion designer.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Traditional workflows demand hours of manual labor. AI motion design replaces timelines with logic. Instead of manually placing every movement, creators define intent and relationships.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">The CodeGen Moment for Video</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Software development changed when AI began generating code. The same shift is happening in video. Motion is described through rules: &quot;A text block fades in over a fixed duration.&quot;</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">What Programmable Motion Unlocks</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">1. Personalization at Scale:</strong><span> Generate 10,000 unique video ads, each perfectly timed.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">2. Template-Based Production:</strong><span> Non-technical teams input content and receive professional output.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">3. Vibe Editing:</strong><span> &quot;Make this feel more energetic.&quot; AI translates direction into implementation.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">The Economics:</strong><span> After 50-100 videos, AI motion graphics become dramatically cheaper.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">The Shift:</strong><span> Designers move away from manual execution and toward system design. The future isn&#x27;t about choosing a single tool\u2014it&#x27;s about designing the systems.</span></p>",
         "blog_1_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">The pace of change in motion design has never been faster.</strong><span> Here&#x27;s what&#x27;s defining our industry in 2026\u2014and how you can stay ahead.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Video and motion design are evolving at a breakneck pace, and 2026 is shaping up to be a year of radical hybrid creativity. Creators are blending cutting-edge AI tools with traditional craft.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">1. Do It in Post (With AI)</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>AI is now deeply integrated into every editing and creative app. Hybrid AI workflows let you work faster and focus on storytelling.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">2. Authenticity Through Imperfection</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Viewers are gravitating toward handheld, raw, and emotionally honest footage. Imperfection signals trust and authenticity.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">3. Story-Driven Brand Films</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Brands are realizing that audiences want to feel something. Cinematic storytelling is reclaiming its place in advertising.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">4. Craft as Luxury</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>We&#x27;re seeing brands celebrate hand-drawn animation, stop-motion, and mixed-media artistry as a counterweight to generative sameness.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">5. AI-Generated Actors and Digital Doubles</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>AI video generators can now create consistent AI characters. We&#x27;re seeing a rise in &quot;digital doubles&quot; based on real people.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">6. Platform-First Editing</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Social platforms are becoming full-fledged editing suites. Creators aren&#x27;t just posting to TikTok\u2014they&#x27;re editing inside it.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">7. The End of Aspect Ratio Rules</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Aspect ratios are no longer creative constraints. AI framing tools let editors instantly adapt a master edit to any ratio.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">8. Analog Nostalgia</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>We&#x27;re witnessing a revival of analog aesthetics: film grain, warm lighting, and VHS overlays. Vibe is as powerful as polish.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">9. Wearable POV Filmmaking</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>With smart glasses, creators are capturing the world exactly as they see it. Raw, intimate, and immersive.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">10. Minimalistic Editing</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Minimalistic editing prioritizes authenticity and pacing. Long takes and gentle refinements let audiences actually listen.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">11. Motion Design Becomes Strategic</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Motion systems will become the anchor that lets brands flex without losing themselves. Motion knows when to push and when to pause.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Looking Ahead:</strong><span> Are you chasing trends, or creating work that feels intentional?</span></p>",
@@ -205,35 +217,35 @@ const translations = {
         "rev_15": "&quot;I am very satisfied.&quot;",
         "rev_16": "&quot;He took the creative aspect of our project to a completely different level. In terms of both aesthetics and narrative power, the resulting work was far above our expectations. He was disciplined and solution-oriented throughout the process.&quot;"
 ,
-        "blog_cat_14": "Web Design",
-        "blog_14_title": "The Role of White Space in UI Design",
+        "blog_cat_14": "Vibe Coding",
+        "blog_14_title": "What Is Vibe Coding?",
         "blog_14_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">White space is not empty space.</strong><span> It is a powerful design element that guides the user\"s eye, creates balance, and emphasizes the most important parts of a webpage.</span></p>",
-        "blog_cat_15": "Web Architecture",
-        "blog_15_title": "SSR vs. CSR",
+        "blog_cat_15": "AI Tools",
+        "blog_15_title": "Lovable: AI-Powered App Building",
         "blog_15_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Understanding your site\"s backbone.</strong><span> SSR offers faster initial page loads and better SEO, while CSR provides a smoother, app-like experience once loaded.</span></p>",
-        "blog_cat_16": "Web Typography",
-        "blog_16_title": "Choosing the Right Font Pairing",
+        "blog_cat_16": "AI Coding",
+        "blog_16_title": "Claude Code: The Terminal AI Agent",
         "blog_16_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Establish your brand\"s voice.</strong><span> Combining a strong serif header with a clean sans-serif body text ensures high readability and a professional aesthetic.</span></p>",
-        "blog_cat_17": "UI/UX",
-        "blog_17_title": "Designing Effective CTAs",
+        "blog_cat_17": "AI Agents",
+        "blog_17_title": "Antigravity: Google's Agentic Coder",
         "blog_17_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">The gateway to conversion.</strong><span> A CTA button\"s color, size, placement, and micro-copy must be meticulously crafted to encourage user interaction.</span></p>",
-        "blog_cat_18": "Web Animation",
-        "blog_18_title": "Scroll-Triggered Animations",
+        "blog_cat_18": "Vibe Coding",
+        "blog_18_title": "Cursor vs. Windsurf: AI Editor Battle",
         "blog_18_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Interactive narratives.</strong><span> When used subtly, scroll animations reward the user\"s behavior without overwhelming the core message.</span></p>",
-        "blog_cat_19": "SEO Basics",
-        "blog_19_title": "Technical SEO for Web Designers",
+        "blog_cat_19": "AI Development",
+        "blog_19_title": "Bolt.new: Full-Stack AI in the Browser",
         "blog_19_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Beautiful design needs an audience.</strong><span> Semantic HTML, optimized image load times, and structured heading tags are foundational to technical SEO.</span></p>",
-        "blog_cat_20": "E-Commerce",
-        "blog_20_title": "Streamlining Checkout",
+        "blog_cat_20": "AI Coding",
+        "blog_20_title": "GitHub Copilot: Your AI Pair Programmer",
         "blog_20_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Cart abandonment is the enemy.</strong><span> Designing a clean, multi-step checkout with minimal fields dramatically improves conversion rates.</span></p>",
-        "blog_cat_21": "Web Accessibility",
-        "blog_21_title": "Color Contrast & Inclusive Design",
+        "blog_cat_21": "Vibe Coding",
+        "blog_21_title": "Prompt Engineering for Developers",
         "blog_21_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Design for everyone.</strong><span> Ensuring your color palettes meet WCAG contrast guidelines guarantees content is readable for all users.</span></p>",
-        "blog_cat_22": "Performance",
-        "blog_22_title": "Core Web Vitals",
+        "blog_cat_22": "AI Tools",
+        "blog_22_title": "Replit Agent: Code While You Sleep",
         "blog_22_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Measure what matters.</strong><span> Optimizing loading, interactivity, and visual stability is mandatory for high search engine rankings.</span></p>",
-        "blog_cat_23": "Design Systems",
-        "blog_23_title": "Building a Scalable System",
+        "blog_cat_23": "AI Agents",
+        "blog_23_title": "The Rise of Agentic Coding",
         "blog_23_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Consistency is key.</strong><span> Creating a robust design system with reusable components accelerates development and unifies the brand.</span></p>",
         "blog_cat_24": "Filmmaking",
         "blog_24_title": "How I Directed ‘Ofis Faresi’",
@@ -370,7 +382,7 @@ const translations = {
         "blog_cat_16": "Web Tipografisi",
         "blog_16_title": "Doğru Yazı Tipi Eşleşmesi Seçimi",
         "blog_16_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Markanızın sesini belirleyin.</strong><span> Güçlü bir serif başlığı temiz bir sans-serif metinle birleştirmek, yüksek okunabilirlik sağlar.</span></p>",
-        "blog_cat_17": "UI/UX",
+        "blog_cat_17": "AI Agents",
         "blog_17_title": "Etkili CTA Butonları Tasarlamak",
         "blog_17_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Dönüşüme açılan kapı.</strong><span> Bir CTA butonunun rengi, boyutu ve yerleşimi, kullanıcı etkileşimini teşvik etmek için titizlikle hazırlanmalıdır.</span></p>",
         "blog_cat_18": "Web Animasyonu",
@@ -459,7 +471,7 @@ const translations = {
         "blog_cat_16": "Web Tipografisi",
         "blog_16_title": "Do\u011fru Yaz\u0131 Tipi E\u015fle\u015fmesi Se\u00e7imi",
         "blog_16_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Markan\u0131z\u0131n sesini belirleyin.</strong><span> G\u00fc\u00e7l\u00fc bir serif ba\u015fl\u0131\u011f\u0131 temiz bir sans-serif metinle birle\u015ftirmek, y\u00fcksek okunabilirlik sa\u011flar.</span></p>",
-        "blog_cat_17": "UI/UX",
+        "blog_cat_17": "AI Agents",
         "blog_17_title": "Etkili CTA Butonlar\u0131 Tasarlamak",
         "blog_17_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">D\u00f6n\u00fc\u015f\u00fcme a\u00e7\u0131lan kap\u0131.</strong><span> Bir CTA butonunun rengi, boyutu ve yerle\u015fimi, kullan\u0131c\u0131 etkile\u015fimini te\u015fvik etmek i\u00e7in titizlikle haz\u0131rlanmal\u0131d\u0131r.</span></p>",
         "blog_cat_18": "Web Animasyonu",
@@ -622,8 +634,8 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- 5. Quote Modal ---
-    const modalContainer = document.querySelector('.fixed.inset-0.bg-background\\/95');
-    const modalInner = modalContainer ? modalContainer.querySelector('.bg-\\[\\#0a0a0a\\]') : null;
+    const modalContainer = document.getElementById('quote-modal');
+    const modalInner = document.getElementById('quote-modal-inner');
     const quotePackageInput = document.getElementById('quote-package');
 
     function openQuoteModal(packageName) {
@@ -649,6 +661,7 @@ document.addEventListener('DOMContentLoaded', () => {
     pricingButtons.forEach(btn => {
         btn.addEventListener('click', (e) => {
             e.stopPropagation();
+            // Try to find the title from parent containers
             const card = e.target.closest('.bg-\\[\\#0a0a0a\\], .bg-\\[\\#0f0f0f\\], .bg-primary');
             let title = "";
             if (card) {
@@ -664,20 +677,17 @@ document.addEventListener('DOMContentLoaded', () => {
     if (webServicesBtn) {
         webServicesBtn.addEventListener('click', (e) => {
             e.stopPropagation();
-            // Find the title from the sibling h3 or the parent
-            const card = webServicesBtn.closest('.bg-primary');
             let title = "Website Services";
-            if (card) {
-                const h3 = card.querySelector('h3');
-                if (h3) title = h3.innerText;
-            }
+            const h3 = webServicesBtn.parentElement.querySelector('h3');
+            if (h3) title = h3.innerText;
             openQuoteModal(title);
         });
     }
 
     // Make the entire Website Services block clickable
-    const websiteServicesCard = document.querySelector('#pricing .bg-primary.cursor-pointer');
+    const websiteServicesCard = document.querySelector('#pricing .bg-primary');
     if (websiteServicesCard) {
+        websiteServicesCard.classList.add('cursor-pointer');
         websiteServicesCard.addEventListener('click', (e) => {
             if (e.target !== webServicesBtn && !webServicesBtn.contains(e.target)) {
                 webServicesBtn.click();
