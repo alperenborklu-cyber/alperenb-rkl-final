@@ -7,6 +7,12 @@ const translations = {
         "nav_writings": "Writings",
         "nav_resume": "Resume",
         "nav_lets_talk": "Let's Talk",
+        "blog_back": "Back to Writings",
+        "blog_by": "By",
+        "blog_read_time": "Min Read",
+        "blog_cta_title": "Interested in a project?",
+        "blog_cta_desc": "Let's build something intentional and lasting together.",
+        "blog_cta_btn": "Get in touch",
 
         "modal_title": "Request Quote",
         "modal_subtitle": "Let's build something real.",
@@ -22,7 +28,7 @@ const translations = {
         "hero_watch": "Watch Showreel",
         "hero_view": "View Works",
         "hero_scroll": "Scroll",
-        "hero_director": "Director",
+        "hero_director": "Visual Artist",
 
         "work_subtitle": "Portfolio",
         "work_title": "Selected Works",
@@ -30,8 +36,8 @@ const translations = {
         "about_subtitle": "Philosophy",
         "about_title": "The Artist",
         "about_quote": "Rather than following trends, I focus on building distinctive visual identities that feel <span class=\"text-primary italic\">intentional and lasting.</span>",
-        "about_p1": "I'm a visual storyteller working at the intersection of film, design, and strategy. My background spans 2D–3D animation, directing, and post-production, with a strong focus on atmosphere, rhythm, and meaning. I approach every project as both a creative and a system — balancing emotion with structure.",
-        "about_p2": "In addition to motion and film, I specialize in <strong class=\"text-white font-medium\">website design, corporate identity, and logo design</strong>. I've worked across short films, documentaries, commercials, and comprehensive brand identity projects, taking on roles from concept development to final delivery. Storyboarding, visual language, and narrative clarity are at the core of how I work.",
+        "about_p1": "I'm a visual artist and motion designer working at the intersection of design and strategy. My background spans 2D–3D animation, art direction, and post-production, with a strong focus on atmosphere, rhythm, and meaning. I approach every project as both a creative and a system — balancing emotion with structure.",
+        "about_p2": "In addition to motion, I specialize in <strong class=\"text-white font-medium\">website design, corporate identity, and logo design</strong>. I've worked across diverse 3D projects, brand reveals, and comprehensive design systems, taking on roles from concept development to final delivery. Narrative clarity and visual impact are at the core of how I work.",
 
         "testimonials_subtitle": "Referrals",
         "testimonials_title": "Client Reviews",
@@ -65,6 +71,9 @@ const translations = {
         "pricing_gold_5": "Priority Support",
         "pricing_gold_6": "Unlimited Revisions",
         "btn_request_quote": "Request Quote",
+        "pricing_website_services": "Website Services",
+        "pricing_website_services_desc": "Elevate your brand with a premium, high-performance web presence tailored to your vision.",
+        "pricing_website_services_btn": "Message us for inquiries",
 
         "blog_subtitle": "Insights",
         "blog_title": "Writings",
@@ -145,24 +154,24 @@ const translations = {
         "resume_education": "Education",
         "resume_edu_desc": "Industrial Design",
         "resume_profile": "Profile",
-        "resume_profile_desc": "Motion designer and CG generalist specializing in animation, visual storytelling, and cinematic motion. Bringing a structural design thinking approach to emotional visual narratives.",
+        "resume_profile_desc": "Motion designer and CG generalist specializing in animation, visual storytelling, and high-end motion. Bringing a structural design thinking approach to emotional visual narratives.",
         "resume_experience": "Experience",
         "resume_exp_1": "Integrated Fusion 360 software into the curricula of METU and multiple other universities, bridging the gap between academic theory and practical 3D application.",
         "resume_exp_2": "Character Design & Animation focused on breathing life and personality into digital models.",
         "resume_exp_3": "Full-spectrum creative experience within a 360-degree agency environment, understanding client needs from conception to execution.",
         "resume_exp_4": "Delivered wide-ranging projects from TRT documentaries to Ministry of Trade campaigns, focusing heavily on CG and lighting art direction.",
-        "resume_director": "DIRECTOR",
-        "resume_exp_5": "Directed 8 short films, earning official selections in over 20 international film festivals.",
+        "resume_director": "VISUAL ARTIST",
+        "resume_exp_5": "Created high-impact visual narratives and 3D simulations for various digital platforms.",
         "resume_skills": "Key Skills",
-        "resume_skill_1": "Exceptional attention to detail (never misses subtitles).",
-        "resume_skill_2": "Strong understanding of narrative boundaries and cinematic language.",
+        "resume_skill_1": "Exceptional attention to detail.",
+        "resume_skill_2": "Strong understanding of narrative boundaries and visual language.",
         "resume_skill_3": "I prioritize meaningful work over short-term gains.",
 
         "contact_subtitle": "Inquiries",
         "contact_title": "Let's build <br/><span class=\"italic text-zinc-600 font-light\">something real.</span>",
         "contact_btn": "Send Message",
 
-        "footer_desc": "A visual artist bridging the gap between design and cinematic storytelling. Crafting digital environments, motion, and art direction.",
+        "footer_desc": "A visual artist bridging the gap between design and motion storytelling. Crafting digital environments, motion, and art direction.",
         "footer_explore": "Explore",
         "footer_connect": "Connect",
         "footer_rights": "All Rights Reserved",
@@ -179,13 +188,13 @@ const translations = {
         "cat_concept": "CONCEPT",
         "cat_web": "WEB DESIGN",
 
-        "rev_1": "&quot;The promotional film he created for our brand achieved the exact cinematic effect we envisioned. He managed the process professionally, and the result exceeded our expectations.&quot;",
+        "rev_1": "&quot;The promotional video he created for our brand achieved the exact visual impact we envisioned. He managed the process professionally, and the result exceeded our expectations.&quot;",
         "rev_2": "&quot;The 3D modeling work was incredibly detailed and technically highly successful. The result was both aesthetically pleasing and functional.&quot;",
         "rev_3": "&quot;Thanks to his creative approach in our motion design project, he elevated an ordinary task to a much more impressive level.&quot;",
         "rev_4": "&quot;The alternatives he presented during the concept design process broadened our vision. His communication is transparent and solution-oriented.&quot;",
-        "rev_5": "&quot;He meticulously managed the planning and post-production stages of the commercial film production. The result was strong both aesthetically and strategically.&quot;",
+        "rev_5": "&quot;He meticulously managed the planning and post-production stages of the high-end 3D production. The result was strong both aesthetically and strategically.&quot;",
         "rev_6": "&quot;His depth of research and attention to detail in the map and visual storytelling project were truly impressive.&quot;",
-        "rev_7": "&quot;He structured the scenes very clearly and cinematically in the storyboard and visual story editing. This significantly facilitated the shooting process.&quot;",
+        "rev_7": "&quot;He structured the scenes very clearly and artistically in the layout and visual story editing. This significantly facilitated the production process.&quot;",
         "rev_8": "&quot;The short video content he prepared for social media noticeably increased our brand's engagement.&quot;",
         "rev_9": "&quot;He offered both a creative and strategic approach in the process of creating a corporate identity and visual language.&quot;",
         "rev_10": "&quot;He made very strong touches regarding color, rhythm, and atmosphere during the post-production stage. The final version was truly top-tier.&quot;",
@@ -241,9 +250,7 @@ const translations = {
         "blog_cat_28": "Behind the Scenes",
         "blog_28_title": "Behind the Scenes of ON (2024)",
         "blog_28_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>ON (2024) pushed the boundaries of our technical capabilities. From lighting setup to final post-production, every frame was intentional.</p>",
-        "blog_cat_29": "Personal Journey",
-        "blog_29_title": "METU Industrial Design to Filmmaking Journey",
-        "blog_29_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>How my background at METU Industrial Design shaped my approach to visual storytelling and cinematic systems.</p>"
+
     },
     "tr": {
         "nav_work": "İşler",
@@ -252,6 +259,12 @@ const translations = {
         "nav_writings": "Yazılar",
         "nav_resume": "Özgeçmiş",
         "nav_lets_talk": "İletişim",
+        "blog_back": "Yazılara Dön",
+        "blog_by": "Yazar:",
+        "blog_read_time": "Dakika Okuma",
+        "blog_cta_title": "Bir projeniz mi var?",
+        "blog_cta_desc": "Birlikte anlamlı ve kalıcı bir şeyler inşa edelim.",
+        "blog_cta_btn": "İletişime geçin",
 
         "modal_title": "Teklif Al",
         "modal_subtitle": "Gerçek bir şeyler inşa edelim.",
@@ -267,7 +280,7 @@ const translations = {
         "hero_watch": "Showreel İzle",
         "hero_view": "İşleri Gör",
         "hero_scroll": "Aşağı Kaydır",
-        "hero_director": "Yönetmen",
+        "hero_director": "Görsel Sanatçı",
 
         "work_subtitle": "Portfolyo",
         "work_title": "Seçili İşler",
@@ -275,8 +288,8 @@ const translations = {
         "about_subtitle": "Felsefem",
         "about_title": "Sanatçı",
         "about_quote": "Trendleri takip etmek yerine, <span class=\"text-primary italic\">amacı olan ve kalıcı</span> görsel kimlikler oluşturmaya odaklanıyorum.",
-        "about_p1": "Film, tasarım ve stratejinin kesiştiği noktada çalışan bir görsel hikaye anlatıcısıyım. Geçmişim 2D-3D animasyon, yönetmenlik ve post-prodüksiyona uzanıyor; atmosfer, ritim ve anlama güçlü bir şekilde odaklanıyorum. Her projeye hem yaratıcı hem de sistemik olarak yaklaşıyorum — duyguyu yapıyla dengeliyorum.",
-        "about_p2": "Hareketli grafikler ve filmlerin yanı sıra, <strong class=\"text-white font-medium\">web sitesi tasarımı, kurumsal kimlik ve logo tasarımı</strong> konularında uzmanlaşıyorum. Kısa filmler, belgeseller, reklamlar ve kapsamlı marka kimliği projelerinde çalıştım; konsept geliştirmeden son teslimata kadar çeşitli roller üstlendim. Storyboard, görsel dil ve anlatı netliği çalışma şeklimin temelini oluşturur.",
+        "about_p1": "Tasarım ve stratejinin kesiştiği noktada çalışan bir görsel sanatçı ve hareket tasarımcısıyım. Geçmişim 2D-3D animasyon, sanat yönetimi ve post-prodüksiyona uzanıyor; atmosfer, ritim ve anlama güçlü bir şekilde odaklanıyorum. Her projeye hem yaratıcı hem de sistemsel bir yaklaşım getiriyorum.",
+        "about_p2": "Hareketli grafiklerin yanı sıra, <strong class=\"text-white font-medium\">web sitesi tasarımı, kurumsal kimlik ve logo tasarımı</strong> konularında uzmanlaşıyorum. 3D projeler, marka lansmanları ve kapsamlı tasarım sistemlerinde konsept geliştirmeden son teslimata kadar çeşitli roller üstlendim. Anlatı netliği ve görsel etki çalışma şeklimin temelini oluşturur.",
 
         "testimonials_subtitle": "Referanslar",
         "testimonials_title": "Müşteri Yorumları",
@@ -310,6 +323,9 @@ const translations = {
         "pricing_gold_5": "Öncelikli Destek",
         "pricing_gold_6": "Sınırsız Revizyon",
         "btn_request_quote": "Teklif Al",
+        "pricing_website_services": "Web Sitesi Hizmetleri",
+        "pricing_website_services_desc": "Vizyonunuza özel, premium ve yüksek performanslı bir web varlığıyla markanızı yükseltin.",
+        "pricing_website_services_btn": "Bilgi almak için mesaj gönderin",
 
         "blog_subtitle": "İçgörüler",
         "blog_title": "Yazılar",
@@ -375,31 +391,6 @@ const translations = {
         "blog_cat_23": "Tasarım Sistemleri",
         "blog_23_title": "Ölçeklenebilir Sistem Oluşturmak",
         "blog_23_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Tutarlılık anahtardır.</strong><span> Yeniden kullanılabilir bileşenlere sahip sağlam bir sistem oluşturmak markayı birleştirir.</span></p>",
-        "blog_cat_24": "Film Yapımı",
-        "blog_24_title": "‘Ofis Faresi’ni Nasıl Yönettim?",
-        "blog_24_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>Ofis Faresi'ni yönetmek, modern çalışma ortamlarının psikolojik etkisi üzerine bir yolculuktu. Deneysel sinematografi ile izolasyon ve rutin temalarını işledik.</p>",
-        "blog_cat_25": "Ön Prodüksiyon",
-        "blog_25_title": "Kısa Filmler İçin Storyboard Süreci",
-        "blog_25_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>Storyboard, filmin görsel ritminin doğduğu yerdir. Sürecim, endüstriyel tasarım yapısı ile sinematik duygu arasındaki köprüyü kurmayı içerir.</p>",
-        "blog_cat_26": "Sektör",
-        "blog_26_title": "Türkiye'de Deneysel Sinema Yapmak",
-        "blog_26_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>Türkiye'deki deneysel sahne canlı ve zorlayıcıdır. Ankara ve İstanbul'da prodüksiyon yönetmek, tutku ve stratejinin benzersiz bir karışımını gerektirir.</p>",
-        "blog_cat_27": "Sanat Yönetimi",
-        "blog_27_title": "Filmde Renk ve Hareketi Nasıl Kullanıyorum?",
-        "blog_27_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>Renk estetikten daha fazlasıdır; anlatısal bir araçtır. Filmlerimde hareket ve renk, atmosferik gerilim oluşturmak için birlikte çalışır.</p>",
-        "blog_cat_28": "Kamera Arkası",
-        "blog_28_title": "ON (2024) Kamera Arkası",
-        "blog_28_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>ON (2024), teknik yeteneklerimizin sınırlarını zorladı. Işık kurulumundan son post-prodüksiyona kadar her kare amaçlıydı.</p>",
-        "blog_cat_29": "Kişisel Yolculuk",
-        "blog_29_title": "ODTÜ Endüstriyel Tasarımdan Film Yapımına Yolculuğum",
-        "blog_29_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>ODTÜ Endüstriyel Tasarım geçmişimin görsel hikaye anlatıcılığı ve sinematik sistemlere yaklaşımımı nasıl şekillendirdiği.</p>",
-        "blog_3_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Y\u0131llarca s\u00fcren kesintilerden sonra sekt\u00f6r zeminini buluyor.</strong><span> İşte durduğumuz yer ve gittiğimiz yön.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Sekt\u00f6r belirsizli\u011fi f\u0131rsatlarla dengeliyor. \u0130\u015fler ini\u015fli \u00e7\u0131k\u0131\u015fl\u0131 olsa da, yapay zeka, sanal prod\u00fcksiyon ve ger\u00e7ek zamanl\u0131 i\u015fleme (rendering) gibi teknolojiler h\u0131zla y\u00fckseliyor.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Sekt\u00f6r\u00fc Yeniden \u015eekillendiren Temel Teknolojiler</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Yapay Zeka ve Makine \u00d6\u011frenimi:</strong><span> Sanat\u00e7\u0131lar\u0131n yarat\u0131c\u0131l\u0131\u011fa odaklanmas\u0131 i\u00e7in a\u011f\u0131r i\u015fleri (roto, temizlik) yap\u0131yor.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Ger\u00e7ek Zamanl\u0131 Render:</strong><span> Unreal Engine kararlar\u0131 h\u0131zland\u0131r\u0131yor ve herkesi yarat\u0131c\u0131 s\u00fcrece daha erken dahil ediyor.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Bulut \u0130\u015f Ak\u0131\u015flar\u0131:</strong><span> Farklı ülkelerdeki ekipler aynı odadaymış gibi çalışıyor.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">LED Sahneler:</strong><span> Basit sekanslar i\u00e7in bile uygun maliyetli hale geliyor.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">\u0130nsan Fakt\u00f6r\u00fc</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Teknolojiye rağmen insan bağlantısı önemini koruyor. &quot;İnsan bağlantısının değeri, personeli yerinden etme arayışından daha ağır basacaktır.&quot;</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Bunun Hareket Tasar\u0131mc\u0131lar\u0131 \u0130\u00e7in Anlam\u0131:</strong><span> \u0130nsan zanaat\u0131nda uzmanla\u015fma, sekt\u00f6rler aras\u0131 uygulamalar ve hibrit i\u015f ak\u0131\u015flar\u0131 2026'n\u0131n anahtarlar\u0131d\u0131r.</span></p>",
-        "blog_2_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Zaman \u00e7izelgeleri ve anahtar kareler yerini kurallara ve mant\u0131\u011fa b\u0131rak\u0131yor.</strong><span> &quot;Hareket programlamanın&quot; hareket tasarımcısı olmanın anlamını nasıl değiştirdiğine bir bakalım.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Geleneksel i\u015f ak\u0131\u015flar\u0131 saatlerce el eme\u011fi gerektirir. Yapay zeka hareket tasar\u0131m\u0131, zaman \u00e7izelgelerini mant\u0131kla de\u011fi\u015ftirir. Yarat\u0131c\u0131lar, her hareketi manuel olarak yerle\u015ftirmek yerine niyetleri ve ili\u015fkileri tan\u0131mlar.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Video \u0130\u00e7in Kod \u00dcretimi (CodeGen) An\u0131</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Yapay zeka kod üretmeye başladığında yazılım geliştirme değişti. Aynı değişim videoda da yaşanıyor. Hareket kurallarla tanımlanır: &quot;Bir metin bloğu belirli bir süre boyunca yavaşça belirir.&quot;</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Programlanabilir Hareketin Kilidini A\u00e7t\u0131klar\u0131</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">1. \u00d6l\u00e7ekli Ki\u015fiselle\u015ftirme:</strong><span> Her biri m\u00fckemmel \u015fekilde zamanlanm\u0131\u015f 10.000 benzersiz video reklam olu\u015fturun.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">2. \u015eablon Tabanl\u0131 \u00dcretim:</strong><span> Teknik olmayan ekipler i\u00e7erik girer ve profesyonel \u00e7\u0131kt\u0131 al\u0131r.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">3. Atmosfer (Vibe) Kurgusu:</strong><span> &quot;Bunu daha enerjik hissettir.&quot; Yapay zeka bu yönlendirmeyi uygulamaya çevirir.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Ekonomi:</strong><span> 50-100 videodan sonra yapay zeka hareketli grafikleri dramatik bir \u015fekilde ucuzlar.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">De\u011fi\u015fim:</strong><span> Tasarımcılar manuel uygulamadan uzaklaşıp sistem tasarımına yöneliyor. Gelecek tek bir aracı seçmekle değil, sistemleri tasarlamakla ilgili.</span></p>",
-        "blog_1_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Hareket tasar\u0131m\u0131ndaki de\u011fi\u015fim h\u0131z\u0131 hi\u00e7 bu kadar y\u00fcksek olmam\u0131\u015ft\u0131.</strong><span> İşte 2026'da sektörümüzü tanımlayan şeyler ve nasıl önde kalabileceğiniz.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Video ve hareket tasar\u0131m\u0131 ba\u015f d\u00f6nd\u00fcr\u00fcc\u00fc bir h\u0131zla geli\u015fiyor ve 2026 radikal hibrit yarat\u0131c\u0131l\u0131\u011f\u0131n y\u0131l\u0131 olacak gibi g\u00f6r\u00fcn\u00fcyor. Yarat\u0131c\u0131lar, en yeni yapay zeka ara\u00e7lar\u0131n\u0131 geleneksel zanaatla harmanl\u0131yor.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">1. Post Prod\u00fcksiyonda \u00c7\u00f6z (Yapay Zeka ile)</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Yapay zeka art\u0131k her kurgu ve yarat\u0131c\u0131 uygulamaya derinden entegre edilmi\u015f durumda. Hibrit yapay zeka i\u015f ak\u0131\u015flar\u0131, daha h\u0131zl\u0131 \u00e7al\u0131\u015fman\u0131za ve hikaye anlat\u0131m\u0131na odaklanman\u0131za olanak tan\u0131r.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">2. Kusurluluk Yoluyla \u00d6zg\u00fcnl\u00fck</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>\u0130zleyiciler el kameras\u0131yla \u00e7ekilmi\u015f, ham ve duygusal olarak d\u00fcr\u00fcst g\u00f6r\u00fcnt\u00fclere y\u00f6neliyor. Kusurluluk, g\u00fcven ve \u00f6zg\u00fcnl\u00fc\u011f\u00fcn sinyalini verir.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">3. Hikaye Odakl\u0131 Marka Filmleri</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Markalar, izleyicilerin bir \u015feyler hissetmek istedi\u011fini fark ediyor. Sinematik hikaye anlat\u0131m\u0131 reklamc\u0131l\u0131ktaki yerini geri al\u0131yor.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">4. L\u00fcks Olarak Zanaat</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Markaların, üretken benzerliğe karşı bir denge olarak elle çizilmiş animasyon, stop-motion ve karma medya sanatını kutladığını görüyoruz.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">5. Yapay Zeka Taraf\u0131ndan \u00dcretilen Akt\u00f6rler ve Dijital \u0130kizler</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Yapay zeka video oluşturucuları artık tutarlı yapay zeka karakterleri yaratabiliyor. Gerçek insanlara dayanan &quot;dijital ikizlerde&quot; bir artış görüyoruz.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">6. \u00d6nce Platform Kurgusu</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Sosyal platformlar tam teşekküllü kurgu süitleri haline geliyor. Yaratıcılar sadece TikTok'a içerik göndermekle kalmıyor, içinde kurgu da yapıyorlar.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">7. En Boy Oran\u0131 Kurallar\u0131n\u0131n Sonu</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>En boy oranlar\u0131 art\u0131k yarat\u0131c\u0131 k\u0131s\u0131tlamalar de\u011fil. Yapay zeka \u00e7er\u00e7eveleme ara\u00e7lar\u0131, kurgucular\u0131n bir ana kurguyu herhangi bir orana an\u0131nda uyarlamas\u0131na olanak tan\u0131r.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">8. Analog Nostalji</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Analog estetiğin yeniden canlanışına tanık oluyoruz: film greni, sıcak aydınlatma ve VHS kaplamaları. Atmosfer, cila kadar güçlüdür.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">9. Giyilebilir POV Film Yap\u0131m\u0131</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Ak\u0131ll\u0131 g\u00f6zl\u00fcklerle yarat\u0131c\u0131lar d\u00fcnyay\u0131 tam olarak g\u00f6rd\u00fckleri gibi yakal\u0131yorlar. Ham, samimi ve s\u00fcr\u00fckleyici.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">10. Minimalist Kurgu</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Minimalist kurgu, \u00f6zg\u00fcnl\u00fc\u011fe ve tempoya \u00f6ncelik verir. Uzun \u00e7ekimler ve nazik iyile\u015ftirmeler, izleyicilerin ger\u00e7ekten dinlemesini sa\u011flar.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">11. Hareket Tasar\u0131m\u0131 Stratejik Hale Geliyor</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Hareket sistemleri, markalar\u0131n kendilerini kaybetmeden esnemelerine olanak tan\u0131yan \u00e7apa haline gelecektir. Hareket, ne zaman zorlayaca\u011f\u0131n\u0131 ve ne zaman duraklayaca\u011f\u0131n\u0131 bilir.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">\u0130leriye Bak\u0131\u015f:</strong><span> Trendleri mi koval\u0131yorsunuz yoksa ama\u00e7l\u0131 hissettiren i\u015fler mi yarat\u0131yorsunuz?</span></p>",
-        "blog_3_title": "2026&#x27;da VFX/Animasyon Sekt\u00f6r\u00fc",
-        "blog_2_title": "Hareket Tasar\u0131m\u0131 Programlanabilir Hale Geliyor",
-        "blog_1_title": "2026&#x27;y\u0131 \u015eekillendiren 11 Hareket Tasar\u0131m\u0131 Trendi",
-        "blog_cat_1": "Hareket Tasar\u0131m\u0131 &amp; Sekt\u00f6r Trendleri",
 
         "resume_subtitle": "Geçmiş",
         "resume_title": "Özgeçmiş",
@@ -408,24 +399,24 @@ const translations = {
         "resume_education": "Eğitim",
         "resume_edu_desc": "Endüstri Ürünleri Tasarımı",
         "resume_profile": "Profil",
-        "resume_profile_desc": "Animasyon, görsel hikaye anlatımı ve sinematik hareket konularında uzmanlaşmış hareket tasarımcısı ve CG genelisti. Duygusal görsel anlatılara yapısal tasarım odaklı bir yaklaşım getiriyorum.",
+        "resume_profile_desc": "Animasyon, görsel hikaye anlatımı ve üst düzey hareket tasarımı konusunda uzmanlaşmış hareket tasarımcısı ve CG genelisti. Duygusal görsel anlatılara yapısal tasarım odaklı bir yaklaşım getiriyorum.",
         "resume_experience": "Deneyim",
         "resume_exp_1": "Fusion 360 yazılımını ODTÜ ve diğer birçok üniversitenin müfredatına entegre ederek akademik teori ile pratik 3D uygulama arasındaki boşluğu doldurdu.",
         "resume_exp_2": "Dijital modellere hayat ve kişilik kazandırmaya odaklanan Karakter Tasarımı ve Animasyonu.",
         "resume_exp_3": "360 derece ajans ortamında konsept aşamasından uygulamaya kadar müşteri ihtiyaçlarını anlayan tam kapsamlı yaratıcı deneyim.",
         "resume_exp_4": "TRT belgesellerinden Ticaret Bakanlığı kampanyalarına kadar geniş çaplı projelerde ağırlıklı olarak CG ve ışık sanat yönetmenliğine odaklanarak teslimat yaptı.",
-        "resume_director": "YÖNETMEN",
-        "resume_exp_5": "Yönettiği 8 kısa film, 20'den fazla uluslararası film festivalinde resmi seçkiye girdi.",
+        "resume_director": "GÖRSEL SANATÇI",
+        "resume_exp_5": "Çeşitli dijital platformlar için yüksek etkili görsel anlatılar ve 3D simülasyonlar oluşturdu.",
         "resume_skills": "Temel Yetenekler",
-        "resume_skill_1": "Olağanüstü detay odaklılık (asla altyazıları kaçırmaz).",
-        "resume_skill_2": "Anlatı sınırları ve sinematik dil hakkında güçlü anlayış.",
+        "resume_skill_1": "Detaylara olağanüstü dikkat.",
+        "resume_skill_2": "Anlatı sınırları ve görsel dil hakkında güçlü anlayış.",
         "resume_skill_3": "Kısa vadeli kazançlar yerine anlamlı işlere öncelik veririm.",
 
         "contact_subtitle": "İletişim",
         "contact_title": "Gerçek bir şeyler <br/><span class=\"italic text-zinc-600 font-light\">inşa edelim.</span>",
         "contact_btn": "Mesaj Gönder",
 
-        "footer_desc": "Tasarım ile sinematik hikaye anlatımı arasında köprü kuran bir görsel sanatçı. Dijital ortamlar, hareketli grafikler ve sanat yönetmenliği üretiyorum.",
+        "footer_desc": "Tasarım ve hareketli hikaye anlatımı arasında köprü kuran bir görsel sanatçı. Dijital ortamlar, hareketli grafikler ve sanat yönetmenliği üretiyorum.",
         "footer_explore": "Keşfet",
         "footer_connect": "Bağlan",
         "footer_rights": "Tüm Hakları Saklıdır",
@@ -442,13 +433,13 @@ const translations = {
         "cat_concept": "KONSEPT",
         "cat_web": "WEB TASARIM",
 
-        "rev_1": "&quot;Markamız için hazırladığı tanıtım filmi tam olarak hayal ettiğimiz sinematik etkiyi yarattı. Süreci profesyonelce yönetti ve sonuç beklentimizin üzerindeydi.&quot;",
+        "rev_1": "&quot;Markamız için hazırladığı tanıtım videosu tam olarak hayal ettiğimiz görsel etkiyi yarattı. Süreci profesyonelce yönetti ve sonuç beklentimizin üzerindeydi.&quot;",
         "rev_2": "&quot;3D modelleme çalışması son derece detaylı ve teknik olarak çok başarılıydı. Hem estetik hem de işlevsel bir sonuç ortaya çıktı.&quot;",
         "rev_3": "&quot;Motion design projemizde yaratıcı yaklaşımı sayesinde sıradan bir işi çok daha etkileyici bir noktaya taşıdı.&quot;",
         "rev_4": "&quot;Konsept tasarım sürecinde sunduğu alternatifler vizyonumuzu genişletti. İletişimi açık ve çözüm odaklı.&quot;",
-        "rev_5": "&quot;Reklam filmi prodüksiyonunda planlama ve post-prodüksiyon aşamalarını titizlikle yönetti. Sonuç hem estetik hem stratejik olarak güçlüydü.&quot;",
+        "rev_5": "&quot;Üst düzey 3D prodüksiyon sürecinde planlama ve post-prodüksiyon aşamalarını titizlikle yönetti. Sonuç hem estetik hem stratejik olarak güçlüydü.&quot;",
         "rev_6": "&quot;Harita ve görsel anlatım projesinde araştırma derinliği ve detaycılığı gerçekten etkileyiciydi.&quot;",
-        "rev_7": "&quot;Storyboard ve görsel hikâye kurgusunda sahneleri çok net ve sinematik bir şekilde yapılandırdı. Çekim sürecini ciddi anlamda kolaylaştırdı.&quot;",
+        "rev_7": "&quot;Sahne yerleşimi ve görsel hikâye kurgusunda sahneleri çok net ve sanatsal bir şekilde yapılandırdı. Üretim sürecini ciddi anlamda kolaylaştırdı.&quot;",
         "rev_8": "&quot;Sosyal medya için hazırladığı kısa video içerikleri markamızın etkileşimini gözle görülür şekilde artırdı.&quot;",
         "rev_9": "&quot;Kurumsal kimlik ve görsel dil oluşturma sürecinde hem yaratıcı hem de stratejik bir yaklaşım sundu.&quot;",
         "rev_10": "&quot;Post-prodüksiyon aşamasında renk, ritim ve atmosfer konusunda çok güçlü dokunuşlar yaptı. Final versiyon gerçekten üst düzeydi.&quot;",
@@ -631,33 +622,68 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- 5. Quote Modal ---
-    const modalContainer = document.querySelectorAll('.fixed.inset-0.bg-background\\/95')[0];
+    const modalContainer = document.querySelector('.fixed.inset-0.bg-background\\/95');
     const modalInner = modalContainer ? modalContainer.querySelector('.bg-\\[\\#0a0a0a\\]') : null;
-    const modalCloseBtn = modalInner ? modalInner.querySelector('button') : null;
     const quotePackageInput = document.getElementById('quote-package');
+
+    function openQuoteModal(packageName) {
+        if (!modalContainer || !modalInner) return;
+        
+        if (quotePackageInput && packageName) {
+            quotePackageInput.value = packageName;
+        }
+        
+        modalContainer.classList.remove('opacity-0', 'invisible', 'pointer-events-none');
+        modalContainer.classList.add('opacity-100', 'visible', 'pointer-events-auto');
+        
+        setTimeout(() => {
+            modalInner.classList.remove('translate-y-12', 'scale-95');
+            modalInner.classList.add('translate-y-0', 'scale-100');
+        }, 10);
+        document.body.style.overflow = 'hidden';
+    }
     
     // Find all "Request Quote" buttons in the pricing section
     const pricingButtons = document.querySelectorAll('#pricing button');
     
     pricingButtons.forEach(btn => {
         btn.addEventListener('click', (e) => {
-            const card = e.target.closest('.bg-\\[\\#0a0a0a\\], .bg-\\[\\#0f0f0f\\]');
-            if (card && modalContainer) {
-                const title = card.querySelector('h3').innerText;
-                if (quotePackageInput) quotePackageInput.value = title;
-                
-                // Show modal overlay
-                modalContainer.classList.remove('opacity-0', 'invisible', 'pointer-events-none');
-                modalContainer.classList.add('opacity-100', 'visible', 'pointer-events-auto');
-                
-                // Animate inner
-                if (modalInner) {
-                    modalInner.classList.remove('translate-y-12', 'scale-95');
-                    modalInner.classList.add('translate-y-0', 'scale-100');
-                }
+            e.stopPropagation();
+            const card = e.target.closest('.bg-\\[\\#0a0a0a\\], .bg-\\[\\#0f0f0f\\], .bg-primary');
+            let title = "";
+            if (card) {
+                const h3 = card.querySelector('h3');
+                if (h3) title = h3.innerText;
             }
+            openQuoteModal(title);
         });
     });
+
+    // Explicitly handle the Website Services button
+    const webServicesBtn = document.getElementById('website-services-btn');
+    if (webServicesBtn) {
+        webServicesBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            // Find the title from the sibling h3 or the parent
+            const card = webServicesBtn.closest('.bg-primary');
+            let title = "Website Services";
+            if (card) {
+                const h3 = card.querySelector('h3');
+                if (h3) title = h3.innerText;
+            }
+            openQuoteModal(title);
+        });
+    }
+
+    // Make the entire Website Services block clickable
+    const websiteServicesCard = document.querySelector('#pricing .bg-primary.cursor-pointer');
+    if (websiteServicesCard) {
+        websiteServicesCard.addEventListener('click', (e) => {
+            if (e.target !== webServicesBtn && !webServicesBtn.contains(e.target)) {
+                webServicesBtn.click();
+            }
+        });
+    }
 
     const closeModal = () => {
         if (modalContainer) {
