@@ -1,4 +1,4 @@
-﻿
+
 const translations = {
     "en": {
         "about_p1": "I'm a visual artist and Website Designer working at the intersection of design and strategy. My background spans 2D–Creative Direction, art direction, and post-production, with a strong focus on atmosphere, rhythm, and meaning. I approach every project as both a creative and a system — balancing emotion with structure.",
@@ -138,7 +138,11 @@ const translations = {
         "nav_lets_talk": "Let's Talk",
         "nav_pricing": "Pricing",
         "nav_resume": "Resume",
-        "nav_work": "Work",`n        "website_services_title": "Web Design Services",`n        "website_services_desc": "Professional and modern web design solutions.",`n        "work_pbt_short": "Perception Buried the Truth",`n        "work_pbt_desc": "Experimental Film Project",
+        "nav_work": "Work",
+        "website_services_title": "Web Design Services",
+        "website_services_desc": "Professional and modern web design solutions.",
+        "work_pbt_short": "Perception Buried the Truth",
+        "work_pbt_desc": "Experimental Film Project",
         "nav_writings": "Writings",
         "pricing_basic": "Basic",
         "pricing_basic_1": "1x 3D Loop or Still Render",
@@ -347,7 +351,11 @@ const translations = {
         "nav_lets_talk": "İletişim",
         "nav_pricing": "Fiyatlandırma",
         "nav_resume": "Özgeçmiş",
-        "nav_work": "İşler",`n        "website_services_title": "Web Tasarım Hizmetleri",`n        "website_services_desc": "Profesyonel ve modern web tasarım çözümleri.",`n        "work_pbt_short": "Algı Gerçeği Gömdü",`n        "work_pbt_desc": "Deneysel Film Projesi",
+        "nav_work": "İşler",
+        "website_services_title": "Web Tasarım Hizmetleri",
+        "website_services_desc": "Profesyonel ve modern web tasarım çözümleri.",
+        "work_pbt_short": "Algı Gerçeği Gömdü",
+        "work_pbt_desc": "Deneysel Film Projesi",
         "nav_writings": "Yazılar",
         "pricing_basic": "Temel",
         "pricing_basic_1": "1x 3D Döngü veya Kare",
@@ -613,6 +621,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     };
 
+    const modalCloseBtn = modalInner ? modalInner.querySelector('button') : null;
     if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeModal);
     if (modalContainer) {
         modalContainer.addEventListener('click', (e) => {
