@@ -422,36 +422,30 @@ const translations = {
 
 document.addEventListener('DOMContentLoaded', () => {
     const revealElements = document.querySelectorAll('.reveal-on-scroll');
-    
-    // --- 0. Preloader ---
-    const preloader = document.querySelector('.fixed.inset-0.z-1000');
-    if (preloader) {
-        const hidePreloader = () => {
-            setTimeout(() => {
-                preloader.classList.remove('opacity-100', 'visible', 'scale-105');
-                preloader.classList.add('opacity-0', 'invisible', 'scale-100');
-                                setTimeout(() => {
-                    preloader.style.display = 'none';
-                    // Force check reveal elements in case they are already in view
-                    revealElements.forEach(el => {
-                        const rect = el.getBoundingClientRect();
-                        if (rect.top < window.innerHeight && rect.bottom > 0) {
-                            el.classList.remove('opacity-0', 'translate-y-12');
-                            el.classList.add('opacity-100', 'translate-y-0');
-                        }
-                    });
-                }, 1000);
-            }, 2000); // Increased for typing animation to let user see it briefly
-        };
 
-                if (document.readyState === 'complete') {
-            hidePreloader();
-        } else {
-            window.addEventListener('load', hidePreloader);
-            // Safety timeout
-            setTimeout(hidePreloader, 5000);
-        }
-    }
+    // --- 0. Preloader ---
+    const preloader = document.getElementById('preloader');
+    
+    const killPreloader = () => {
+        if (!preloader) return;
+        preloader.classList.add('hidden');
+        setTimeout(() => {
+            preloader.style.display = 'none';
+            // Force-reveal anything already in viewport
+            revealElements.forEach(el => {
+                const rect = el.getBoundingClientRect();
+                if (rect.top < window.innerHeight && rect.bottom > 0) {
+                    el.classList.remove('opacity-0', 'translate-y-12');
+                    el.classList.add('opacity-100', 'translate-y-0');
+                }
+            });
+        }, 900);
+    };
+
+    // Hide after 1.8s regardless of load state
+    setTimeout(killPreloader, 1800);
+    // Also hide on window load if that happens first
+    window.addEventListener('load', () => setTimeout(killPreloader, 600));
 
     // --- 1. Navbar Scroll Effect ---
     const header = document.querySelector('header');
