@@ -421,6 +421,8 @@ const translations = {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
+    const revealElements = document.querySelectorAll('.reveal-on-scroll');
+    
     // --- 0. Preloader ---
     const preloader = document.querySelector('.fixed.inset-0.z-1000');
     if (preloader) {
@@ -492,7 +494,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- 3. Scroll Reveal Animations ---
-    const revealElements = document.querySelectorAll('.reveal-on-scroll');
+    
     
     const revealOptions = {
         threshold: 0.1,
