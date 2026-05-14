@@ -428,8 +428,16 @@ document.addEventListener('DOMContentLoaded', () => {
             setTimeout(() => {
                 preloader.classList.remove('opacity-100', 'visible', 'scale-105');
                 preloader.classList.add('opacity-0', 'invisible', 'scale-100');
-                setTimeout(() => {
+                                setTimeout(() => {
                     preloader.style.display = 'none';
+                    // Force check reveal elements in case they are already in view
+                    revealElements.forEach(el => {
+                        const rect = el.getBoundingClientRect();
+                        if (rect.top < window.innerHeight && rect.bottom > 0) {
+                            el.classList.remove('opacity-0', 'translate-y-12');
+                            el.classList.add('opacity-100', 'translate-y-0');
+                        }
+                    });
                 }, 1000);
             }, 2000); // Increased for typing animation to let user see it briefly
         };

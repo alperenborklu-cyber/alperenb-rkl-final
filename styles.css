@@ -37,3 +37,22 @@
     from, to { border-color: transparent }
     50% { border-color: var(--primary) }
 }
+
+/* Core Utility Classes for Animations */
+.opacity-0 { opacity: 0 !important; }
+.opacity-100 { opacity: 1 !important; }
+.invisible { visibility: hidden !important; }
+.visible { visibility: visible !important; }
+.pointer-events-none { pointer-events: none !important; }
+.pointer-events-auto { pointer-events: auto !important; }
+
+.translate-y-0 { transform: translateY(0) !important; }
+.translate-y-12 { transform: translateY(3rem) !important; }
+.scale-95 { transform: scale(0.95) !important; }
+.scale-100 { transform: scale(1) !important; }
+.scale-105 { transform: scale(1.05) !important; }
+
+/* Transitions */
+.transition-all { transition-property: all; transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); transition-duration: 150ms; }
+.duration-1000 { transition-duration: 1000ms !important; }
+.ease-out { transition-timing-function: cubic-bezier(0, 0, 0.2, 1) !important; }
