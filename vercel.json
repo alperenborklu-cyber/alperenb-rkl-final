@@ -4,8 +4,7 @@
     { "source": "/work", "destination": "/" },
     { "source": "/pricing", "destination": "/" },
     { "source": "/about", "destination": "/" },
-    { "source": "/blog", "destination": "/" },
-    { "source": "/writings", "destination": "/" },
+    { "source": "/writings", "destination": "/blog" },
     { "source": "/resume", "destination": "/" },
     { "source": "/contact", "destination": "/" }
   ]
