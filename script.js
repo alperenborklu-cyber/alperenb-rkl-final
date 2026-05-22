@@ -511,6 +511,57 @@ document.addEventListener('DOMContentLoaded', () => {
         revealObserver.observe(el);
     });
 
+    // --- 3.5. 3D Tilt Card Parallax & Shine ---
+    const isHoverSupported = window.matchMedia('(hover: hover)').matches;
+    if (isHoverSupported) {
+        const tiltCards = document.querySelectorAll('.tilt-card');
+        tiltCards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left; // x position within the element
+                const y = e.clientY - rect.top;  // y position within the element
+                
+                const w = rect.width;
+                const h = rect.height;
+                
+                // Normalized positions (-0.5 to 0.5)
+                const mx = (x / w) - 0.5;
+                const my = (y / h) - 0.5;
+                
+                // Calculate tilt angles
+                const maxTilt = 10; // Maximum rotation in degrees
+                const rx = -my * maxTilt;
+                const ry = mx * maxTilt;
+                
+                // Set CSS custom properties
+                card.style.setProperty('--rx', `${rx}deg`);
+                card.style.setProperty('--ry', `${ry}deg`);
+                card.style.setProperty('--mx', mx);
+                card.style.setProperty('--my', my);
+                
+                // Shine reflection coordinate percentages
+                const shineX = (x / w) * 100;
+                const shineY = (y / h) * 100;
+                card.style.setProperty('--shine-x', `${shineX}%`);
+                card.style.setProperty('--shine-y', `${shineY}%`);
+            });
+            
+            card.addEventListener('mouseenter', () => {
+                card.classList.add('is-hovered');
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.classList.remove('is-hovered');
+                card.style.removeProperty('--rx');
+                card.style.removeProperty('--ry');
+                card.style.removeProperty('--mx');
+                card.style.removeProperty('--my');
+                card.style.removeProperty('--shine-x');
+                card.style.removeProperty('--shine-y');
+            });
+        });
+    }
+
     // --- 4. Lightbox for Gallery ---
     // The lightbox container is the first fixed div with bg-black/95
     const lightboxContainer = document.querySelectorAll('.fixed.inset-0.bg-black\\/95')[0];

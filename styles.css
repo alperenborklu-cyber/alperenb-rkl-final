@@ -92,3 +92,64 @@
     display: none;
   }
 }
+
+/* --- 3D Tilt Card Animations --- */
+@media (hover: hover) {
+  .tilt-card {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    will-change: transform;
+    transform: rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  .tilt-card.is-hovered {
+    transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg)) scale3d(1.02, 1.02, 1.02);
+    transition: transform 0.1s ease-out, border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 30px 60px -15px rgba(0, 0, 0, 0.8), 0 0 50px -10px rgba(192, 160, 98, 0.2);
+    border-color: rgba(192, 160, 98, 0.4) !important;
+  }
+  
+  /* Background/Inner Image Parallax */
+  .tilt-card img {
+    will-change: transform;
+    transform: scale(1) translate3d(0, 0, 0);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1), opacity 0.3s ease;
+  }
+  .tilt-card.is-hovered img {
+    transform: scale(1.08) translate3d(calc(var(--mx, 0) * -15px), calc(var(--my, 0) * -15px), 0) !important;
+    transition: transform 0.1s ease-out, opacity 0.3s ease;
+  }
+  
+  /* Foreground Elements Parallax */
+  .tilt-card .tilt-inner {
+    transform-style: preserve-3d;
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+  .tilt-card.is-hovered .tilt-inner {
+    transform: translate3d(calc(var(--mx, 0) * 12px), calc(var(--my, 0) * 12px), 30px) !important;
+    transition: transform 0.1s ease-out;
+  }
+
+  /* Dynamic Gloss/Shine Reflection Overlay */
+  .tilt-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 30;
+    pointer-events: none;
+    opacity: 0;
+    background: radial-gradient(
+      circle at var(--shine-x, 50%) var(--shine-y, 50%),
+      rgba(255, 255, 255, 0.12) 0%,
+      rgba(255, 255, 255, 0) 80%
+    );
+    transition: opacity 0.5s ease;
+  }
+  .tilt-card.is-hovered::after {
+    opacity: 1;
+    transition: opacity 0.1s ease-out;
+  }
+}
