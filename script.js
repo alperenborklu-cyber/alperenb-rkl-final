@@ -211,7 +211,14 @@ const translations = {
         "testimonials_subtitle": "Referrals",
         "testimonials_title": "Client Reviews",
         "work_subtitle": "Portfolio",
-        "work_title": "Selected Works"
+        "work_title": "Selected Works",
+        "nav_analysis": "Free Analysis",
+        "hero_analysis": "Request Free Digital Analysis",
+        "modal_analysis_title": "Free Digital Analysis",
+        "modal_analysis_subtitle": "Let's analyze your digital presence.",
+        "form_website": "Your Website URL",
+        "form_details_analysis": "Project Details / What do you want analyzed?",
+        "whatsapp_tooltip": "Contact via WhatsApp"
     },
     "tr": {
         "about_p1": "Tasarım ve stratejinin kesiştiği noktada çalışan bir görsel sanatçı ve hareket tasarımcısıyım. Geçmişim 2D-3D animasyon, sanat yönetimi ve post-prodüksiyona uzanıyor; atmosfer, ritim ve anlama güçlü bir şekilde odaklanıyorum. Her projeye hem yaratıcı hem de sistemsel bir yaklaşım getiriyorum.",
@@ -424,7 +431,14 @@ const translations = {
         "testimonials_subtitle": "Referanslar",
         "testimonials_title": "Müşteri Yorumları",
         "work_subtitle": "Portfolyo",
-        "work_title": "Seçili İşler"
+        "work_title": "Seçili İşler",
+        "nav_analysis": "Ücretsiz Analiz",
+        "hero_analysis": "Ücretsiz Dijital Analiz İste",
+        "modal_analysis_title": "Ücretsiz Dijital Analiz",
+        "modal_analysis_subtitle": "Dijital varlığınızı analiz edelim.",
+        "form_website": "Web Sitenizin Adresi",
+        "form_details_analysis": "Proje Detayları / Nelerin analiz edilmesini istersiniz?",
+        "whatsapp_tooltip": "WhatsApp ile İletişime Geçin"
     }
 };
 
@@ -618,6 +632,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 modalInner.classList.add('translate-y-12', 'scale-95');
                 modalInner.classList.remove('translate-y-0', 'scale-100');
             }
+            document.body.style.overflow = '';
         }
     };
 
@@ -626,6 +641,53 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modalContainer) {
         modalContainer.addEventListener('click', (e) => {
             if (e.target === modalContainer) closeModal();
+        });
+    }
+
+    // --- 5.1. Free Digital Analysis Modal ---
+    const analysisModalContainer = document.getElementById('analysis-modal');
+    const analysisModalInner = document.getElementById('analysis-modal-inner');
+
+    function openAnalysisModal() {
+        if (!analysisModalContainer || !analysisModalInner) return;
+        
+        analysisModalContainer.classList.remove('opacity-0', 'invisible', 'pointer-events-none');
+        analysisModalContainer.classList.add('opacity-100', 'visible', 'pointer-events-auto');
+        
+        setTimeout(() => {
+            analysisModalInner.classList.remove('translate-y-12', 'scale-95');
+            analysisModalInner.classList.add('translate-y-0', 'scale-100');
+        }, 10);
+        document.body.style.overflow = 'hidden';
+    }
+
+    const closeAnalysisModal = () => {
+        if (analysisModalContainer) {
+            analysisModalContainer.classList.add('opacity-0', 'invisible', 'pointer-events-none');
+            analysisModalContainer.classList.remove('opacity-100', 'visible', 'pointer-events-auto');
+            if (analysisModalInner) {
+                analysisModalInner.classList.add('translate-y-12', 'scale-95');
+                analysisModalInner.classList.remove('translate-y-0', 'scale-100');
+            }
+            document.body.style.overflow = '';
+        }
+    };
+
+    // Bind all elements with class 'analysis-btn'
+    const analysisBtns = document.querySelectorAll('.analysis-btn');
+    analysisBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            openAnalysisModal();
+        });
+    });
+
+    const analysisModalCloseBtn = analysisModalInner ? analysisModalInner.querySelector('button') : null;
+    if (analysisModalCloseBtn) analysisModalCloseBtn.addEventListener('click', closeAnalysisModal);
+    if (analysisModalContainer) {
+        analysisModalContainer.addEventListener('click', (e) => {
+            if (e.target === analysisModalContainer) closeAnalysisModal();
         });
     }
 
