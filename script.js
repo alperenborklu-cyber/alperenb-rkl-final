@@ -1,7 +1,7 @@
 
 const translations = {
     "en": {
-        "about_p1": "I'm a visual artist and 3D animation freelancer working at the intersection of design and strategy. Based in Turkey, my background spans Creative Direction, art direction, and post-production, with a strong focus on atmosphere, rhythm, and meaning. Whether it's motion design Turkey or web design Ankara, I approach every project as both a creative and a system — balancing emotion with structure.",
+        "about_p1": "I'm a visual artist and motion designer working at the intersection of design and strategy. My background spans 2D–3D animation, art direction, and post-production, with a strong focus on atmosphere, rhythm, and meaning. I approach every project as both a creative and a system — balancing emotion with structure.",
         "about_p2": "In addition to motion, I specialize in <strong class=\"text-white font-medium\">website design, corporate identity, and logo design</strong>. I've worked across diverse 3D projects, brand reveals, and comprehensive design systems, taking on roles from concept development to final delivery. Narrative clarity and visual impact are at the core of how I work.",
         "about_quote": "Rather than following trends, I focus on building distinctive visual identities that feel <span class=\"text-primary italic\">intentional and lasting.</span>",
         "about_subtitle": "Philosophy",
@@ -46,11 +46,10 @@ const translations = {
         "blog_27_title": "How I Use Color and Motion in Film",
         "blog_28_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>ON (2024) pushed the boundaries of our technical capabilities. From lighting setup to final post-production, every frame was intentional.</p>",
         "blog_28_title": "Behind the Scenes of ON (2024)",
-        "blog_29_title": "From METU Industrial Design to Filmmaking",
-        "blog_29_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>How my background at METU Industrial Design shaped my approach to visual storytelling and cinematic systems.</p>",
-        "blog_2_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Timelines and keyframes are giving way to rules and logic.</strong><span> Here&#x27;s how &quot;programming motion&quot; is changing what it means to be a Website Designer.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Traditional workflows demand hours of manual labor. AI motion design replaces timelines with logic. Instead of manually placing every movement, creators define intent and relationships.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">The CodeGen Moment for Video</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Software development changed when AI began generating code. The same shift is happening in video. Motion is described through rules: &quot;A text block fades in over a fixed duration.&quot;</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">What Programmable Motion Unlocks</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">1. Personalization at Scale:</strong><span> Generate 10,000 unique video ads, each perfectly timed.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">2. Template-Based Production:</strong><span> Non-technical teams input content and receive professional output.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">3. Vibe Editing:</strong><span> &quot;Make this feel more energetic.&quot; AI translates direction into implementation.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">The Economics:</strong><span> After 50-100 videos, AI motion graphics become dramatically cheaper.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">The Shift:</strong><span> Designers move away from manual execution and toward system design. The future isn&#x27;t about choosing a single tool\u2014it&#x27;s about designing the systems.</span></p>",
+        "blog_29_title": "Will AI Replace Developers?",
+        "blog_2_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Timelines and keyframes are giving way to rules and logic.</strong><span> Here&#x27;s how &quot;programming motion&quot; is changing what it means to be a motion designer.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Traditional workflows demand hours of manual labor. AI motion design replaces timelines with logic. Instead of manually placing every movement, creators define intent and relationships.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">The CodeGen Moment for Video</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Software development changed when AI began generating code. The same shift is happening in video. Motion is described through rules: &quot;A text block fades in over a fixed duration.&quot;</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">What Programmable Motion Unlocks</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">1. Personalization at Scale:</strong><span> Generate 10,000 unique video ads, each perfectly timed.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">2. Template-Based Production:</strong><span> Non-technical teams input content and receive professional output.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">3. Vibe Editing:</strong><span> &quot;Make this feel more energetic.&quot; AI translates direction into implementation.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">The Economics:</strong><span> After 50-100 videos, AI motion graphics become dramatically cheaper.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">The Shift:</strong><span> Designers move away from manual execution and toward system design. The future isn&#x27;t about choosing a single tool\u2014it&#x27;s about designing the systems.</span></p>",
         "blog_2_title": "Motion Design Is Becoming Programmable",
-        "blog_3_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">After years of disruption, the industry is finding its footing.</strong><span> Here&#x27;s where we stand\u2014and where we&#x27;re heading.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>The industry is balancing uncertainty with opportunity. While business has been roller-coaster, technology like AI, virtual production, and real-time rendering is surging.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Key Technologies Reshaping the Industry</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">AI and Machine Learning:</strong><span> Doing the heavy lifting (roto, clean-up) so artists focus on creative.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Real-Time Rendering:</strong><span> Unreal Engine is speeding up decisions and bringing everyone into the creative process earlier.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Cloud Workflows:</strong><span> Teams in different countries work like they&#x27;re in the same room.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">LED Stages:</strong><span> Becoming cost-effective even for simple sequences.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">The Human Element</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Despite tech, human connection remains essential. &quot;The value of human connection will outweigh the pursuit of displacing staff.&quot;</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">What This Means for Website Designers:</strong><span> Specialization in human craft, cross-industry applications, and hybrid workflows are the keys to 2026.</span></p>",
+        "blog_3_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">After years of disruption, the industry is finding its footing.</strong><span> Here&#x27;s where we stand\u2014and where we&#x27;re heading.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>The industry is balancing uncertainty with opportunity. While business has been roller-coaster, technology like AI, virtual production, and real-time rendering is surging.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Key Technologies Reshaping the Industry</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">AI and Machine Learning:</strong><span> Doing the heavy lifting (roto, clean-up) so artists focus on creative.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Real-Time Rendering:</strong><span> Unreal Engine is speeding up decisions and bringing everyone into the creative process earlier.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Cloud Workflows:</strong><span> Teams in different countries work like they&#x27;re in the same room.</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">LED Stages:</strong><span> Becoming cost-effective even for simple sequences.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">The Human Element</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Despite tech, human connection remains essential. &quot;The value of human connection will outweigh the pursuit of displacing staff.&quot;</span></p><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">What This Means for Motion Designers:</strong><span> Specialization in human craft, cross-industry applications, and hybrid workflows are the keys to 2026.</span></p>",
         "blog_3_title": "The VFX/Animation Industry in 2026",
         "blog_4_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Less is more.</strong><span> This age-old adage remains the cornerstone of modern web design. Minimalism isn't just about white space; it's about stripping away the non-essential to focus users on what truly matters.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Function Over Form</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>By reducing cognitive load, minimalist websites offer a seamless navigation experience, directly boosting conversion rates.</span></p>",
         "blog_4_title": "The Evolution of Minimalist Web Design",
@@ -86,7 +85,7 @@ const translations = {
         "blog_cat_26": "Industry",
         "blog_cat_27": "Art Direction",
         "blog_cat_28": "Behind the Scenes",
-        "blog_cat_29": "Personal Journey",
+        "blog_cat_29": "Future Tech",
         "blog_cat_4": "Web Design",
         "blog_cat_5": "UI/UX",
         "blog_cat_6": "Trends",
@@ -101,7 +100,6 @@ const translations = {
         "blog_read_time": "Min Read",
         "blog_subtitle": "Insights",
         "blog_title": "Writings",
-        "blog_desc": "Articles, ideas, and case studies about web design, motion design, 3D animation, and creative workflows.",
         "brands_title": "Collaborations & Trust",
         "btn_request_quote": "Request Quote",
         "cat_3d": "3D Visualization",
@@ -127,24 +125,20 @@ const translations = {
         "form_name": "Your Name",
         "form_send_request": "Send Request",
         "form_service": "Selected Service",
-        "hero_desc": "Specializing in cinematic motion design Turkey and premium web design Ankara. As an independent 3D animation freelancer, I build bespoke digital products.",
+        "hero_desc": "Cinematic 3D animation, motion design, and premium web design for brands and films. Based in Ankara, serving clients worldwide.",
         "hero_director": "Visual Artist",
         "hero_heading": "Hello, <br class=\"hidden lg:block\"/><span class=\"italic text-primary pr-2\">I'm Alperen.</span>",
         "hero_scroll": "Scroll",
-        "hero_title": "Creative Director & Web Design Ankara — Motion Design Turkey",
-        "hero_view": "View<br/>Works",
-        "hero_watch": "Watch<br/>Showreel",
+        "hero_title": "3D Animator & Motion Designer — Ankara, Turkey",
+        "hero_view": "View Works",
+        "hero_watch": "Watch Showreel",
         "modal_subtitle": "Let's build something real.",
         "modal_title": "Request Quote",
         "nav_about": "About",
         "nav_lets_talk": "Let's Talk",
         "nav_pricing": "Pricing",
         "nav_resume": "Resume",
-        "nav_work": "Work",
-        "website_services_title": "Web Design Services",
-        "website_services_desc": "Professional and modern web design solutions.",
-        "work_pbt_short": "Perception Buried the Truth",
-        "work_pbt_desc": "Experimental Film Project",
+        "nav_work": "Work",`n        "website_services_title": "Web Design Services",`n        "website_services_desc": "Professional and modern web design solutions.",`n        "work_pbt_short": "Perception Buried the Truth",`n        "work_pbt_desc": "Experimental Film Project",
         "nav_writings": "Writings",
         "pricing_basic": "Basic",
         "pricing_basic_1": "1x 3D Loop or Still Render",
@@ -169,7 +163,7 @@ const translations = {
         "pricing_standard_4": "Sound Design Included",
         "pricing_standard_5": "2 Revision Rounds",
         "pricing_standard_6": "Commercial Rights",
-        "pricing_standard_desc": "Professional Creative Direction and art direction for product reveals, brand intros, and high-impact marketing campaigns.",
+        "pricing_standard_desc": "Professional 3D animation and art direction for product reveals, brand intros, and high-impact marketing campaigns.",
         "pricing_subtitle": "Investment",
         "pricing_title": "Services",
         "pricing_website_services": "Website Services",
@@ -186,7 +180,7 @@ const translations = {
         "resume_exp_5": "Created high-impact visual narratives and 3D simulations for various digital platforms.",
         "resume_experience": "Experience",
         "resume_profile": "Profile",
-        "resume_profile_desc": "Website Designer and CG generalist specializing in animation, visual storytelling, and high-end motion. Bringing a structural design thinking approach to emotional visual narratives.",
+        "resume_profile_desc": "Motion designer and CG generalist specializing in animation, visual storytelling, and high-end motion. Bringing a structural design thinking approach to emotional visual narratives.",
         "resume_role": "Visual Artist",
         "resume_skill_1": "Exceptional attention to detail.",
         "resume_skill_2": "Strong understanding of narrative boundaries and visual language.",
@@ -213,24 +207,17 @@ const translations = {
         "testimonials_subtitle": "Referrals",
         "testimonials_title": "Client Reviews",
         "work_subtitle": "Portfolio",
-        "work_title": "Selected Works",
-        "nav_analysis": "Free Analysis",
-        "hero_analysis": "Request Free<br/>Digital Analysis",
-        "modal_analysis_title": "Free Digital Analysis",
-        "modal_analysis_subtitle": "Let's analyze your digital presence.",
-        "form_website": "Your Website URL",
-        "form_details_analysis": "Project Details / What do you want analyzed?",
-        "whatsapp_tooltip": "Contact via WhatsApp"
+        "work_title": "Selected Works"
     },
     "tr": {
-        "about_p1": "Tasarım ve stratejinin kesiştiği noktada çalışan bir görsel sanatçı ve 3D animation freelancer'ıyım. Cinematic motion design Turkey ve premium web design Ankara konularında uzmanlaşarak, markalar için özgün dijital deneyimler geliştiriyorum. Her projeye hem yaratıcı hem de sistemsel bir yaklaşım getiriyorum.",
+        "about_p1": "Tasarım ve stratejinin kesiştiği noktada çalışan bir görsel sanatçı ve hareket tasarımcısıyım. Geçmişim 2D-3D animasyon, sanat yönetimi ve post-prodüksiyona uzanıyor; atmosfer, ritim ve anlama güçlü bir şekilde odaklanıyorum. Her projeye hem yaratıcı hem de sistemsel bir yaklaşım getiriyorum.",
         "about_p2": "Hareketli grafiklerin yanı sıra, <strong class=\"text-white font-medium\">web sitesi tasarımı, kurumsal kimlik ve logo tasarımı</strong> konularında uzmanlaşıyorum. 3D projeler, marka lansmanları ve kapsamlı tasarım sistemlerinde konsept geliştirmeden son teslimata kadar çeşitli roller üstlendim. Anlatı netliği ve görsel etki çalışma şeklimin temelini oluşturur.",
         "about_quote": "Trendleri takip etmek yerine, <span class=\"text-primary italic\">amacı olan ve kalıcı</span> görsel kimlikler oluşturmaya odaklanıyorum.",
         "about_subtitle": "Felsefem",
         "about_title": "Sanatçı",
         "blog_10_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">H\u0131z bir \u00f6zelliktir.</strong><span> Sayfa y\u00fckleme s\u00fcresindeki her saniyelik gecikme, d\u00f6n\u00fc\u015f\u00fcm oranlar\u0131nda \u00f6nemli d\u00fc\u015f\u00fc\u015flere yol a\u00e7ar.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Optimizasyon Stratejileri</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Tembel y\u00fckleme (lazy loading), g\u00f6r\u00fcnt\u00fc s\u0131k\u0131\u015ft\u0131rma ve verimli kod mimarisi, \u0131\u015f\u0131k h\u0131z\u0131nda bir dijital deneyim sunmak i\u00e7in kritik ad\u0131mlard\u0131r.</span></p>",
         "blog_10_title": "Site H\u0131z\u0131n\u0131n Kullan\u0131c\u0131 Deneyimine Etkisi",
-        "blog_11_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">D\u00fcnya mobildir.</strong><span> K\u00fcresel web trafi\u011finin yar\u0131s\u0131ndan fazlas\u0131n\u0131n mobil cihazlardan geldi\u011fi d\u00fc\u015f\u00fcnl\u00fc\u011f\u00fcnde, \u00f6nce mobil yakla\u015f\u0131m\u0131 art\u0131k bir se\u00e7enek de\u011fildir.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Ak\u0131\u015fkan D\u00fczenler</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>En k\u00fc\u00e7\u00fck ekrandan ba\u015flayarak tasar\u0131m yapmak, i\u00e7eri\u011fin \u00f6nceliklendirilmesini zorunlu k\u0131lar ve daha temiz, daha verimli masa\u00fcst\u00fc deneyimlerine yol a\u00e7ar.</span></p>",
+        "blog_11_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">D\u00fcnya mobildir.</strong><span> K\u00fcresel web trafi\u011finin yar\u0131s\u0131ndan fazlas\u0131n\u0131n mobil cihazlardan geldi\u011fi d\u00fc\u015f\u00fcn\u00fcld\u00fc\u011f\u00fcnde, \u00f6nce mobil yakla\u015f\u0131m\u0131 art\u0131k bir se\u00e7enek de\u011fildir.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Ak\u0131\u015fkan D\u00fczenler</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>En k\u00fc\u00e7\u00fck ekrandan ba\u015flayarak tasar\u0131m yapmak, i\u00e7eri\u011fin \u00f6nceliklendirilmesini zorunlu k\u0131lar ve daha temiz, daha verimli masa\u00fcst\u00fc deneyimlerine yol a\u00e7ar.</span></p>",
         "blog_11_title": "\u00d6nce Mobil Kitleler \u0130\u00e7in Tasar\u0131m",
         "blog_12_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Modern aray\u00fcz stillerinin sava\u015f\u0131.</strong><span> Neomorfizm kal\u0131ptan \u00e7\u0131km\u0131\u015f plasti\u011fi taklit ederken, Camomorfizm bir derinlik ve yar\u0131 saydaml\u0131k hissi getirir.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Dengeyi Bulmak</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Her iki stil de benzersiz estetik \u00e7ekicilik sunar, ancak tasar\u0131mc\u0131lar\u0131n dikkatle gezinmesi gereken farkl\u0131 eri\u015filebilirlik zorluklar\u0131yla birlikte gelir.</span></p>",
         "blog_12_title": "Neomorfizm ve Camomorfizm Kar\u015f\u0131la\u015ft\u0131rmas\u0131",
@@ -252,7 +239,7 @@ const translations = {
         "blog_1_title": "Deneysel Sinemanın Geleceği",
         "blog_20_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Sepeti terk etme d\u00fc\u015fmand\u0131r.</strong><span> Minimum form alan\u0131na sahip temiz bir \u00f6deme s\u00fcreci, d\u00f6n\u00fc\u015f\u00fcm oranlar\u0131n\u0131 art\u0131r\u0131r.</span></p>",
         "blog_20_title": "\u00d6deme Deneyimini Kolayla\u015ft\u0131rmak",
-        "blog_21_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Herkes i\u00e7in tasar\u0131m.</strong><span> Renk paletlerinizin WCAG y\u00fongelerini kar\u015f\u0131lamas\u0131, i\u00e7eri\u011finizin herkes i\u00e7in okunabilir olmas\u0131n\u0131 garanti eder.</span></p>",
+        "blog_21_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Herkes i\u00e7in tasar\u0131m.</strong><span> Renk paletlerinizin WCAG y\u00f6nergelerini kar\u015f\u0131lamas\u0131, i\u00e7eri\u011finizin herkes i\u00e7in okunabilir olmas\u0131n\u0131 garanti eder.</span></p>",
         "blog_21_title": "Renk Kontrast\u0131 ve Kapsay\u0131c\u0131 Tasar\u0131m",
         "blog_22_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">\u00d6nemli olan\u0131 \u00f6l\u00e7\u00fcn.</strong><span> Y\u00fckleme ve etkile\u015fimi optimize etmek, iyi bir kullan\u0131c\u0131 deneyimi i\u00e7in zorunludur.</span></p>",
         "blog_22_title": "Core Web Vitals \u00d6nemi",
@@ -268,15 +255,14 @@ const translations = {
         "blog_27_title": "How I Use Color and Motion in Film",
         "blog_28_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>ON (2024) pushed the boundaries of our technical capabilities. From lighting setup to final post-production, every frame was intentional.</p>",
         "blog_28_title": "Behind the Scenes of ON (2024)",
-        "blog_29_title": "METU Endüstriyel Tasarımdan Yönetmenliğe Yolculuk",
-        "blog_29_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>ODTÜ Endüstriyel Tasarım geçmişimin görsel hikaye anlatıcılığı ve sinematik sistemlere yaklaşımımı nasıl şekillendirdiği.</p>",
+        "blog_29_title": "Will AI Replace Developers?",
         "blog_2_content": "<p>Görsel anlatıda zamanlama ve duygu.</p>",
         "blog_2_title": "Hareketli Grafiklerde Ritim",
         "blog_3_content": "<p>Az ama öz tasarımın gücü.</p>",
         "blog_3_title": "Minimalizm ve UX",
         "blog_4_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Az ama \u00f6z.</strong><span> Bu as\u0131rl\u0131k s\u00f6z, modern web tasar\u0131m\u0131n\u0131n temel ta\u015f\u0131 olmaya devam ediyor. Minimalizm sadece bo\u015f alanla ilgili de\u011fildir; kullan\u0131c\u0131lar\u0131 ger\u00e7ekten \u00f6nemli olana odaklamak i\u00e7in gereksiz olanlar\u0131 ortadan kald\u0131rmakla ilgilidir.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Formdan Ziyade \u0130\u015flev</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Bili\u015fsel y\u00fck\u00fc azaltarak, minimalist web siteleri sorunsuz bir gezinme deneyimi sunar ve d\u00f6n\u00fc\u015f\u00fcm oranlar\u0131n\u0131 do\u011frudan art\u0131r\u0131r.</span></p>",
         "blog_4_title": "Minimalist Web Tasar\u0131m\u0131n\u0131n Evrimi",
-        "blog_5_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Detaylar tasar\u0131m\u0131 olu\u015fturur.</strong><span> Mikro etkile\u015fimler, geri bildirim sa\u011flayan ve durumu ileten ince animasyonlard\u0131r.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Kullan\u0131c\u0131y\u0131 Memnun Etmek</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>De\u011fi\u015fen bir be\u011feni d\u00fc\u015f\u00fcmesinden y\u00fckleme \u00e7ark\u0131na kadar bu k\u00fc\u00e7\u00fck ayr\u0131nt\u0131lar, duygusal ba\u011flar kurar ve kullan\u0131c\u0131lar\u0131 karma\u015f\u0131k i\u015f ak\u0131\u015flar\u0131nda zahmetsizce y\u00f6nlendirir.</span></p>",
+        "blog_5_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Detaylar tasar\u0131m\u0131 olu\u015fturur.</strong><span> Mikro etkile\u015fimler, geri bildirim sa\u011flayan ve durumu ileten ince animasyonlard\u0131r.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Kullan\u0131c\u0131y\u0131 Memnun Etmek</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>De\u011fi\u015fen bir be\u011feni d\u00fc\u011fmesinden y\u00fckleme \u00e7ark\u0131na kadar bu k\u00fc\u00e7\u00fck ayr\u0131nt\u0131lar, duygusal ba\u011flar kurar ve kullan\u0131c\u0131lar\u0131 karma\u015f\u0131k i\u015f ak\u0131\u015flar\u0131nda zahmetsizce y\u00f6nlendirir.</span></p>",
         "blog_5_title": "Mikro Etkile\u015fimler Neden \u00d6nemlidir?",
         "blog_6_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Dijital estetikte bir de\u011fi\u015fim.</strong><span> Karanl\u0131k mod sadece g\u00f6rsel olarak \u00e7arp\u0131c\u0131 olmakla kalmaz; d\u00fc\u015f\u00fck \u0131\u015f\u0131kl\u0131 ortamlarda g\u00f6z yorgunlu\u011funu azalt\u0131r ve OLED ekranlarda pil \u00f6mr\u00fcnden tasarruf sa\u011flar.</span></p><h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">G\u00f6lgeler \u0130\u00e7in Tasar\u0131m</h3><p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span>Karanl\u0131k modu uygulamak, okunabilirli\u011fi korumak i\u00e7in kontrast\u0131n, doygunlu\u011fu azalt\u0131lm\u0131\u015f renklerin ve g\u00f6rsel hiyerar\u015finin dikkatlice d\u00fc\u015f\u00fcn\u00fclmesini gerektirir.</span></p>",
         "blog_6_title": "Karanl\u0131k Mod: Bir Trendden Daha Fazlas\u0131",
@@ -308,7 +294,7 @@ const translations = {
         "blog_cat_26": "Industry",
         "blog_cat_27": "Art Direction",
         "blog_cat_28": "Behind the Scenes",
-        "blog_cat_29": "Kişisel Yolculuk",
+        "blog_cat_29": "Future Tech",
         "blog_cat_4": "Web Tasar\u0131m",
         "blog_cat_5": "Kullan\u0131c\u0131 Deneyimi",
         "blog_cat_6": "Trendler",
@@ -323,7 +309,6 @@ const translations = {
         "blog_read_time": "Dakika Okuma",
         "blog_subtitle": "İçgörüler",
         "blog_title": "Yazılar",
-        "blog_desc": "Web tasarımı, hareket tasarımı, 3D animasyon ve yaratıcı iş akışları hakkında makaleler, fikirler ve vaka çalışmaları.",
         "brands_title": "İş Birlikleri & Güven",
         "btn_request_quote": "Teklif Al",
         "cat_3d": "3D GÖRSELLEŞTİRME",
@@ -349,24 +334,20 @@ const translations = {
         "form_name": "Adınız",
         "form_send_request": "Gönder",
         "form_service": "Seçilen Hizmet",
-        "hero_desc": "Cinematic motion design Turkey ve premium web design Ankara alanlarında uzmanım. Bağımsız bir 3D animation freelancer olarak markalar için özel dijital deneyimler geliştiriyorum.",
+        "hero_desc": "Pikselleri hikayelere dönüştürüyorum. Dijital ortamlar, hareketli grafikler ve sanat yönetmenliği üretiyorum.",
         "hero_director": "Görsel Sanatçı",
         "hero_heading": "Merhaba, <br class=\"hidden lg:block\"/><span class=\"italic text-primary pr-2\">Ben Alperen.</span>",
         "hero_scroll": "Aşağı Kaydır",
-        "hero_title": "Kreatif Direktör & Web Design Ankara — Motion Design Turkey",
-        "hero_view": "İşleri<br/>Gör",
-        "hero_watch": "Showreel<br/>İzle",
+        "hero_title": "3D Animatör & Hareket Tasarımcısı — Ankara, Türkiye",
+        "hero_view": "İşleri Gör",
+        "hero_watch": "Showreel İzle",
         "modal_subtitle": "Gerçek bir şeyler inşa edelim.",
         "modal_title": "Teklif Al",
         "nav_about": "Hakkımda",
         "nav_lets_talk": "İletişim",
         "nav_pricing": "Fiyatlandırma",
         "nav_resume": "Özgeçmiş",
-        "nav_work": "İşler",
-        "website_services_title": "Web Tasarım Hizmetleri",
-        "website_services_desc": "Profesyonel ve modern web tasarım çözümleri.",
-        "work_pbt_short": "Algı Gerçeği Gömdü",
-        "work_pbt_desc": "Deneysel Film Projesi",
+        "nav_work": "İşler",`n        "website_services_title": "Web Tasarım Hizmetleri",`n        "website_services_desc": "Profesyonel ve modern web tasarım çözümleri.",`n        "work_pbt_short": "Algı Gerçeği Gömdü",`n        "work_pbt_desc": "Deneysel Film Projesi",
         "nav_writings": "Yazılar",
         "pricing_basic": "Temel",
         "pricing_basic_1": "1x 3D Döngü veya Kare",
@@ -435,21 +416,32 @@ const translations = {
         "testimonials_subtitle": "Referanslar",
         "testimonials_title": "Müşteri Yorumları",
         "work_subtitle": "Portfolyo",
-        "work_title": "Seçili İşler",
-        "nav_analysis": "Ücretsiz Analiz",
-        "hero_analysis": "Ücretsiz Dijital<br/>Analiz İste",
-        "modal_analysis_title": "Ücretsiz Dijital Analiz",
-        "modal_analysis_subtitle": "Dijital varlığınızı analiz edelim.",
-        "form_website": "Web Sitenizin Adresi",
-        "form_details_analysis": "Proje Detayları / Nelerin analiz edilmesini istersiniz?",
-        "whatsapp_tooltip": "WhatsApp ile İletişime Geçin"
+        "work_title": "Seçili İşler"
     }
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-    const revealElements = document.querySelectorAll('.reveal-on-scroll');
+    // --- 0. Preloader ---
+    const preloader = document.querySelector('.fixed.inset-0.z-1000');
+    if (preloader) {
+        const hidePreloader = () => {
+            setTimeout(() => {
+                preloader.classList.remove('opacity-100', 'visible', 'scale-105');
+                preloader.classList.add('opacity-0', 'invisible', 'scale-100');
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                }, 1000);
+            }, 500); // Small delay to let user see it briefly
+        };
 
-        // --- 1. Navbar Scroll Effect ---
+        if (document.readyState === 'complete') {
+            hidePreloader();
+        } else {
+            window.addEventListener('load', hidePreloader);
+        }
+    }
+
+    // --- 1. Navbar Scroll Effect ---
     const header = document.querySelector('header');
     window.addEventListener('scroll', () => {
         if (window.scrollY > 50) {
@@ -490,7 +482,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- 3. Scroll Reveal Animations ---
-    
+    const revealElements = document.querySelectorAll('.reveal-on-scroll');
     
     const revealOptions = {
         threshold: 0.1,
@@ -510,57 +502,6 @@ document.addEventListener('DOMContentLoaded', () => {
     revealElements.forEach(el => {
         revealObserver.observe(el);
     });
-
-    // --- 3.5. 3D Tilt Card Parallax & Shine ---
-    const isHoverSupported = window.matchMedia('(hover: hover)').matches;
-    if (isHoverSupported) {
-        const tiltCards = document.querySelectorAll('.tilt-card');
-        tiltCards.forEach(card => {
-            card.addEventListener('mousemove', (e) => {
-                const rect = card.getBoundingClientRect();
-                const x = e.clientX - rect.left; // x position within the element
-                const y = e.clientY - rect.top;  // y position within the element
-                
-                const w = rect.width;
-                const h = rect.height;
-                
-                // Normalized positions (-0.5 to 0.5)
-                const mx = (x / w) - 0.5;
-                const my = (y / h) - 0.5;
-                
-                // Calculate tilt angles
-                const maxTilt = 10; // Maximum rotation in degrees
-                const rx = -my * maxTilt;
-                const ry = mx * maxTilt;
-                
-                // Set CSS custom properties
-                card.style.setProperty('--rx', `${rx}deg`);
-                card.style.setProperty('--ry', `${ry}deg`);
-                card.style.setProperty('--mx', mx);
-                card.style.setProperty('--my', my);
-                
-                // Shine reflection coordinate percentages
-                const shineX = (x / w) * 100;
-                const shineY = (y / h) * 100;
-                card.style.setProperty('--shine-x', `${shineX}%`);
-                card.style.setProperty('--shine-y', `${shineY}%`);
-            });
-            
-            card.addEventListener('mouseenter', () => {
-                card.classList.add('is-hovered');
-            });
-            
-            card.addEventListener('mouseleave', () => {
-                card.classList.remove('is-hovered');
-                card.style.removeProperty('--rx');
-                card.style.removeProperty('--ry');
-                card.style.removeProperty('--mx');
-                card.style.removeProperty('--my');
-                card.style.removeProperty('--shine-x');
-                card.style.removeProperty('--shine-y');
-            });
-        });
-    }
 
     // --- 4. Lightbox for Gallery ---
     // The lightbox container is the first fixed div with bg-black/95
@@ -687,62 +628,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 modalInner.classList.add('translate-y-12', 'scale-95');
                 modalInner.classList.remove('translate-y-0', 'scale-100');
             }
-            document.body.style.overflow = '';
         }
     };
 
-    const modalCloseBtn = modalInner ? modalInner.querySelector('button') : null;
     if (modalCloseBtn) modalCloseBtn.addEventListener('click', closeModal);
     if (modalContainer) {
         modalContainer.addEventListener('click', (e) => {
             if (e.target === modalContainer) closeModal();
-        });
-    }
-
-    // --- 5.1. Free Digital Analysis Modal ---
-    const analysisModalContainer = document.getElementById('analysis-modal');
-    const analysisModalInner = document.getElementById('analysis-modal-inner');
-
-    function openAnalysisModal() {
-        if (!analysisModalContainer || !analysisModalInner) return;
-        
-        analysisModalContainer.classList.remove('opacity-0', 'invisible', 'pointer-events-none');
-        analysisModalContainer.classList.add('opacity-100', 'visible', 'pointer-events-auto');
-        
-        setTimeout(() => {
-            analysisModalInner.classList.remove('translate-y-12', 'scale-95');
-            analysisModalInner.classList.add('translate-y-0', 'scale-100');
-        }, 10);
-        document.body.style.overflow = 'hidden';
-    }
-
-    const closeAnalysisModal = () => {
-        if (analysisModalContainer) {
-            analysisModalContainer.classList.add('opacity-0', 'invisible', 'pointer-events-none');
-            analysisModalContainer.classList.remove('opacity-100', 'visible', 'pointer-events-auto');
-            if (analysisModalInner) {
-                analysisModalInner.classList.add('translate-y-12', 'scale-95');
-                analysisModalInner.classList.remove('translate-y-0', 'scale-100');
-            }
-            document.body.style.overflow = '';
-        }
-    };
-
-    // Bind all elements with class 'analysis-btn'
-    const analysisBtns = document.querySelectorAll('.analysis-btn');
-    analysisBtns.forEach(btn => {
-        btn.addEventListener('click', (e) => {
-            e.preventDefault();
-            e.stopPropagation();
-            openAnalysisModal();
-        });
-    });
-
-    const analysisModalCloseBtn = analysisModalInner ? analysisModalInner.querySelector('button') : null;
-    if (analysisModalCloseBtn) analysisModalCloseBtn.addEventListener('click', closeAnalysisModal);
-    if (analysisModalContainer) {
-        analysisModalContainer.addEventListener('click', (e) => {
-            if (e.target === analysisModalContainer) closeAnalysisModal();
         });
     }
 
@@ -800,7 +692,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
-
-
-
-
