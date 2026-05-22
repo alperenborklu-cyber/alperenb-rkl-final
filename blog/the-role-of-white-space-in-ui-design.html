@@ -1,15 +1,6 @@
 <!DOCTYPE html>
-<html lang="tr">
-<head><script>
-  (function() {
-    const lang = localStorage.getItem('lang') || 'tr';
-    document.documentElement.lang = lang;
-    const style = document.createElement('style');
-    style.id = 'i18n-style';
-    style.textContent = '[data-i18n] { opacity: 0 !important; }';
-    document.head.appendChild(style);
-  })();
-</script>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Role of White Space in UI Design | Alperen Börklü Insights</title>
@@ -48,31 +39,29 @@
 </script>
 </head>
 <body class="bg-[#050505] text-zinc-400 font-sans selection:bg-primary selection:text-black">
-    <header class="fixed top-0 w-full z-50 py-8 px-6 backdrop-blur-sm border-b border-white/5 transition-all duration-300">
-        <div class="max-w-7xl mx-auto flex justify-end items-center">
-            <div class="flex items-center gap-8">
-                <button id="lang-toggle-header" class="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-500 hover:text-primary transition-colors">TR</button>
-                <a href="/blog" data-i18n="blog_back" class="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-500 hover:text-primary transition-colors">Back to Writings</a>
-            </div>
+    <nav class="fixed top-0 w-full z-50 py-8 px-6 backdrop-blur-sm border-b border-white/5">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <a href="/" class="text-white font-playfair text-xl font-medium tracking-tight">Alperen Börklü</a>
+            <a href="/blog" class="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-500 hover:text-primary transition-colors">Back to Writings</a>
         </div>
-    </header>
+    </nav>
 
     <main class="pt-48 pb-32 px-6">
         <article class="max-w-3xl mx-auto">
             <header class="mb-16">
                 <div class="flex items-center gap-4 mb-8">
                     <span class="w-8 h-px bg-primary/50"></span>
-                    <span class="text-[10px] font-bold uppercase tracking-[0.4em] text-primary" data-i18n="blog_cat_14">Web Design</span>
+                    <span class="text-[10px] font-bold uppercase tracking-[0.4em] text-primary">Web Design</span>
                 </div>
-                <h1 class="text-4xl md:text-6xl font-playfair text-white leading-tight mb-8" data-i18n="blog_14_title">The Role of White Space in UI Design</h1>
+                <h1 class="text-4xl md:text-6xl font-playfair text-white leading-tight mb-8">The Role of White Space in UI Design</h1>
                 <div class="flex items-center gap-6 text-[10px] font-bold uppercase tracking-[0.2em] text-zinc-600">
-                    <span><span data-i18n="blog_by">By</span> Alperen Börklü</span>
+                    <span>By Alperen Börklü</span>
                     <span class="w-1 h-1 bg-zinc-800 rounded-full"></span>
-                    <span>5 <span data-i18n="blog_read_time">Min Read</span></span>
+                    <span>5 Min Read</span>
                 </div>
             </header>
             
-            <div class="prose prose-invert prose-zinc max-w-none" data-i18n="blog_14_content">
+            <div class="prose prose-invert prose-zinc max-w-none">
                 <p class="mb-6 leading-relaxed font-light text-zinc-400"><span></span><strong class="text-zinc-200 font-medium">White space is not empty space.</strong><span> It is a powerful design element that guides the user"s eye, creates balance, and emphasizes the most important parts of a webpage.</span></p>
             </div>
             
@@ -93,17 +82,17 @@
             <footer class="mt-24 pt-12 border-t border-white/5">
                 <div class="bg-[#080808] p-12 rounded-sm border border-white/5 flex flex-col md:flex-row items-center justify-between gap-8">
                     <div>
-                        <h2 class="text-white font-playfair text-2xl mb-2" data-i18n="blog_cta_title">Interested in a project?</h2>
-                        <p class="text-sm font-light" data-i18n="blog_cta_desc">Let's build something intentional and lasting together.</p>
+                        <h2 class="text-white font-playfair text-2xl mb-2">Interested in a project?</h2>
+                        <p class="text-sm font-light">Let's build something intentional and lasting together.</p>
                     </div>
-                    <a href="/contact" class="px-8 py-4 bg-primary text-black text-[10px] font-bold uppercase tracking-[0.3em] rounded-sm hover:bg-white transition-colors" data-i18n="blog_cta_btn">Get in touch</a>
+                    <a href="/contact" class="px-8 py-4 bg-primary text-black text-[10px] font-bold uppercase tracking-[0.3em] rounded-sm hover:bg-white transition-colors">Get in touch</a>
                 </div>
             </footer>
         </article>
     </main>
 
     <footer class="py-12 border-t border-white/5 text-center">
-        <p class="text-[9px] uppercase tracking-[0.3em] text-zinc-600">&copy; 2026 Alperen Börklü. <span data-i18n="footer_rights">All Rights Reserved.</span></p>
+        <p class="text-[9px] uppercase tracking-[0.3em] text-zinc-600">&copy; 2026 Alperen Börklü. All Rights Reserved.</p>
     </footer>
 
 <!-- Fixed WhatsApp Button -->
@@ -114,7 +103,5 @@
   <span class="whatsapp-tooltip-text" data-i18n="whatsapp_tooltip">Contact via WhatsApp</span>
 </a>
 
-
-    <script src="../script.js"></script>
 </body>
 </html>
