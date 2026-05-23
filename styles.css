@@ -153,3 +153,12 @@
     transition: opacity 0.1s ease-out;
   }
 }
+
+/* --- Language Fade-in Smooth Transition --- */
+[data-i18n] {
+  opacity: 0;
+  transition: opacity 0.15s ease-in-out;
+}
+html.lang-initialized [data-i18n] {
+  opacity: 1;
+}

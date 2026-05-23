@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -25,9 +25,12 @@
 </head>
 <body class="bg-[#050505] text-white font-sans min-h-screen flex flex-col items-center justify-center p-6">
     <div class="max-w-5xl w-full">
-        <a href="/work" class="inline-flex items-center text-primary hover:text-white mb-8 transition-colors uppercase tracking-[0.2em] text-xs font-bold">
-            &larr; Back to Portfolio
-        </a>
+        <div class="flex justify-between items-center mb-8">
+            <a href="/work" data-i18n="nav_back_to_portfolio" class="inline-flex items-center text-primary hover:text-white transition-colors uppercase tracking-[0.2em] text-xs font-bold">
+                &larr; Back to Portfolio
+            </a>
+            <button id="lang-toggle-header" class="text-[10px] font-bold uppercase tracking-[0.2em] bg-primary text-black px-4 py-2 rounded-full hover:bg-white transition-all duration-300 focus:outline-none shadow-[0_0_15px_rgba(192,160,98,0.3)] cursor-pointer">TR</button>
+        </div>
         <h1 class="text-4xl md:text-5xl font-playfair mb-8">Spaceship</h1>
         <div class="rounded-sm overflow-hidden border border-white/10 shadow-2xl bg-black">
             <img src="./futuristic-spaceship-propulsion-futuristik-uzay-gemisi-itki-3d-render.webp" alt="Spaceship / Uzay Gemisi" class="w-full h-auto object-contain max-h-[80vh]" loading="lazy">
@@ -42,5 +45,6 @@
   <span class="whatsapp-tooltip-text" data-i18n="whatsapp_tooltip">Contact via WhatsApp</span>
 </a>
 
+<script src="./script.js"></script>
 </body>
 </html>

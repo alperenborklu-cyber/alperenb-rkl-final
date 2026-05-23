@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -29,8 +29,11 @@
 </head>
 <body class="bg-[#050505] text-zinc-400 font-sans selection:bg-primary selection:text-black">
     <nav class="fixed top-0 w-full z-50 py-8 px-6 backdrop-blur-sm border-b border-white/5">
-        <div class="max-w-7xl mx-auto flex justify-end items-center">
-            <a href="/work" class="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-500 hover:text-primary transition-colors">Back to Films</a>
+        <div class="max-w-7xl mx-auto flex justify-end items-center gap-6">
+            <div class="flex items-center gap-6">
+                <a href="/work" data-i18n="nav_back_to_films" class="text-[10px] font-bold uppercase tracking-[0.3em] text-zinc-500 hover:text-primary transition-colors">Back to Films</a>
+                <button id="lang-toggle-header" class="text-[10px] font-bold uppercase tracking-[0.2em] bg-primary text-black px-4 py-2 rounded-full hover:bg-white transition-all duration-300 focus:outline-none shadow-[0_0_15px_rgba(192,160,98,0.3)] cursor-pointer">TR</button>
+            </div>
         </div>
     </nav>
 
@@ -94,7 +97,7 @@
     </main>
 
     <footer class="py-12 border-t border-white/5 text-center">
-        <p class="text-[9px] uppercase tracking-[0.3em] text-zinc-600">&copy; 2026 Alperen Börklü. All Rights Reserved.</p>
+        <p class="text-[9px] uppercase tracking-[0.3em] text-zinc-600">&copy; 2026 Alperen Börklü. <span data-i18n="footer_rights"><span data-i18n="footer_rights">All Rights Reserved</span></span>.</p>
     </footer>
 
 <!-- Fixed WhatsApp Button -->
@@ -105,5 +108,6 @@
   <span class="whatsapp-tooltip-text" data-i18n="whatsapp_tooltip">Contact via WhatsApp</span>
 </a>
 
+<script src="./script.js"></script>
 </body>
 </html>
