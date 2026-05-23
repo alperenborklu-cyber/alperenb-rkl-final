@@ -46,8 +46,8 @@ const translations = {
         "blog_27_title": "How I Use Color and Motion in Film",
         "blog_28_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>ON (2024) pushed the boundaries of our technical capabilities. From lighting setup to final post-production, every frame was intentional.</p>",
         "blog_28_title": "Behind the Scenes of ON (2024)",
-        "blog_29_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>Will AI replace developers? We look at the future of the software industry, the evolution of visual coding, and the role of creative direction.</p>",
-        "blog_29_title": "Will AI Replace Developers?",
+        "blog_29_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>How my background at METU Industrial Design shaped my approach to visual storytelling and cinematic systems.</p>",
+        "blog_29_title": "From METU Industrial Design to Filmmaking",
         "blog_2_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Timelines and keyframes are giving way to rules and logic.</strong><span> Here&#x27;s how &quot;programming motion&quot; is changing what it means to be a Website Designer.</span></p>",
         "blog_2_title": "Motion Design Is Becoming Programmable",
         "blog_3_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">After years of disruption, the industry is finding its footing.</strong><span> Here&#x27;s where we stand\u2014and where we&#x27;re heading.</span></p>",
@@ -87,7 +87,7 @@ const translations = {
         "blog_cat_26": "Industry",
         "blog_cat_27": "Art Direction",
         "blog_cat_28": "Behind the Scenes",
-        "blog_cat_29": "Future Tech",
+        "blog_cat_29": "Personal Journey",
         "blog_cat_3": "Motion Design &amp; Industry Trends",
         "blog_cat_4": "Web Design",
         "blog_cat_5": "UI/UX",
@@ -273,8 +273,8 @@ const translations = {
         "blog_27_title": "Filmde Renk ve Hareketi Nas\u0131l Kullan\u0131yorum?",
         "blog_28_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>ON (2024) teknik becerilerimizin s\u0131n\u0131rlar\u0131n\u0131 zorlad\u0131. I\u015f\u0131k kurulumundan son post-prod\u00fcksiyona kadar her kare ama\u00e7l\u0131yd\u0131.</p>",
         "blog_28_title": "ON (2024) Kamera Arkas\u0131",
-        "blog_29_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>Yapay zeka yaz\u0131l\u0131mc\u0131lar\u0131n yerini alacak m\u0131? Sekt\u00f6r\u00fcn gelece\u011fine ve geli\u015ftiricilerin de\u011fi\u015fen rol\u00fcne g\u00f6z at\u0131yoruz.</p>",
-        "blog_29_title": "Yapay Zeka Yaz\u0131l\u0131mc\u0131lar\u0131n Yerini Alacak M\u0131?",
+        "blog_29_content": "<p class='mb-6 leading-relaxed font-light text-zinc-400'>ODTÜ Endüstriyel Tasarım geçmişimin görsel hikaye anlatıcılığı ve sinematik sistemlere yaklaşımımı nasıl şekillendirdiği.</p>",
+        "blog_29_title": "ODTÜ Endüstriyel Tasarımdan Film Yapımına Yolculuğum",
         "blog_2_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Zaman \u00e7izgileri ve anahtar kareler yerini kurallara ve mant\u0131\u011fa b\u0131rak\u0131yor.</strong><span> 'Hareket programlama' n\u0131n ne anlama geldi\u011fi de\u011fi\u015fiyor.</span></p>",
         "blog_2_title": "Hareket Tasar\u0131m\u0131 Programlanabilir Hale Geliyor",
         "blog_3_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><span></span><strong class=\"text-zinc-200 font-medium\">Y\u0131llar s\u00fcren aksamalar\u0131n ard\u0131ndan sekt\u00f6r nihayet dengesini buluyor.</strong><span> \u0130\u015fte bulundu\u011fumuz nokta ve gelece\u011fimiz.</span></p>",
@@ -314,7 +314,7 @@ const translations = {
         "blog_cat_26": "Sekt\u00f6r",
         "blog_cat_27": "Sanat Y\u00f6netimi",
         "blog_cat_28": "Kamera Arkas\u0131",
-        "blog_cat_29": "Gelece\u011fin Teknolojisi",
+        "blog_cat_29": "Ki\u015fisel Yolculuk",
         "blog_cat_3": "Hareket Tasar\u0131m\u0131 ve Sekt\u00f6r Trendleri",
         "blog_cat_4": "Web Tasar\u0131m\u0131",
         "blog_cat_5": "UI/UX",
@@ -541,6 +541,57 @@ document.addEventListener('DOMContentLoaded', () => {
         revealObserver.observe(el);
     });
 
+    // --- 3.5. 3D Tilt Card Parallax & Shine ---
+    const isHoverSupported = window.matchMedia('(hover: hover)').matches;
+    if (isHoverSupported) {
+        const tiltCards = document.querySelectorAll('.tilt-card');
+        tiltCards.forEach(card => {
+            card.addEventListener('mousemove', (e) => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left; // x position within the element
+                const y = e.clientY - rect.top;  // y position within the element
+                
+                const w = rect.width;
+                const h = rect.height;
+                
+                // Normalized positions (-0.5 to 0.5)
+                const mx = (x / w) - 0.5;
+                const my = (y / h) - 0.5;
+                
+                // Calculate tilt angles
+                const maxTilt = 10; // Maximum rotation in degrees
+                const rx = -my * maxTilt;
+                const ry = mx * maxTilt;
+                
+                // Set CSS custom properties
+                card.style.setProperty('--rx', `${rx}deg`);
+                card.style.setProperty('--ry', `${ry}deg`);
+                card.style.setProperty('--mx', mx);
+                card.style.setProperty('--my', my);
+                
+                // Shine reflection coordinate percentages
+                const shineX = (x / w) * 100;
+                const shineY = (y / h) * 100;
+                card.style.setProperty('--shine-x', `${shineX}%`);
+                card.style.setProperty('--shine-y', `${shineY}%`);
+            });
+            
+            card.addEventListener('mouseenter', () => {
+                card.classList.add('is-hovered');
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.classList.remove('is-hovered');
+                card.style.removeProperty('--rx');
+                card.style.removeProperty('--ry');
+                card.style.removeProperty('--mx');
+                card.style.removeProperty('--my');
+                card.style.removeProperty('--shine-x');
+                card.style.removeProperty('--shine-y');
+            });
+        });
+    }
+
     // --- 4. Lightbox for Gallery ---
     // The lightbox container is the first fixed div with bg-black/95
     const lightboxContainer = document.querySelectorAll('.fixed.inset-0.bg-black\\/95')[0];
@@ -600,6 +651,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalContainer = document.getElementById('quote-modal');
     const modalInner = document.getElementById('quote-modal-inner');
     const quotePackageInput = document.getElementById('quote-package');
+    const modalCloseBtn = modalInner ? modalInner.querySelector('button') : null;
 
     function openQuoteModal(packageName) {
         if (!modalContainer || !modalInner) return;
@@ -666,6 +718,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 modalInner.classList.add('translate-y-12', 'scale-95');
                 modalInner.classList.remove('translate-y-0', 'scale-100');
             }
+            document.body.style.overflow = '';
         }
     };
 
@@ -673,6 +726,53 @@ document.addEventListener('DOMContentLoaded', () => {
     if (modalContainer) {
         modalContainer.addEventListener('click', (e) => {
             if (e.target === modalContainer) closeModal();
+        });
+    }
+
+    // --- 5.1. Free Digital Analysis Modal ---
+    const analysisModalContainer = document.getElementById('analysis-modal');
+    const analysisModalInner = document.getElementById('analysis-modal-inner');
+
+    function openAnalysisModal() {
+        if (!analysisModalContainer || !analysisModalInner) return;
+        
+        analysisModalContainer.classList.remove('opacity-0', 'invisible', 'pointer-events-none');
+        analysisModalContainer.classList.add('opacity-100', 'visible', 'pointer-events-auto');
+        
+        setTimeout(() => {
+            analysisModalInner.classList.remove('translate-y-12', 'scale-95');
+            analysisModalInner.classList.add('translate-y-0', 'scale-100');
+        }, 10);
+        document.body.style.overflow = 'hidden';
+    }
+
+    const closeAnalysisModal = () => {
+        if (analysisModalContainer) {
+            analysisModalContainer.classList.add('opacity-0', 'invisible', 'pointer-events-none');
+            analysisModalContainer.classList.remove('opacity-100', 'visible', 'pointer-events-auto');
+            if (analysisModalInner) {
+                analysisModalInner.classList.add('translate-y-12', 'scale-95');
+                analysisModalInner.classList.remove('translate-y-0', 'scale-100');
+            }
+            document.body.style.overflow = '';
+        }
+    };
+
+    // Bind all elements with class 'analysis-btn'
+    const analysisBtns = document.querySelectorAll('.analysis-btn');
+    analysisBtns.forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            e.preventDefault();
+            e.stopPropagation();
+            openAnalysisModal();
+        });
+    });
+
+    const analysisModalCloseBtn = analysisModalInner ? analysisModalInner.querySelector('button') : null;
+    if (analysisModalCloseBtn) analysisModalCloseBtn.addEventListener('click', closeAnalysisModal);
+    if (analysisModalContainer) {
+        analysisModalContainer.addEventListener('click', (e) => {
+            if (e.target === analysisModalContainer) closeAnalysisModal();
         });
     }
 
