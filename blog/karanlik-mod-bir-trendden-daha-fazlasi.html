@@ -65,7 +65,16 @@
             </header>
             
             <div class="prose prose-invert prose-zinc max-w-none">
-                <p class="mb-6 leading-relaxed font-light text-zinc-400"><span></span><strong class="text-zinc-200 font-medium">A shift in digital aesthetics.</strong><span> Dark mode isn't just visually striking\u2014it reduces eye strain in low-light environments and saves battery life on OLED screens.</span></p><h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">Designing for the Shadows</h2><p class="mb-6 leading-relaxed font-light text-zinc-400"><span>Implementing dark mode requires careful consideration of contrast, desaturated colors, and visual hierarchy to maintain legibility.</span></p>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400"><strong class="text-zinc-200 font-medium">A shift in digital aesthetics.</strong> Dark mode isn't just visually striking — it reduces eye strain in low-light environments, saves battery life on OLED screens, and has become a genuine user expectation rather than a premium feature. In 2026, shipping a web product without dark mode support is increasingly seen as an oversight.</p>
+
+                <h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">The Real UX Benefits</h2>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400">The health case for dark mode is legitimate. <strong class="text-zinc-200 font-medium">Bright white interfaces emit significantly more blue light, which disrupts sleep patterns and causes fatigue during extended sessions.</strong> Dark backgrounds dramatically reduce this effect. On OLED and AMOLED displays — now the standard on most flagship smartphones — true black pixels consume virtually no power, making dark mode a meaningful battery optimization, particularly for mobile web users.</p>
+
+                <h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">Designing for the Shadows</h2>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400">Implementing dark mode correctly is harder than simply inverting colors. <strong class="text-zinc-200 font-medium">Contrast ratios must be carefully managed</strong> — text that reads beautifully on white can lose legibility on dark backgrounds if the color values aren't recalibrated. Desaturated, slightly muted tones typically work better than pure white text on pure black backgrounds, which creates harsh visual tension. Surfaces should use layered grays rather than flat black to maintain depth and hierarchy.</p>
+
+                <h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">Implementation Best Practices</h2>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400">The modern approach is to use CSS custom properties (variables) for all color tokens, then override them within a <code>prefers-color-scheme: dark</code> media query. This enables automatic dark mode based on the user's OS preference. Pair it with a manual toggle — stored in localStorage — to give users explicit control. <strong class="text-zinc-200 font-medium">The best dark mode implementations are invisible: they just feel right, in any lighting condition.</strong></p>
             </div>
             
             <section class="mt-20 pt-12 border-t border-white/5">

@@ -65,9 +65,24 @@
             </header>
             
             <div class="prose prose-invert prose-zinc max-w-none">
-                <p class="mb-6 leading-relaxed font-light text-zinc-400"><span></span><strong class="text-zinc-200 font-medium">Design for everyone.</strong><span> Accessibility ensures that all users, regardless of ability, can navigate and interact with your site.</span></p><h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">Inclusive Standards</h2><p class="mb-6 leading-relaxed font-light text-zinc-400"><span>Implementing ARIA labels, semantic HTML, and sufficient color contrast aren't just best practices\u2014they are moral and legal necessities.</span></p>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400"><strong class="text-zinc-200 font-medium">Accessibility is not a feature — it is a foundation.</strong> An accessible website works for everyone: people using screen readers, keyboard-only navigation, high-contrast displays, or slow internet connections. Building with accessibility in mind from the start is faster, cheaper, and more effective than retrofitting it later — and it makes your site better for all users, not just those with disabilities.</p>
+
+                <h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">Understanding WCAG Guidelines</h2>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400">The <strong class="text-zinc-200 font-medium">Web Content Accessibility Guidelines (WCAG)</strong>, currently at version 2.2, define the international standard for web accessibility. They are organized around four principles: content must be Perceivable, Operable, Understandable, and Robust — often abbreviated as POUR. WCAG compliance levels range from A (minimum) to AAA (highest), with AA being the widely accepted target for most commercial and public websites. Many countries, including EU member states, are moving toward legal requirements for WCAG AA compliance.</p>
+
+                <h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">Semantic HTML: The First Line of Defense</h2>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400">The single most impactful accessibility improvement most websites can make is using <strong class="text-zinc-200 font-medium">semantic HTML correctly</strong>. Using &lt;button&gt; for buttons, &lt;nav&gt; for navigation, &lt;main&gt; for the primary content area, and &lt;h1&gt;–&lt;h6&gt; in logical heading order costs nothing and immediately improves screen reader compatibility. Div-soup — building everything out of unstyled &lt;div&gt; elements — forces assistive technology to guess at structure, often getting it wrong.</p>
+
+                <h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">Keyboard Navigation and Focus States</h2>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400">Every interactive element on your website should be reachable and operable using only a keyboard. This means maintaining logical tab order, providing visible focus indicators (never removing the default outline without providing a better alternative), and ensuring modal dialogs trap focus appropriately. Keyboard navigation is essential not only for users with motor impairments but also for power users who prefer keyboard shortcuts.</p>
+
+                <h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">Color Contrast and Visual Accessibility</h2>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400">WCAG AA requires a <strong class="text-zinc-200 font-medium">minimum contrast ratio of 4.5:1</strong> for normal text and 3:1 for large text (18pt or 14pt bold). Many design trends — light gray text on white, subtle placeholder text — fail these thresholds. Tools like the WebAIM Contrast Checker or Figma plugins make it easy to verify contrast during design. Additionally, never rely on color alone to convey information: add icons, patterns, or text labels to complement color-coded states.</p>
+
+                <h2 class="text-2xl font-medium text-white mt-12 mb-4 font-playfair">Accessibility Improves SEO Too</h2>
+                <p class="mb-6 leading-relaxed font-light text-zinc-400">Search engine crawlers, like screen readers, understand your site through its structure and text. Semantic HTML, proper heading hierarchy, descriptive alt text for images, and well-labeled form elements all contribute to better crawlability and indexing. An accessible website is a site that communicates clearly — and clarity is rewarded both by users and by algorithms.</p>
             </div>
-            
+
             <section class="mt-20 pt-12 border-t border-white/5">
                 <h2 class="text-2xl font-playfair text-white mb-8">Related Articles</h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
