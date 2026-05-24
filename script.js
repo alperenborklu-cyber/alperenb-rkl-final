@@ -1128,6 +1128,87 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
+        // Dynamic SEO and Meta Tags localization
+        const pathname = window.location.pathname;
+        if (pathname === '/' || pathname.endsWith('index.html') || pathname === '') {
+            document.title = lang === 'en' ? "Alperen Börklü | Web Design, Motion & Creative Direction" : "Alperen Börklü | Web Tasarım, Animasyon ve Kreatif Direktörlük";
+            const desc = lang === 'en' ? "Alperen Börklü — Creative Director & Website Designer based in Ankara, Turkey. Premium web design, cinematic 3D animation, motion graphics and brand identity for ambitious brands." : "Alperen Börklü — Ankara merkezli Kreatif Direktör ve Web Tasarımcısı. Amiral markalar için premium web tasarımı, sinematik 3D animasyon, hareketli grafikler ve marka kimliği.";
+            
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.content = desc;
+            
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.content = document.title;
+            
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc) ogDesc.content = lang === 'en' ? "Premium web design, cinematic 3D animation, motion graphics and brand identity. Based in Ankara, Turkey — serving clients worldwide." : "Premium web tasarımı, sinematik 3D animasyon, hareketli grafikler ve marka kimliği. Ankara merkezli, dünya çapında hizmet.";
+            
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.content = document.title;
+            
+            const twDesc = document.querySelector('meta[name="twitter:description"]');
+            if (twDesc) twDesc.content = lang === 'en' ? "Creative Director & Website Designer in Ankara. Cinematic 3D animation, motion graphics, premium web design for ambitious brands worldwide." : "Ankara'da Kreatif Direktör & Web Tasarımcısı. Amiral markalar için sinematik 3D animasyon, hareketli grafikler ve premium web tasarımı.";
+        } else if (pathname.includes('/blog') && !pathname.includes('/blog/')) {
+            document.title = lang === 'en' ? "Blog & Insights | Alperen Börklü — Web Design & Creative Direction" : "Blog & Yazılar | Alperen Börklü — Web Tasarım & Kreatif Direktörlük";
+            const desc = lang === 'en' ? "Articles on web design, motion graphics, 3D animation, SEO and creative direction by Alperen Börklü. Practical insights for brands, agencies and entrepreneurs in Turkey and worldwide." : "Alperen Börklü'nün web tasarım, hareketli grafikler, 3D animasyon, SEO ve kreatif direktörlük üzerine yazıları. Türkiye ve dünya genelindeki markalar, ajanslar ve girişimciler için pratik ipuçları.";
+            
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.content = desc;
+            
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.content = document.title;
+            
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc) ogDesc.content = desc;
+            
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.content = document.title;
+            
+            const twDesc = document.querySelector('meta[name="twitter:description"]');
+            if (twDesc) twDesc.content = desc;
+        } else if (pathname.includes('/blog/')) {
+            const titleEl = document.querySelector('[data-i18n^="blog_"][data-i18n$="_title"]');
+            if (titleEl) {
+                const key = titleEl.getAttribute('data-i18n');
+                const cleanKey = key.replace('_title', '');
+                const titleText = translations[lang][key];
+                if (titleText) {
+                    document.title = `${titleText} | Alperen Börklü Insights`;
+                    
+                    const ogTitle = document.querySelector('meta[property="og:title"]');
+                    if (ogTitle) ogTitle.content = document.title;
+                    
+                    const twTitle = document.querySelector('meta[name="twitter:title"]');
+                    if (twTitle) twTitle.content = document.title;
+                }
+                const contentKey = cleanKey + '_content';
+                const contentHTML = translations[lang][contentKey];
+                if (contentHTML) {
+                    const tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = contentHTML;
+                    const firstP = tempDiv.querySelector('p');
+                    if (firstP) {
+                        const plainDesc = firstP.textContent.substring(0, 160);
+                        const metaDesc = document.querySelector('meta[name="description"]');
+                        if (metaDesc) metaDesc.content = plainDesc;
+                        
+                        const ogDesc = document.querySelector('meta[property="og:description"]');
+                        if (ogDesc) ogDesc.content = plainDesc;
+                        
+                        const twDesc = document.querySelector('meta[name="twitter:description"]');
+                        if (twDesc) twDesc.content = plainDesc;
+                    }
+                }
+            }
+        }
+
+        // Open Graph locales localization
+        const ogLocale = document.querySelector('meta[property="og:locale"]');
+        if (ogLocale) ogLocale.content = lang === 'en' ? 'en_US' : 'tr_TR';
+        
+        const ogLocaleAlt = document.querySelector('meta[property="og:locale:alternate"]');
+        if (ogLocaleAlt) ogLocaleAlt.content = lang === 'en' ? 'tr_TR' : 'en_US';
+
         document.documentElement.classList.add('lang-initialized');
     }
 
