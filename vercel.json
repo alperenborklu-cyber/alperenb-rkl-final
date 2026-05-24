@@ -1,11 +1,36 @@
 {
   "cleanUrls": true,
   "rewrites": [
-    { "source": "/work", "destination": "/" },
-    { "source": "/pricing", "destination": "/" },
-    { "source": "/about", "destination": "/" },
-    { "source": "/writings", "destination": "/blog" },
-    { "source": "/resume", "destination": "/" },
-    { "source": "/contact", "destination": "/" }
+    {
+      "source": "/work",
+      "destination": "/"
+    },
+    {
+      "source": "/pricing",
+      "destination": "/"
+    },
+    {
+      "source": "/about",
+      "destination": "/"
+    },
+    {
+      "source": "/writings",
+      "destination": "/blog"
+    },
+    {
+      "source": "/resume",
+      "destination": "/"
+    },
+    {
+      "source": "/contact",
+      "destination": "/"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "https://www.alperenborklu.com/:path*",
+      "destination": "https://alperenborklu.com/:path*",
+      "permanent": true
+    }
   ]
 }
