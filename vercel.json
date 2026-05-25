@@ -38,5 +38,16 @@
       "destination": "https://alperenborklu.com/:path*",
       "permanent": true
     }
+  ],
+  "headers": [
+    {
+      "source": "/(.*\\.(?:css|js|webp|png|jpg|jpeg|gif|ico|svg|mp4|woff2))$",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
   ]
 }
