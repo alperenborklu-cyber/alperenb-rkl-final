@@ -1,6 +1,8 @@
 
 const translations = {
     "en": {
+        "hero_heading_seo": " — Creative Director & Website Designer",
+        "blog_title_seo": " — Web Design, 3D Motion & Art Direction Blog",
         "about_p1": "I'm a visual artist and motion designer working at the intersection of design and strategy. My background spans 2D\u20133D animation, art direction, and post-production, with a strong focus on atmosphere, rhythm, and meaning. I approach every project as both a creative and a system \u2014 balancing emotion with structure.",
         "about_p2": "In addition to motion, I specialize in <strong class=\"text-white font-medium\">website design, corporate identity, and logo design</strong>. I've worked across diverse 3D projects, brand reveals, and comprehensive design systems, taking on roles from concept development to final delivery. Narrative clarity and visual impact are at the core of how I work.",
         "about_quote": "Rather than following trends, I focus on building distinctive visual identities that feel <span class=\"text-primary italic\">intentional and lasting.</span>",
@@ -390,6 +392,8 @@ const translations = {
         "blog_61_content": "<p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Today,</strong> a person who wants to buy or rent a house first opens \"Google Maps\". More than 60% of queries such as “Ankara Çankaya real estate agent”, “Flat for rent in Beşiktaş, Istanbul” or “House for sale in Izmir” contain map results. If your real estate office does not appear in the top 3 on Google Maps, you are losing more than half of your potential customers. You can solve this problem with Google Maps (Local SEO) optimization.</p> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Steps to Rank Higher on Google Maps</h3> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Google My Business Listing:</strong> A fully verified, complete profile. Address, phone, website, working hours, categories (Realtor, Real Estate Consultant, etc.).</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Nearby Location Keywords:</strong> Expressions such as \"real estate office in Ankara Çankaya\" should be included in the description section of your profile.</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Photo and Video Upload:</strong> Examples of outside, inside, personnel and advertisements. Regular update.</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Customer Reviews:</strong> Get at least 2-5 new reviews every month. Be sure to respond to comments (thank you, solve any problems).</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Local Backlinks:</strong> Giving you links from the websites of institutions such as the chamber of commerce, headman's office, school, association in your region.</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Location Tag in Your Advertisements:</strong> Place names such as \"Istanbul, Kadıköy\" should be written clearly on all your advertisement pages.</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Post Updates:</strong> Share short announcements on GBM such as “New postings arrived today”, “Open on the weekend”.</p> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Why is Google Maps Important?</h3> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">High trust:</strong> The customer knows that the office he sees on the map physically exists.</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Quick decision:</strong> Phone, website, directions in one click.</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Mobile dominant:</strong> Most real estate searches are done by phone, Maps integrates very well with the phone.</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\"><strong class=\"text-zinc-200 font-medium\">Competitor analysis:</strong> You can see the map scores and comments of your competitors.</p> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Common Mistakes</h3> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\">Multiple business profiles at the same address (Google penalizes).</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\">Fake comments or comment manipulation (profile suspended).</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\">Not updating business hours (customer leaves, finds the door closed, never calls you again).</p> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\">The phone number is incorrect or unreachable.</p> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Measurement and Tracking</h3> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">In the Google My Business panel, track these metrics</h3> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Appearing in search (impressions)</h3> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Clicks</h3> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Request directions</h3> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">phone clicks</h3> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Photo views</h3> <h3 class=\"text-2xl font-medium text-white mt-12 mb-4 font-playfair\">Conclusion</h3> <p class=\"mb-6 leading-relaxed font-light text-zinc-400\">Top positions in regional real estate searches are now achieved not only with website SEO but also with Google Maps optimization. Your address should become a blinking marker on the map. This is not just a technical process; It is a process that you need to take care of regularly every day. Remember, if you are not on the map, you are not in the customer's eyes.</p>"
     },
     "tr": {
+        "hero_heading_seo": " — Kreatif Direktör & Web Tasarımcısı",
+        "blog_title_seo": " — Web Tasarım, 3D Animasyon ve Kreatif Direktörlük Yazıları",
         "about_p1": "Tasar\u0131m ve stratejinin kesi\u015fti\u011fi noktada \u00e7al\u0131\u015fan bir g\u00f6rsel sanat\u00e7\u0131 ve hareket tasar\u0131mc\u0131s\u0131y\u0131m. Ge\u00e7mi\u015fim 2D-3D animasyon, sanat y\u00f6netimi ve post-prod\u00fcksiyona uzan\u0131yor; atmosfer, ritim ve anlama g\u00fc\u00e7l\u00fc bir \u015fekilde odaklan\u0131yorum. Her projeye hem yarat\u0131c\u0131 hem de sistemsel bir yakla\u015f\u0131m getiriyorum.",
         "about_p2": "Hareketli grafiklerin yan\u0131 s\u0131ra, <strong class=\"text-white font-medium\">web sitesi tasar\u0131m\u0131, kurumsal kimlik ve logo tasar\u0131m\u0131</strong> konular\u0131nda uzmanla\u015f\u0131yorum. 3D projeler, marka lansmanlar\u0131 ve kapsaml\u0131 tasar\u0131m sistemlerinde konsept geli\u015ftirmeden son teslimata kadar \u00e7e\u015fitli roller \u00fcstlendim. Anlat\u0131 netli\u011fi ve g\u00f6rsel etki \u00e7al\u0131\u015fma \u015feklimin temelini olu\u015fturur.",
         "about_quote": "Trendleri takip etmek yerine, <span class=\"text-primary italic\">amac\u0131 olan ve kal\u0131c\u0131</span> g\u00f6rsel kimlikler olu\u015fturmaya odaklan\u0131yorum.",
@@ -1119,7 +1123,25 @@ document.addEventListener('DOMContentLoaded', () => {
         const translatableElements = document.querySelectorAll('[data-i18n]');
         translatableElements.forEach(el => {
             const key = el.getAttribute('data-i18n');
-            if (translations[lang] && translations[lang][key]) {
+            
+            // Custom check for dynamically generated blog descriptions (previews)
+            if (key && key.startsWith('blog_') && key.endsWith('_desc')) {
+                const contentKey = key.replace('_desc', '_content');
+                const contentHTML = translations[lang] ? translations[lang][contentKey] : null;
+                if (contentHTML) {
+                    const tempDiv = document.createElement('div');
+                    tempDiv.innerHTML = contentHTML;
+                    // Get first paragraph
+                    const firstP = tempDiv.querySelector('p');
+                    if (firstP) {
+                        const text = firstP.textContent.trim();
+                        el.innerHTML = `<p class="mb-6 leading-relaxed font-light text-zinc-400">${text}</p>`;
+                    } else {
+                        const text = tempDiv.textContent.trim().substring(0, 150) + '...';
+                        el.innerHTML = `<p class="mb-6 leading-relaxed font-light text-zinc-400">${text}</p>`;
+                    }
+                }
+            } else if (translations[lang] && translations[lang][key]) {
                 if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
                     el.placeholder = translations[lang][key];
                 } else {
@@ -1132,7 +1154,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const pathname = window.location.pathname;
         if (pathname === '/' || pathname.endsWith('index.html') || pathname === '') {
             document.title = lang === 'en' ? "Alperen Börklü | Web Design, Motion & Creative Direction" : "Alperen Börklü | Web Tasarım, Animasyon ve Kreatif Direktörlük";
-            const desc = lang === 'en' ? "Alperen Börklü — Creative Director & Website Designer based in Ankara, Turkey. Premium web design, cinematic 3D animation, motion graphics and brand identity for ambitious brands." : "Alperen Börklü — Ankara merkezli Kreatif Direktör ve Web Tasarımcısı. Amiral markalar için premium web tasarımı, sinematik 3D animasyon, hareketli grafikler ve marka kimliği.";
+            const desc = lang === 'en' ? "Alperen Börklü — Creative Director & Web Designer based in Ankara. Premium web design, cinematic 3D animation, motion graphics and brand identity." : "Alperen Börklü — Ankara merkezli Kreatif Direktör & Web Tasarımcısı. Premium web tasarımı, sinematik 3D animasyon ve marka kimliği çözümleri.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
             if (metaDesc) metaDesc.content = desc;
@@ -1150,7 +1172,7 @@ document.addEventListener('DOMContentLoaded', () => {
             if (twDesc) twDesc.content = lang === 'en' ? "Creative Director & Website Designer in Ankara. Cinematic 3D animation, motion graphics, premium web design for ambitious brands worldwide." : "Ankara'da Kreatif Direktör & Web Tasarımcısı. Amiral markalar için sinematik 3D animasyon, hareketli grafikler ve premium web tasarımı.";
         } else if (pathname.includes('/blog') && !pathname.includes('/blog/')) {
             document.title = lang === 'en' ? "Blog & Insights | Alperen Börklü — Web Design & Creative Direction" : "Blog & Yazılar | Alperen Börklü — Web Tasarım & Kreatif Direktörlük";
-            const desc = lang === 'en' ? "Articles on web design, motion graphics, 3D animation, SEO and creative direction by Alperen Börklü. Practical insights for brands, agencies and entrepreneurs in Turkey and worldwide." : "Alperen Börklü'nün web tasarım, hareketli grafikler, 3D animasyon, SEO ve kreatif direktörlük üzerine yazıları. Türkiye ve dünya genelindeki markalar, ajanslar ve girişimciler için pratik ipuçları.";
+            const desc = lang === 'en' ? "Articles on web design, 3D animation, SEO and creative direction by Alperen Börklü. Industry trends and practical insights for brands." : "Alperen Börklü'nün web tasarım, 3D animasyon, SEO ve kreatif direktörlük üzerine yazıları. Sektörel trendler ve markalar için pratik ipuçları.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
             if (metaDesc) metaDesc.content = desc;
