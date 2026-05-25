@@ -28,7 +28,13 @@
   ],
   "redirects": [
     {
-      "source": "https://www.alperenborklu.com/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.alperenborklu.com"
+        }
+      ],
       "destination": "https://alperenborklu.com/:path*",
       "permanent": true
     }
