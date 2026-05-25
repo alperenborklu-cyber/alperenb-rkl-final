@@ -175,3 +175,13 @@ html.lang-initialized [data-i18n] {
   white-space: nowrap;
   border: 0;
 }
+
+/* Card title pseudo-element link expansion for SEO */
+.card-title-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: 10;
+  cursor: pointer;
+}
+
