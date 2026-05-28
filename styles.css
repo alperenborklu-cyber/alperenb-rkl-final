@@ -185,3 +185,8 @@ html.lang-initialized [data-i18n] {
   cursor: pointer;
 }
 
+/* Custom fix for missing hover backgrounds */
+.hover\:bg-primary:hover {
+  background-color: var(--primary) !important;
+}
+
