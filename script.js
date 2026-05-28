@@ -1,6 +1,12 @@
 
 const translations = {
     "en": {
+        "404_subtitle": "PAGE NOT FOUND",
+        "404_heading": "404",
+        "404_message": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+        "404_cta_home": "Go to Home",
+        "404_cta_work": "View Portfolio",
+        "404_cta_services": "Our Services",
         "faq_title": "Frequently Asked Questions",
         "service_contact_title": "Get In Touch",
         "service_contact_desc": "Would you like a custom quote and detailed audit for your project?",
@@ -235,12 +241,12 @@ const translations = {
         "form_service": "Selected Service",
         "form_website": "Your Website URL",
         "hero_analysis": "Request Free<br/>Digital Analysis",
-        "hero_desc": "Cinematic 3D animation, motion design, and premium web design for brands and films. Based in Ankara, serving clients worldwide.",
+        "hero_desc": "Premium SEO-focused websites, cinematic product animations and brand systems for high-end Turkish businesses.",
         "hero_director": "Visual Artist",
         "hero_heading": "Hello, <br class=\"hidden lg:block\"/><span class=\"italic text-primary pr-2\">I'm Alperen.</span>",
-        "hero_heading_seo": "Alperen Börklü — Creative Director & Website Designer",
+        "hero_heading_seo": "Freelance Web Designer in Ankara for Law Firms, Industrial Brands & Premium Companies",
         "hero_scroll": "Scroll",
-        "hero_title": "3D Animator & Motion Designer — Ankara, Turkey",
+        "hero_title": "Premium Web Designer — Ankara, Turkey",
         "hero_view": "View Works",
         "hero_watch": "Watch Showreel",
         "modal_analysis_subtitle": "Let's analyze your digital presence.",
@@ -444,6 +450,12 @@ const translations = {
         "blog_related_articles": "Related Articles"
     },
     "tr": {
+        "404_subtitle": "SAYFA BULUNAMADI",
+        "404_heading": "404",
+        "404_message": "Aradığınız sayfa silinmiş, ismi değiştirilmiş ya da geçici olarak kullanılamıyor olabilir.",
+        "404_cta_home": "Ana Sayfa",
+        "404_cta_work": "Çalışmalar",
+        "404_cta_services": "Hizmetler",
         "faq_title": "Sıkça Sorulan Sorular",
         "service_contact_title": "İletişime Geçin",
         "service_contact_desc": "Projeniz için özel fiyat teklifi ve detaylı analiz almak ister misiniz?",
@@ -678,12 +690,12 @@ const translations = {
         "form_service": "Seçilen Hizmet",
         "form_website": "Web Sitenizin Adresi",
         "hero_analysis": "Ücretsiz Dijital<br/>Analiz İste",
-        "hero_desc": "Markalar ve filmler için sinematik 3D animasyon, hareket tasarımı ve premium web tasarımı. Ankara merkezli, dünya çapında hizmet.",
+        "hero_desc": "Seçkin Türk işletmeleri için premium SEO odaklı web siteleri, sinematik ürün animasyonları ve marka sistemleri.",
         "hero_director": "Görsel Sanatçı",
         "hero_heading": "Merhaba, <br class=\"hidden lg:block\"/><span class=\"italic text-primary pr-2\">Ben Alperen.</span>",
-        "hero_heading_seo": "Alperen Börklü — Kreatif Direktör & Web Tasarımcısı",
+        "hero_heading_seo": "Ankara'da Hukuk Büroları, Sanayi Markaları ve Premium Şirketler İçin Freelance Web Tasarımcısı",
         "hero_scroll": "Kaydır",
-        "hero_title": "Kreatif Direktör & Web Tasarımcısı — Ankara, Türkiye",
+        "hero_title": "Premium Web Tasarımcısı — Ankara, Türkiye",
         "hero_view": "Çalışmaları Gör",
         "hero_watch": "Showreel İzle",
         "modal_analysis_subtitle": "Dijital varlığınızı analiz edelim.",
@@ -1257,8 +1269,8 @@ document.addEventListener('DOMContentLoaded', () => {
         // Dynamic SEO and Meta Tags localization
         const pathname = window.location.pathname;
         if (pathname === '/' || pathname.endsWith('index.html') || pathname === '') {
-            document.title = lang === 'en' ? "Alperen Börklü | Creative Director & Website Designer" : "Alperen Börklü | Kreatif Direktör & Web Tasarımcısı";
-            const desc = lang === 'en' ? "Alperen Börklü — Creative Director & Web Designer based in Ankara. Premium web design, cinematic 3D animation, motion graphics and brand identity." : "Alperen Börklü — Ankara merkezli Kreatif Direktör & Web Tasarımcısı. Premium web tasarımı, sinematik 3D animasyon ve marka kimliği çözümleri.";
+            document.title = lang === 'en' ? "Alperen Börklü | Premium Web Designer Ankara" : "Alperen Börklü | Premium Web Tasarımcısı Ankara";
+            const desc = lang === 'en' ? "Premium SEO-focused websites, cinematic product animations and brand systems for high-end Turkish businesses." : "Seçkin Türk işletmeleri için premium SEO odaklı web siteleri, sinematik ürün animasyonları ve marka sistemleri.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
             if (metaDesc) metaDesc.content = desc;
@@ -1326,6 +1338,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     }
                 }
             }
+        } else if (pathname.includes('/404') || pathname.endsWith('404.html')) {
+            document.title = lang === 'en' ? "404 - Page Not Found | Alperen Börklü" : "404 - Sayfa Bulunamadı | Alperen Börklü";
+            const desc = lang === 'en' ? "Page not found. Premium web design and 3D animation portfolio of Alperen Börklü." : "Aradığınız sayfa bulunamadı. Alperen Börklü premium web tasarımı ve 3D animasyon portfolyosu.";
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.content = desc;
+            
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.content = document.title;
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.content = document.title;
         } else {
             const serviceSlugs = [
                 "ankara-web-tasarim",
