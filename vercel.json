@@ -28,6 +28,16 @@
   ],
   "redirects": [
     {
+      "source": "/on-2024",
+      "destination": "/deneysel-kisa-film-on",
+      "permanent": true
+    },
+    {
+      "source": "/project-skull-0",
+      "destination": "/futuristik-kuru-kafa-konsept-sanati",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "has": [
         {
