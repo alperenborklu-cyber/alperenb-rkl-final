@@ -2,6 +2,7 @@
 const translations = {
     "en": {
         "footer_faq": "FAQ",
+        "pricing_faq_subtitle": "FAQ",
         "pricing_faq_title": "Frequently Asked Questions",
         "pricing_faq_q_0": "How long does website design take?",
         "pricing_faq_a_0": "Although it depends on the scope, delivery times can be 1–3 weeks for corporate sites, and down to 3 days for simpler landing sites. Unlike agencies that take months, I work fast and directly.",
@@ -443,6 +444,7 @@ const translations = {
     },
     "tr": {
         "footer_faq": "Sıkça Sorulan Sorular",
+        "pricing_faq_subtitle": "Destek",
         "pricing_faq_title": "Sıkça Sorulan Sorular",
         "pricing_faq_q_0": "Web sitesi tasarımı ne kadar sürer?",
         "pricing_faq_a_0": "Kapsamına göre değişmekle birlikte, kurumsal web siteleri için ortalama 1–3 hafta, daha basit hizmet siteleri için 3 güne kadar inen teslimat süreleri mümkündür. Ajanslarla aylarca süren süreçlerin aksine hızlı ve doğrudan çalışıyorum.",
@@ -1548,4 +1550,49 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+
+    // FAQ Accordion
+    const faqQuestions = document.querySelectorAll('.faq-question');
+    faqQuestions.forEach(question => {
+        question.addEventListener('click', () => {
+            const container = question.nextElementSibling;
+            const icon = question.querySelector('.faq-icon');
+            const isExpanded = question.getAttribute('aria-expanded') === 'true';
+            
+            // Close other items
+            document.querySelectorAll('.faq-question').forEach(q => {
+                if (q !== question) {
+                    q.setAttribute('aria-expanded', 'false');
+                    q.nextElementSibling.style.maxHeight = null;
+                    const qIcon = q.querySelector('.faq-icon');
+                    if (qIcon) {
+                        qIcon.textContent = '+';
+                        qIcon.style.transform = 'rotate(0deg)';
+                    }
+                    const item = q.closest('.faq-item');
+                    if (item) item.classList.remove('border-primary/30');
+                }
+            });
+
+            if (isExpanded) {
+                question.setAttribute('aria-expanded', 'false');
+                container.style.maxHeight = null;
+                if (icon) {
+                    icon.textContent = '+';
+                    icon.style.transform = 'rotate(0deg)';
+                }
+                const item = question.closest('.faq-item');
+                if (item) item.classList.remove('border-primary/30');
+            } else {
+                question.setAttribute('aria-expanded', 'true');
+                container.style.maxHeight = container.scrollHeight + 'px';
+                if (icon) {
+                    icon.textContent = '−';
+                    icon.style.transform = 'rotate(180deg)';
+                }
+                const item = question.closest('.faq-item');
+                if (item) item.classList.add('border-primary/30');
+            }
+        });
+    });
 });

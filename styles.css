@@ -190,3 +190,16 @@ html.lang-initialized [data-i18n] {
   background-color: var(--primary) !important;
 }
 
+/* FAQ Accordion Styles */
+.faq-answer-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.faq-item {
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.faq-icon {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
