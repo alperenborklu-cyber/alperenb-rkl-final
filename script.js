@@ -1,6 +1,23 @@
 
 const translations = {
     "en": {
+        "footer_faq": "FAQ",
+        "pricing_faq_title": "Frequently Asked Questions",
+        "pricing_faq_q_0": "How long does website design take?",
+        "pricing_faq_a_0": "Although it depends on the scope, delivery times can be 1–3 weeks for corporate sites, and down to 3 days for simpler landing sites. Unlike agencies that take months, I work fast and directly.",
+        "pricing_faq_q_1": "How are 3D animation packages priced?",
+        "pricing_faq_a_1": "I offer three main packages: Basic ($500) — up to 10-second 1080p loop or render; Standard ($1,000) — 15–30 seconds, 4K, sound design included; Gold ($2,000) — up to 60 seconds of cinematic production, source files, and unlimited revisions. For web design pricing, I suggest contacting me directly.",
+        "pricing_faq_q_2": "Do you work with clients outside of Ankara?",
+        "pricing_faq_a_2": "Yes, although I am based in Ankara, I provide remote services across Turkey and globally. In particular, I offer English SEO and multilingual website solutions for furniture manufacturers and industrial companies wanting to expand to international markets.",
+        "pricing_faq_q_3": "Can I get a website built as a lawyer or law firm without violating the advertising ban?",
+        "pricing_faq_a_3": "Yes. I design websites that are fully compliant with Legal Profession Act Article 55 and relevant regulations in Turkey. I construct sites with corporate identities, practice areas, and blog infrastructures that bring organic clients without crossing the boundary of 'advertising for the purpose of attracting customers.'",
+        "pricing_faq_q_4": "How many websites have you launched?",
+        "pricing_faq_a_4": "I have launched over 100 websites to date. I have collaborated with institutions like Goethe Institut, Paribu, TRT Belgesel, and the Ministry of Trade; additionally, I have served many law firms, industrial manufacturers, and entrepreneurs.",
+        "pricing_faq_q_5": "Do you only do design, or is SEO included?",
+        "pricing_faq_a_5": "I offer both design and SEO. My services include local SEO (Google Maps optimization), B2B SEO, international SEO, and setting up blog/article infrastructures. Working at the intersection of design and SEO strategy is my core approach.",
+        "pricing_faq_q_6": "How do we start a project?",
+        "pricing_faq_a_6": "You can contact me via the contact form, WhatsApp, or email. As a first step, I offer a free digital audit — evaluating your current digital presence and suggesting custom solutions. There is no commitment required to receive a quote.",
+
         "404_subtitle": "PAGE NOT FOUND",
         "404_heading": "404",
         "404_message": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
@@ -425,6 +442,23 @@ const translations = {
         "blog_related_articles": "Related Articles"
     },
     "tr": {
+        "footer_faq": "Sıkça Sorulan Sorular",
+        "pricing_faq_title": "Sıkça Sorulan Sorular",
+        "pricing_faq_q_0": "Web sitesi tasarımı ne kadar sürer?",
+        "pricing_faq_a_0": "Kapsamına göre değişmekle birlikte, kurumsal web siteleri için ortalama 1–3 hafta, daha basit hizmet siteleri için 3 güne kadar inen teslimat süreleri mümkündür. Ajanslarla aylarca süren süreçlerin aksine hızlı ve doğrudan çalışıyorum.",
+        "pricing_faq_q_1": "3D animasyon paketleri nasıl fiyatlandırılıyor?",
+        "pricing_faq_a_1": "Üç ana paket sunuyorum: Başlangıç ($500) — 10 saniyeye kadar 1080p döngü veya render; Standart ($1.000) — 15–30 saniye, 4K, ses tasarımı dahil; Altın ($2.000) — 60 saniyeye kadar sinematik prodüksiyon, kaynak dosyalar ve sınırsız revizyon. Web tasarım fiyatları için doğrudan iletişime geçilmesini öneririm.",
+        "pricing_faq_q_2": "Ankara dışındaki müşterilerle çalışıyor musunuz?",
+        "pricing_faq_a_2": "Evet, Ankara merkezli olsam da Türkiye genelinde ve yurt dışında uzaktan hizmet veriyorum. Özellikle uluslararası pazara açılmak isteyen mobilya üreticileri ve inşaat firmaları için İngilizce SEO ve çok dilli web sitesi çözümleri de sunuyorum.",
+        "pricing_faq_q_3": "Avukat veya hukuk bürosu olarak reklam yasağına takılmadan web sitesi yaptırabilir miyim?",
+        "pricing_faq_a_3": "Evet. Avukatlık Kanunu Madde 55 ve ilgili yönetmeliklere tam uyumlu web siteleri tasarlıyorum. \"Müşteri bulmak amacıyla reklam\" sınırına girmeden kurumsal kimlik, uzmanlık alanı ve blog altyapısıyla organik müvekkil getirecek siteler yapılandırıyorum.",
+        "pricing_faq_q_4": "Kaç web sitesi hayata geçirdiniz?",
+        "pricing_faq_a_4": "Bugüne kadar 100'den fazla web sitesini canlıya aldım. Goethe Institut, Paribu, TRT Belgesel, Ticaret Bakanlığı gibi kurumlarla iş birliği yaptım; bunların yanı sıra pek çok hukuk bürosu, sanayi firması ve girişimciye hizmet verdim.",
+        "pricing_faq_q_5": "Sadece tasarım mı yapıyorsunuz, yoksa SEO da dahil mi?",
+        "pricing_faq_a_5": "Hem tasarım hem SEO sunuyorum. Yerel SEO (Google Haritalar optimizasyonu), B2B SEO, uluslararası SEO ve blog/makale altyapısı kurulumu hizmetlerim arasında. Tasarım ve SEO stratejisinin kesiştiği noktada çalışmak temel yaklaşımım.",
+        "pricing_faq_q_6": "Projeye nasıl başlanıyor?",
+        "pricing_faq_a_6": "İletişim formu, WhatsApp veya e-posta üzerinden ulaşabilirsiniz. İlk adım olarak ücretsiz bir dijital analiz sunuyorum — bu analizde mevcut dijital varlığınızı değerlendirip ihtiyaca özel çözümler öneriyorum. Teklif almak için herhangi bir taahhütte bulunmak gerekmez.",
+
         "404_subtitle": "SAYFA BULUNAMADI",
         "404_heading": "404",
         "404_message": "Aradığınız sayfa silinmiş, ismi değiştirilmiş ya da geçici olarak kullanılamıyor olabilir.",
