@@ -1322,6 +1322,96 @@ document.addEventListener('DOMContentLoaded', () => {
             
             const twDesc = document.querySelector('meta[name="twitter:description"]');
             if (twDesc) twDesc.content = lang === 'en' ? "Creative Director & Website Designer in Ankara. Cinematic 3D animation, motion graphics, premium web design for ambitious brands worldwide." : "Ankara'da Kreatif Direktör & Web Tasarımcısı. Amiral markalar için sinematik 3D animasyon, hareketli grafikler ve premium web tasarımı.";
+        } else if (pathname.includes('/work') || pathname.endsWith('work.html')) {
+            document.title = lang === 'en' ? "Works & Portfolio | Alperen Börklü — Premium Web Design & 3D Animation" : "Çalışmalar & Portfolyo | Alperen Börklü — Premium Web Tasarım & 3D Animasyon";
+            const desc = lang === 'en' ? "Portfolio of Alperen Börklü, featuring cinematic 3D animations, motion graphics, brand identity, and premium custom websites." : "Alperen Börklü'nün 3D animasyon, sinematik hareketli grafikler, kurumsal kimlik ve premium web sitesi tasarımı çalışmalarından oluşan portfolyosu.";
+            
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.content = desc;
+            
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.content = document.title;
+            
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc) ogDesc.content = desc;
+            
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.content = document.title;
+            
+            const twDesc = document.querySelector('meta[name="twitter:description"]');
+            if (twDesc) twDesc.content = desc;
+        } else if (pathname.includes('/resume') || pathname.endsWith('resume.html')) {
+            document.title = lang === 'en' ? "Resume & Experience | Alperen Börklü — Visual Artist & Web Designer" : "Özgeçmiş & Deneyim | Alperen Börklü — Görsel Sanatçı & Web Tasarımcısı";
+            const desc = lang === 'en' ? "Professional resume, job experience, CG art direction background, education, and core design & development skills of Alperen Börklü." : "Alperen Börklü'nün eğitim, iş deneyimleri, CG sanat yönetmenliği geçmişi ve 3D tasarım / web programlama uzmanlık alanlarını içeren özgeçmişi.";
+            
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.content = desc;
+            
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.content = document.title;
+            
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc) ogDesc.content = desc;
+            
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.content = document.title;
+            
+            const twDesc = document.querySelector('meta[name="twitter:description"]');
+            if (twDesc) twDesc.content = desc;
+        } else if (pathname.includes('/about') || pathname.endsWith('about.html')) {
+            document.title = lang === 'en' ? "About & Philosophy | Alperen Börklü — Creative Director Ankara" : "Hakkımda & Felsefem | Alperen Börklü — Kreatif Direktör Ankara";
+            const desc = lang === 'en' ? "Bridging the gap between motion storytelling and premium web design. Client testimonials and art philosophy of Alperen Börklü." : "Görsel sanatlar ile web tasarımı arasında köprü kuran Alperen Börklü'nün tasarım felsefesi, sanatsal yaklaşımı ve müşteri yorumları.";
+            
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.content = desc;
+            
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.content = document.title;
+            
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc) ogDesc.content = desc;
+            
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.content = document.title;
+            
+            const twDesc = document.querySelector('meta[name="twitter:description"]');
+            if (twDesc) twDesc.content = desc;
+        } else if (pathname.includes('/pricing') || pathname.endsWith('pricing.html')) {
+            document.title = lang === 'en' ? "Services & Pricing | Alperen Börklü — 3D Animation & Web Design" : "Hizmetler & Fiyatlandırma | Alperen Börklü — 3D Animasyon & Web Tasarım";
+            const desc = lang === 'en' ? "Pricing tiers and investment details for 3D product animations, premium web designs, and search engine optimization services by Alperen Börklü." : "3D ürün animasyonları, kurumsal web tasarım paketleri ve sektörel SEO optimizasyonu hizmetlerinin fiyatlandırma detayları ve yatırım planları.";
+            
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.content = desc;
+            
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.content = document.title;
+            
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc) ogDesc.content = desc;
+            
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.content = document.title;
+            
+            const twDesc = document.querySelector('meta[name="twitter:description"]');
+            if (twDesc) twDesc.content = desc;
+        } else if (pathname.includes('/contact') || pathname.endsWith('contact.html')) {
+            document.title = lang === 'en' ? "Contact & Request Quote | Alperen Börklü — Ankara Web Design" : "İletişim & Teklif İste | Alperen Börklü — Ankara Web Tasarımı";
+            const desc = lang === 'en' ? "Get in touch for custom 3D animations, premium web designs, or request a free digital audit. Work with Alperen Börklü on your next project." : "Projeniz için ücretsiz dijital analiz veya fiyat teklifi isteyin. Ankara merkezli Alperen Börklü ile premium 3D ve web projeleri için iletişime geçin.";
+            
+            const metaDesc = document.querySelector('meta[name="description"]');
+            if (metaDesc) metaDesc.content = desc;
+            
+            const ogTitle = document.querySelector('meta[property="og:title"]');
+            if (ogTitle) ogTitle.content = document.title;
+            
+            const ogDesc = document.querySelector('meta[property="og:description"]');
+            if (ogDesc) ogDesc.content = desc;
+            
+            const twTitle = document.querySelector('meta[name="twitter:title"]');
+            if (twTitle) twTitle.content = document.title;
+            
+            const twDesc = document.querySelector('meta[name="twitter:description"]');
+            if (twDesc) twDesc.content = desc;
         } else if (pathname.includes('/blog') && !pathname.includes('/blog/')) {
             document.title = lang === 'en' ? "Blog & Insights | Alperen Börklü — Web Design & 3D Animation" : "Blog & Yazılar | Alperen Börklü — Web Tasarım ve 3D Animasyon";
             const desc = lang === 'en' ? "Articles on web design, 3D animation, SEO and creative direction by Alperen Börklü. Industry trends and practical insights for brands." : "Alperen Börklü'nün web tasarım, 3D animasyon, SEO ve kreatif direktörlük üzerine yazıları. Sektörel trendler ve markalar için pratik ipuçları.";
