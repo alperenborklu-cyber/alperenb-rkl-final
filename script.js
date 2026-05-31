@@ -109,8 +109,8 @@ const translations = {
         "service_sidebar_kreatif-direktor-turkiye": "\n            <li>✓ Visual Brand Identity Direction</li>\n            <li>✓ Campaign Creative Concept Development</li>\n            <li>✓ Cinematic 3D Art Direction</li>\n            <li>✓ Video Production, Editing & Color Grading</li>\n            <li>✓ Holistic Web & UI Creative Direction</li>\n            <li>✓ Global Branding Strategy Consulting</li>\n        ",
         "service_cta_kreatif-direktor-turkiye": "Get a Quote",
         "service_side_title_kreatif-direktor-turkiye": "Service Summary",
-        "about_p1": "I'm a visual artist and motion designer working at the intersection of design and strategy. My background spans 2D–3D animation, art direction, and post-production, with a strong focus on atmosphere, rhythm, and meaning. I approach every project as both a creative and a system — balancing emotion with structure.",
-        "about_p2": "In addition to motion, I specialize in <strong class=\"text-white font-medium\">website design, corporate identity, and logo design</strong>. I've worked across diverse 3D projects, brand reveals, and comprehensive design systems, taking on roles from concept development to final delivery. Narrative clarity and visual impact are at the core of how I work.",
+        "about_p1": "I'm a web designer and SEO specialist working at the intersection of design and digital strategy. My background extends to web interface design, search engine optimization, brand identity, and corporate digitization. I bring both artistic aesthetics and systemic SEO focus to every project.",
+        "about_p2": "Along with SEO-friendly websites that rank high in search engines, I specialize in brand identity and logo design. I combine my systems-oriented design thinking from METU Industrial Design with digital marketing strategies.",
         "about_quote": "Rather than following trends, I focus on building distinctive visual identities that feel <span class=\"text-primary italic\">intentional and lasting.</span>",
         "about_subtitle": "Philosophy",
         "about_title": "The Artist",
@@ -200,7 +200,7 @@ const translations = {
         "contact_subtitle": "Inquiries",
         "contact_title": "Let's build <br/><span class=\"italic text-zinc-600 font-light\">something real.</span>",
         "footer_connect": "Connect",
-        "footer_desc": "A visual artist bridging the gap between design and motion storytelling. Crafting digital environments, motion, and art direction.",
+        "footer_desc": "Professional web design studio crafting corporate websites, B2B search engine optimization (SEO), and brand identities for premium brands.",
         "footer_designed": "Designed & Developed by",
         "footer_explore": "Explore",
         "footer_rights": "All Rights Reserved",
@@ -212,13 +212,13 @@ const translations = {
         "form_service": "Selected Service",
         "form_website": "Your Website URL",
         "hero_analysis": "Request Free<br/>Digital Analysis",
-        "hero_desc": "Premium SEO-focused websites, cinematic product animations and brand systems for high-end Turkish businesses.",
-        "hero_director": "Visual Artist",
+        "hero_desc": "Premium SEO-focused websites, B2B search engine optimization, and brand identity design for high-end businesses. Ankara based, global standard service.",
+        "hero_director": "Web Design & SEO Specialist",
         "hero_eyebrow": "Hello, I'm <span class=\"italic text-primary\">Alperen.</span>",
         "hero_heading": "Hello, <br class=\"hidden lg:block\"/><span class=\"italic text-primary pr-2\">I'm Alperen.</span>",
-        "hero_heading_seo": "Freelance Web Designer in Ankara for Law Firms, Industrial Brands & Premium Companies",
+        "hero_heading_seo": "Freelance Web Designer & SEO Specialist in Ankara for Law Firms, Industrial Brands & Premium Companies",
         "hero_scroll": "Scroll",
-        "hero_title": "Premium Web Designer — Ankara, Turkey",
+        "hero_title": "Premium Web Designer & SEO Specialist — Ankara, Turkey",
         "hero_view": "View Works",
         "hero_watch": "Watch Showreel",
         "modal_analysis_subtitle": "Let's analyze your digital presence.",
@@ -265,7 +265,7 @@ const translations = {
         "pricing_website_services_btn": "Message us for inquiries",
         "pricing_website_services_desc": "Elevate your brand with a premium, high-performance web presence tailored to your vision.",
         "resume_contact": "Contact",
-        "resume_director": "VISUAL ARTIST",
+        "resume_director": "WEB DESIGN & SEO",
         "resume_edu_desc": "Industrial Design",
         "resume_education": "Education",
         "resume_exp_1": "Integrated Fusion 360 software into the curricula of METU and multiple other universities, bridging the gap between academic theory and practical 3D application.",
@@ -278,8 +278,8 @@ const translations = {
         "resume_exp_8": "Worked as the Editor for Sanayi.tech.",
         "resume_experience": "Experience",
         "resume_profile": "Profile",
-        "resume_profile_desc": "Motion designer and CG generalist specializing in animation, visual storytelling, and high-end motion. Bringing a structural design thinking approach to emotional visual narratives.",
-        "resume_role": "Visual Artist",
+        "resume_profile_desc": "Web designer and SEO specialist specializing in corporate web development, B2B search engine optimization, and brand identity design. Bringing a strategic design thinking approach to high-converting digital platforms.",
+        "resume_role": "Web Designer & SEO Specialist",
         "resume_skill_1": "Exceptional attention to detail",
         "resume_skill_2": "Strong understanding of narrative boundaries and visual language.",
         "resume_skill_3": "Prioritizes meaningful work over short-term gains.",
@@ -533,8 +533,8 @@ const translations = {
         "service_sidebar_kreatif-direktor-turkiye": "\n            <li>✓ Marka Görsel Kimlik Yönetimi</li>\n            <li>✓ Kampanya Kreatif Konsept Geliştirme</li>\n            <li>✓ Sinematik 3D Sanat Yönetimi</li>\n            <li>✓ Video, Kurgu ve Renk Yönetmenliği</li>\n            <li>✓ Bütünsel Web ve Arayüz Direktörlüğü</li>\n            <li>✓ Global Markalama Stratejisi Danışmanlığı</li>\n        ",
         "service_cta_kreatif-direktor-turkiye": "Teklif Alın",
         "service_side_title_kreatif-direktor-turkiye": "Hizmet Özeti",
-        "about_p1": "Tasarım ve stratejinin kesiştiği noktada çalışan bir görsel sanatçı ve hareket tasarımcısıyım. Geçmişim 2D-3D animasyon, sanat yönetimi ve post-prodüksiyona uzanıyor; atmosfer, ritim ve anlama güçlü bir şekilde odaklanıyorum. Her projeye hem yaratıcı hem de sistemsel bir yaklaşım getiriyorum.",
-        "about_p2": "Hareketli grafiklerin yanı sıra, <strong class=\"text-white font-medium\">web sitesi tasarımı, kurumsal kimlik ve logo tasarımı</strong> konularında uzmanlaşıyorum. 3D projeler, marka lansmanları ve kapsamlı tasarım sistemlerinde konsept geliştirmeden son teslimata kadar çeşitli roller üstlendim. Anlatı netliği ve görsel etki çalışma şeklimin temelini oluşturur.",
+        "about_p1": "Tasarım ve dijital stratejinin kesiştiği noktada çalışan bir web tasarımcısı ve SEO uzmanıyım. Geçmişim web sitesi arayüz tasarımı, arama motoru optimizasyonu, marka kimliği ve kurumsal dijitalleşmeye uzanıyor. Her projeye hem sanatsal estetik hem de sistemsel SEO odaklı bir yaklaşım getiriyorum.",
+        "about_p2": "Arama motorlarında üst sıralara çıkaran SEO uyumlu web sitelerinin yanı sıra, kurumsal kimlik ve logo tasarımı konularında uzmanlaşıyorum. ODTÜ Endüstriyel Tasarım disiplininden aldığım sistem odaklı düşünme yeteneğimi dijital pazarlama stratejileriyle birleştiriyorum.",
         "about_quote": "Trendleri takip etmek yerine, <span class=\"text-primary italic\">amacı olan ve kalıcı</span> görsel kimlikler oluşturmaya odaklanıyorum.",
         "about_subtitle": "Felsefem",
         "about_title": "Sanatçı",
@@ -624,7 +624,7 @@ const translations = {
         "contact_subtitle": "Sorular",
         "contact_title": "Gelin birlikte <br/><span class=\"italic text-zinc-600 font-light\">gerçek bir şeyler inşa edelim.</span>",
         "footer_connect": "Bağlantı",
-        "footer_desc": "Tasarım ve sinematik anlatı arasındaki boşluğu dolduran bir görsel sanatçı. Dijital çevreler, hareket ve sanat yönetimi tasarımı.",
+        "footer_desc": "Seçkin markalar için kurumsal web sitesi tasarımı, B2B arama motoru optimizasyonu (SEO) ve marka kimliği geliştiren profesyonel web tasarım stüdyosu.",
         "footer_designed": "Tasarım & Geliştirme",
         "footer_explore": "Keşfet",
         "footer_rights": "Tüm Hakları Saklıdır",
@@ -636,13 +636,13 @@ const translations = {
         "form_service": "Seçilen Hizmet",
         "form_website": "Web Sitenizin Adresi",
         "hero_analysis": "Ücretsiz Dijital<br/>Analiz İste",
-        "hero_desc": "Seçkin Türk işletmeleri için premium SEO odaklı web siteleri, sinematik ürün animasyonları ve marka sistemleri.",
-        "hero_director": "Görsel Sanatçı",
+        "hero_desc": "Seçkin işletmeler için premium SEO odaklı web siteleri, B2B arama motoru optimizasyonu ve marka kimliği tasarımı. Ankara merkezli, global standartlarda hizmet.",
+        "hero_director": "Web Tasarım & SEO Uzmanı",
         "hero_eyebrow": "Merhaba, ben <span class=\"italic text-primary\">Alperen.</span>",
         "hero_heading": "Merhaba, <br class=\"hidden lg:block\"/><span class=\"italic text-primary pr-2\">Ben Alperen.</span>",
-        "hero_heading_seo": "Ankara'da Hukuk Büroları, Sanayi Markaları ve Premium Şirketler İçin Freelance Web Tasarımcısı",
+        "hero_heading_seo": "Ankara'da Hukuk Büroları ve Sanayi Şirketleri İçin Freelance Web Tasarımcısı ve SEO Uzmanı",
         "hero_scroll": "Kaydır",
-        "hero_title": "Premium Web Tasarımcısı — Ankara, Türkiye",
+        "hero_title": "Premium Web Tasarımcısı & SEO Uzmanı — Ankara, Türkiye",
         "hero_view": "Çalışmaları Gör",
         "hero_watch": "Showreel İzle",
         "modal_analysis_subtitle": "Dijital varlığınızı analiz edelim.",
@@ -689,7 +689,7 @@ const translations = {
         "pricing_website_services_btn": "Bilgi almak için mesaj gönderin",
         "pricing_website_services_desc": "Vizyonunuza özel, premium ve yüksek performanslı bir web varlığıyla markanızı yükseltin.",
         "resume_contact": "İletişim",
-        "resume_director": "GÖRSEL SANATÇI",
+        "resume_director": "WEB TASARIM & SEO",
         "resume_edu_desc": "Endüstriyel Tasarım",
         "resume_education": "Eğitim",
         "resume_exp_1": "Fusion 360 yazılımını ODTÜ ve diğer birçok üniversitenin müfredatına entegre ederek akademik teori ile pratik 3D uygulamaları arasında köprü kurdu.",
@@ -702,8 +702,8 @@ const translations = {
         "resume_exp_8": "Sanayi.tech'in editörlüğünü yaptı.",
         "resume_experience": "Deneyim",
         "resume_profile": "Profil",
-        "resume_profile_desc": "Animasyon, görsel hikaye anlatımı ve üst düzey hareketli grafiklerde uzmanlaşmış hareket tasarımcısı ve CG genelisti. Duygusal görsel anlatılara yapısal bir tasarım düşüncesi yaklaşımı getiriyor.",
-        "resume_role": "Görsel Sanatçı",
+        "resume_profile_desc": "Kurumsal web geliştirme, B2B arama motoru optimizasyonu (SEO) ve marka kimliği tasarımında uzmanlaşmış web tasarımcısı ve SEO uzmanı. Yüksek dönüşüm odaklı dijital platformlara stratejik tasarım odaklı düşünme yaklaşımı getiriyor.",
+        "resume_role": "Web Tasarımcısı ve SEO Uzmanı",
         "resume_skill_1": "Detaylara olağanüstü özen gösterme",
         "resume_skill_2": "Anlatı sınırları ve görsel dil konusunda güçlü anlayış.",
         "resume_skill_3": "Kısa vadeli kazanımlar yerine anlamlı çalışmalara öncelik verir.",
@@ -1256,7 +1256,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Dynamic SEO and Meta Tags localization
         const pathname = window.location.pathname;
         if (pathname === '/' || pathname.endsWith('index.html') || pathname === '') {
-            document.title = lang === 'en' ? "Alperen Börklü | Premium Web Designer Ankara" : "Alperen Börklü | Premium Web Tasarımcısı Ankara";
+            document.title = lang === 'en' ? "Alperen Börklü | Web Designer & SEO Specialist Ankara" : "Alperen Börklü | Ankara Web Tasarım & SEO Uzmanı";
             const desc = lang === 'en' ? "Premium SEO-focused websites, cinematic product animations and brand systems for high-end Turkish businesses." : "Seçkin Türk işletmeleri için premium SEO odaklı web siteleri, sinematik ürün animasyonları ve marka sistemleri.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
@@ -1274,7 +1274,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const twDesc = document.querySelector('meta[name="twitter:description"]');
             if (twDesc) twDesc.content = lang === 'en' ? "Creative Director & Website Designer in Ankara. Cinematic 3D animation, motion graphics, premium web design for ambitious brands worldwide." : "Ankara'da Kreatif Direktör & Web Tasarımcısı. Amiral markalar için sinematik 3D animasyon, hareketli grafikler ve premium web tasarımı.";
         } else if (pathname.includes('/work') || pathname.endsWith('work.html')) {
-            document.title = lang === 'en' ? "Works & Portfolio | Alperen Börklü — Premium Web Design & 3D Animation" : "Çalışmalar & Portfolyo | Alperen Börklü — Premium Web Tasarım & 3D Animasyon";
+            document.title = lang === 'en' ? "Works & Portfolio | Alperen Börklü Web Design & SEO" : "Çalışmalar & Portfolyo | Alperen Börklü Web Tasarım & SEO";
             const desc = lang === 'en' ? "Portfolio of Alperen Börklü, featuring cinematic 3D animations, motion graphics, brand identity, and premium custom websites." : "Alperen Börklü'nün 3D animasyon, sinematik hareketli grafikler, kurumsal kimlik ve premium web sitesi tasarımı çalışmalarından oluşan portfolyosu.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
@@ -1292,7 +1292,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const twDesc = document.querySelector('meta[name="twitter:description"]');
             if (twDesc) twDesc.content = desc;
         } else if (pathname.includes('/resume') || pathname.endsWith('resume.html')) {
-            document.title = lang === 'en' ? "Resume & Experience | Alperen Börklü — Visual Artist & Web Designer" : "Özgeçmiş & Deneyim | Alperen Börklü — Görsel Sanatçı & Web Tasarımcısı";
+            document.title = lang === 'en' ? "Resume & Experience | Alperen Börklü Web Design & SEO" : "Özgeçmiş & Deneyim | Alperen Börklü Web Tasarım & SEO";
             const desc = lang === 'en' ? "Professional resume, job experience, CG art direction background, education, and core design & development skills of Alperen Börklü." : "Alperen Börklü'nün eğitim, iş deneyimleri, CG sanat yönetmenliği geçmişi ve 3D tasarım / web programlama uzmanlık alanlarını içeren özgeçmişi.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
@@ -1310,7 +1310,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const twDesc = document.querySelector('meta[name="twitter:description"]');
             if (twDesc) twDesc.content = desc;
         } else if (pathname.includes('/about') || pathname.endsWith('about.html')) {
-            document.title = lang === 'en' ? "About & Philosophy | Alperen Börklü — Creative Director Ankara" : "Hakkımda & Felsefem | Alperen Börklü — Kreatif Direktör Ankara";
+            document.title = lang === 'en' ? "About | Alperen Börklü Web Design & SEO Consultant" : "Hakkımda | Alperen Börklü Web Tasarım & SEO Uzmanı";
             const desc = lang === 'en' ? "Bridging the gap between motion storytelling and premium web design. Client testimonials and art philosophy of Alperen Börklü." : "Görsel sanatlar ile web tasarımı arasında köprü kuran Alperen Börklü'nün tasarım felsefesi, sanatsal yaklaşımı ve müşteri yorumları.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
@@ -1328,7 +1328,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const twDesc = document.querySelector('meta[name="twitter:description"]');
             if (twDesc) twDesc.content = desc;
         } else if (pathname.includes('/pricing') || pathname.endsWith('pricing.html')) {
-            document.title = lang === 'en' ? "Services & Pricing | Alperen Börklü — 3D Animation & Web Design" : "Hizmetler & Fiyatlandırma | Alperen Börklü — 3D Animasyon & Web Tasarım";
+            document.title = lang === 'en' ? "Services & Pricing | Web Design & SEO Packages" : "Hizmetler & Fiyatlandırma | Web Tasarım & SEO Fiyatı";
             const desc = lang === 'en' ? "Pricing tiers and investment details for 3D product animations, premium web designs, and search engine optimization services by Alperen Börklü." : "3D ürün animasyonları, kurumsal web tasarım paketleri ve sektörel SEO optimizasyonu hizmetlerinin fiyatlandırma detayları ve yatırım planları.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
@@ -1346,7 +1346,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const twDesc = document.querySelector('meta[name="twitter:description"]');
             if (twDesc) twDesc.content = desc;
         } else if (pathname.includes('/contact') || pathname.endsWith('contact.html')) {
-            document.title = lang === 'en' ? "Contact & Request Quote | Alperen Börklü — Ankara Web Design" : "İletişim & Teklif İste | Alperen Börklü — Ankara Web Tasarımı";
+            document.title = lang === 'en' ? "Contact & Quote | Alperen Börklü Web Design & SEO" : "İletişim & Teklif Al | Alperen Börklü Web Tasarım & SEO";
             const desc = lang === 'en' ? "Get in touch for custom 3D animations, premium web designs, or request a free digital audit. Work with Alperen Börklü on your next project." : "Projeniz için ücretsiz dijital analiz veya fiyat teklifi isteyin. Ankara merkezli Alperen Börklü ile premium 3D ve web projeleri için iletişime geçin.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
@@ -1364,7 +1364,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const twDesc = document.querySelector('meta[name="twitter:description"]');
             if (twDesc) twDesc.content = desc;
         } else if (pathname.includes('/blog') && !pathname.includes('/blog/')) {
-            document.title = lang === 'en' ? "Blog & Insights | Alperen Börklü — Web Design & 3D Animation" : "Blog & Yazılar | Alperen Börklü — Web Tasarım ve 3D Animasyon";
+            document.title = lang === 'en' ? "Blog & Insights | Alperen Börklü Web Design & SEO" : "Blog & Yazılar | Alperen Börklü Web Tasarım & SEO";
             const desc = lang === 'en' ? "Articles on web design, 3D animation, SEO and creative direction by Alperen Börklü. Industry trends and practical insights for brands." : "Alperen Börklü'nün web tasarım, 3D animasyon, SEO ve kreatif direktörlük üzerine yazıları. Sektörel trendler ve markalar için pratik ipuçları.";
             
             const metaDesc = document.querySelector('meta[name="description"]');
