@@ -904,7 +904,7 @@ const translations = {
 
 document.addEventListener('DOMContentLoaded', () => {
     // --- 0. Preloader ---
-    const preloader = document.querySelector('.fixed.inset-0.z-1000');
+    const preloader = document.getElementById('preloader') || document.querySelector('.fixed.inset-0.z-1000');
     if (preloader) {
         const hidePreloader = () => {
             setTimeout(() => {

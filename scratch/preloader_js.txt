@@ -1,0 +1,30 @@
+    // --- 0. Preloader ---
+    const preloader = document.querySelector('.fixed.inset-0.z-1000');
+    if (preloader) {
+        const hidePreloader = () => {
+            setTimeout(() => {
+                preloader.classList.remove('opacity-100', 'visible', 'scale-105');
+                preloader.classList.add('opacity-0', 'invisible', 'scale-100');
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                }, 1000);
+            }, 500); // Small delay to let user see it briefly
+        };
+
+        if (document.readyState === 'complete') {
+            hidePreloader();
+        } else {
+            window.addEventListener('load', hidePreloader);
+        }
+    }
+
+    // --- 1. Navbar Scroll Effect ---
+    const header = document.querySelector('header');
+    window.addEventListener('scroll', () => {
+        if (header) {
+            if (window.scrollY > 50) {
+                header.classList.remove('py-6', 'from-black/80', 'to-transparent', 'bg-linear-to-b');
+                header.classList.add('py-4', 'bg-[#080808]/95', 'backdrop-blur-md', 'shadow-lg');
+            } else {
+                header.classList.add('py-6', 'from-black/80', 'to-transparent', 'bg-linear-to-b');
+                header.classList.remove('py-4', 'bg-[#080808]/95', 'backdrop-blur-md', 'shadow-lg');

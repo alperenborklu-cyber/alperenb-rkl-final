@@ -1,0 +1,20 @@
+    "@id": "https://alperenborklu.com/#person"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "5.0",
+    "reviewCount": "16",
+    "bestRating": "5"
+  },
+  "review": [
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Troya War Project" },
+      "reviewBody": "He produced an extremely careful and detailed work showing the important centers during the years of the Trojan War on a globe and map.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
+    },
+    {
+      "@type": "Review",
+      "author": { "@type": "Person", "name": "Brand Client" },
+      "reviewBody": "The promotional film he created for our brand achieved the exact cinematic effect we envisioned. He managed the process professionally.",
+      "reviewRating": { "@type": "Rating", "ratingValue": "5", "bestRating": "5" }
