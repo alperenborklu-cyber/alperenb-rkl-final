@@ -390,6 +390,9 @@ const translations = {
         "blog_cat_62": "Web Design & Pricing",
         "blog_62_title": "How Much Does a Website Cost? 2026 Turkey Price Guide",
         "blog_62_desc": "In 2026, website prices in Turkey range from 7,000 TL to 185,000 TL. Current market data, critical factors and a guide to making the right decision.",
+        "blog_cat_63": "Web & SEO",
+        "blog_63_title": "What is Backlink and Why is it so Important for SEO?",
+        "blog_63_desc": "What is backlink, why is it important, and how to identify high-quality backlinks? A comprehensive guide on backlink strategy, one of the cornerstones of SEO.",
         "blog_related_articles": "Related Articles"
     },
     "tr": {
@@ -782,6 +785,9 @@ const translations = {
         "blog_cat_62": "Web Tasarım & Fiyatlandırma",
         "blog_62_title": "Web Sitesi Ne Kadara Yapılır? 2026 Türkiye Fiyat Rehberi",
         "blog_62_desc": "2026 yılı itibarıyla Türkiye'de web sitesi fiyatları 7.000 TL'den 185.000 TL'ye uzanıyor. Güncel piyasa verileri, kritik faktörler ve doğru kararı vermenizi sağlayacak rehber burada.",
+        "blog_cat_63": "Web & SEO",
+        "blog_63_title": "Backlink Nedir ve SEO İçin Neden Bu Kadar Önemlidir?",
+        "blog_63_desc": "Backlink nedir, neden önemlidir, kaliteli backlink nasıl anlaşılır? SEO'nun temel taşlarından biri olan backlink stratejisi hakkında kapsamlı rehber.",
         "blog_related_articles": "İlgili Yazılar"
     }
 };
