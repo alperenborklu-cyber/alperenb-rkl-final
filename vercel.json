@@ -10,12 +10,12 @@
     {
       "source": "/on-2024",
       "destination": "/deneysel-kisa-film-on",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/project-skull-0",
       "destination": "/futuristik-kuru-kafa-konsept-sanati",
-      "permanent": true
+      "statusCode": 301
     },
     {
       "source": "/:path*",
@@ -26,7 +26,7 @@
         }
       ],
       "destination": "https://alperenborklu.com/:path*",
-      "permanent": true
+      "statusCode": 301
     }
   ],
   "headers": [
