@@ -208,3 +208,8 @@ html.lang-initialized [data-i18n] {
 footer.py-12.text-center {
   padding-top: 2.5rem !important; /* 40px instead of 48px (py-12) */
 }
+
+/* On blog pages specifically, bring it an additional 8px higher (16px total) */
+body:has([data-i18n="blog_cta_title"]) footer.py-12.text-center {
+  padding-top: 2rem !important; /* 32px instead of 40px */
+}
