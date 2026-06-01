@@ -203,3 +203,8 @@ html.lang-initialized [data-i18n] {
   display: inline-block;
   transition: transform 0.3s ease, color 0.3s ease;
 }
+
+/* Adjust copyright footer to be 8px closer to the elements above it */
+footer.py-12.text-center {
+  padding-top: 2.5rem !important; /* 40px instead of 48px (py-12) */
+}
