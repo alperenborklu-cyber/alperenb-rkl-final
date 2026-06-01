@@ -21,7 +21,7 @@ const translations = {
 
         "404_subtitle": "PAGE NOT FOUND",
         "404_heading": "404",
-        "404_message": "The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.",
+        "404_message": "Oops! We couldn't find the page you're looking for",
         "404_cta_home": "Go to Home",
         "404_cta_work": "View Portfolio",
         "404_cta_services": "Our Services",
@@ -473,7 +473,7 @@ const translations = {
 
         "404_subtitle": "SAYFA BULUNAMADI",
         "404_heading": "404",
-        "404_message": "Aradığınız sayfa silinmiş, ismi değiştirilmiş ya da geçici olarak kullanılamıyor olabilir.",
+        "404_message": "Tüh! Aradığınız sayfayı bulamıyoruz",
         "404_cta_home": "Ana Sayfa",
         "404_cta_work": "Çalışmalar",
         "404_cta_services": "Hizmetler",
