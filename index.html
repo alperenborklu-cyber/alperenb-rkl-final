@@ -260,20 +260,21 @@
     <!-- Section Header -->
     <div class="flex flex-col items-center justify-center mb-16 text-center reveal-on-scroll">
       <div class="w-px h-16 mb-8" style="background:rgba(192,160,98,0.5)"></div>
-      <span class="text-[10px] font-bold tracking-[0.4em] uppercase mb-6" style="color:#c0a062">AI Araç</span>
-      <h2 class="text-4xl md:text-6xl font-medium font-playfair text-white tracking-tight mb-6">Web Sitesi Analizi</h2>
-      <p class="text-zinc-400 text-sm font-light max-w-lg" style="line-height:1.8">Web sitenizin URL'sini girin — AI'ımız SEO sorunlarını, hız önerilerini, UX açıklarını ve dönüşüm fırsatlarını anında tespit etsin.</p>
+      <span class="text-[10px] font-bold tracking-[0.4em] uppercase mb-6" style="color:#c0a062" data-i18n="audit_badge">AI Araç</span>
+      <h2 class="text-4xl md:text-6xl font-medium font-playfair text-white tracking-tight mb-6" data-i18n="audit_title">Web Sitesi Analizi</h2>
+      <p class="text-zinc-400 text-sm font-light max-w-lg" style="line-height:1.8" data-i18n="audit_subtitle">Web sitenizin URL'sini girin — AI'ımız SEO sorunlarını, hız önerilerini, UX açıklarını ve dönüşüm fırsatlarını anında tespit etsin.</p>
     </div>
 
     <!-- Input Card -->
     <div id="audit-input-card" class="reveal-on-scroll" style="background:#0a0a0a;border:1px solid rgba(192,160,98,0.15);border-radius:4px;padding:40px 48px;box-shadow:0 0 80px rgba(192,160,98,0.05);transition:all 0.5s ease;max-width:680px;margin:0 auto 32px">
-      <label for="audit-url-input" class="block text-[10px] font-bold tracking-[0.4em] uppercase mb-4" style="color:rgba(192,160,98,0.7)">Web Sitesi Adresi</label>
+      <label for="audit-url-input" class="block text-[10px] font-bold tracking-[0.4em] uppercase mb-4" style="color:rgba(192,160,98,0.7)" data-i18n="audit_input_label">Web Sitesi Adresi</label>
       <div style="display:flex;gap:12px;align-items:center">
         <div style="flex:1;position:relative">
           <span style="position:absolute;left:16px;top:50%;transform:translateY(-50%);color:rgba(192,160,98,0.4);font-size:13px;pointer-events:none">https://</span>
           <input
             id="audit-url-input"
             type="text"
+            data-i18n="audit_placeholder"
             placeholder="sizin-siteniz.com"
             autocomplete="off"
             spellcheck="false"
@@ -285,12 +286,13 @@
         <button
           id="audit-run-btn"
           onclick="runWebsiteAudit()"
+          data-i18n="audit_btn"
           style="background:#c0a062;color:#080808;border:none;border-radius:3px;padding:16px 28px;font-size:10px;font-weight:700;letter-spacing:0.3em;text-transform:uppercase;cursor:pointer;white-space:nowrap;transition:all 0.3s ease;font-family:inherit"
           onmouseover="this.style.background='#d4b574';this.style.transform='scale(1.03)'"
           onmouseout="this.style.background='#c0a062';this.style.transform='scale(1)'"
         >Analiz Et</button>
       </div>
-      <p id="audit-error-msg" style="color:#e85d5d;font-size:11px;margin-top:10px;display:none;letter-spacing:0.05em">Lütfen geçerli bir alan adı girin (örn: google.com)</p>
+      <p id="audit-error-msg" data-i18n="audit_error" style="color:#e85d5d;font-size:11px;margin-top:10px;display:none;letter-spacing:0.05em">Lütfen geçerli bir alan adı girin (örn: google.com)</p>
     </div>
 
     <!-- Scanning Animation -->
@@ -305,7 +307,7 @@
           </svg>
         </div>
       </div>
-      <p id="audit-scan-label" style="color:#c0a062;font-size:10px;font-weight:700;letter-spacing:0.4em;text-transform:uppercase;margin-bottom:8px">Taranıyor...</p>
+      <p id="audit-scan-label" data-i18n="audit_scanning" style="color:#c0a062;font-size:10px;font-weight:700;letter-spacing:0.4em;text-transform:uppercase;margin-bottom:8px">Taranıyor...</p>
       <p id="audit-scan-sub" style="color:rgba(255,255,255,0.3);font-size:12px;font-weight:300;letter-spacing:0.1em"></p>
       <div style="width:280px;margin:24px auto 0;height:2px;background:rgba(255,255,255,0.05);border-radius:99px;overflow:hidden">
         <div id="audit-progress-bar" style="height:100%;width:0%;background:#c0a062;border-radius:99px;transition:width 0.4s ease"></div>
@@ -317,7 +319,7 @@
       <!-- Score Banner -->
       <div id="audit-score-banner" style="background:#0a0a0a;border:1px solid rgba(192,160,98,0.2);border-radius:4px;padding:36px 40px;margin-bottom:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:24px;box-shadow:0 0 60px rgba(192,160,98,0.07)">
         <div>
-          <p style="color:rgba(192,160,98,0.7);font-size:10px;font-weight:700;letter-spacing:0.4em;text-transform:uppercase;margin-bottom:6px">Genel Skor</p>
+          <p style="color:rgba(192,160,98,0.7);font-size:10px;font-weight:700;letter-spacing:0.4em;text-transform:uppercase;margin-bottom:6px" data-i18n="audit_score_title">Genel Skor</p>
           <div style="display:flex;align-items:baseline;gap:8px">
             <span id="audit-overall-score" style="font-size:56px;font-weight:700;color:#fff;font-family:'Playfair Display',serif;line-height:1">—</span>
             <span style="font-size:20px;color:rgba(255,255,255,0.3)">/100</span>
@@ -325,10 +327,10 @@
           <p id="audit-score-label" style="font-size:12px;color:rgba(255,255,255,0.4);margin-top:6px;font-weight:300"></p>
         </div>
         <div style="display:flex;gap:20px;flex-wrap:wrap">
-          <div class="audit-mini-score" id="mini-seo"><span class="mini-label">SEO</span><span class="mini-val" id="mini-seo-val">—</span></div>
-          <div class="audit-mini-score" id="mini-speed"><span class="mini-label">Hız</span><span class="mini-val" id="mini-speed-val">—</span></div>
-          <div class="audit-mini-score" id="mini-ux"><span class="mini-label">UX</span><span class="mini-val" id="mini-ux-val">—</span></div>
-          <div class="audit-mini-score" id="mini-conv"><span class="mini-label">Dönüşüm</span><span class="mini-val" id="mini-conv-val">—</span></div>
+          <div class="audit-mini-score" id="mini-seo"><span class="mini-label" data-i18n="audit_seo_label">SEO</span><span class="mini-val" id="mini-seo-val">—</span></div>
+          <div class="audit-mini-score" id="mini-speed"><span class="mini-label" data-i18n="audit_speed_label">Hız</span><span class="mini-val" id="mini-speed-val">—</span></div>
+          <div class="audit-mini-score" id="mini-ux"><span class="mini-label" data-i18n="audit_ux_label">UX</span><span class="mini-val" id="mini-ux-val">—</span></div>
+          <div class="audit-mini-score" id="mini-conv"><span class="mini-label" data-i18n="audit_conv_label">Dönüşüm</span><span class="mini-val" id="mini-conv-val">—</span></div>
         </div>
       </div>
 
@@ -341,8 +343,8 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
             </div>
             <div>
-              <p class="audit-card-title">SEO</p>
-              <p class="audit-card-score-label">Arama Motoru Optimizasyonu</p>
+              <p class="audit-card-title" data-i18n="audit_card_seo_title">SEO</p>
+              <p class="audit-card-score-label" data-i18n="audit_card_seo_desc">Arama Motoru Optimizasyonu</p>
             </div>
             <div class="audit-card-badge" id="badge-seo"></div>
           </div>
@@ -355,8 +357,8 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
             </div>
             <div>
-              <p class="audit-card-title">Hız</p>
-              <p class="audit-card-score-label">Performans & Yükleme Süresi</p>
+              <p class="audit-card-title" data-i18n="audit_card_speed_title">Hız</p>
+              <p class="audit-card-score-label" data-i18n="audit_card_speed_desc">Performans & Yükleme Süresi</p>
             </div>
             <div class="audit-card-badge" id="badge-speed"></div>
           </div>
@@ -369,8 +371,8 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
             </div>
             <div>
-              <p class="audit-card-title">UX</p>
-              <p class="audit-card-score-label">Kullanıcı Deneyimi</p>
+              <p class="audit-card-title" data-i18n="audit_card_ux_title">UX</p>
+              <p class="audit-card-score-label" data-i18n="audit_card_ux_desc">Kullanıcı Deneyimi</p>
             </div>
             <div class="audit-card-badge" id="badge-ux"></div>
           </div>
@@ -383,8 +385,8 @@
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
             </div>
             <div>
-              <p class="audit-card-title">Dönüşüm</p>
-              <p class="audit-card-score-label">Satış & Lead Optimizasyonu</p>
+              <p class="audit-card-title" data-i18n="audit_card_conv_title">Dönüşüm</p>
+              <p class="audit-card-score-label" data-i18n="audit_card_conv_desc">Satış & Lead Optimizasyonu</p>
             </div>
             <div class="audit-card-badge" id="badge-conv"></div>
           </div>
@@ -394,13 +396,13 @@
 
       <!-- CTA -->
       <div style="text-align:center;padding:40px;background:#0a0a0a;border:1px solid rgba(192,160,98,0.15);border-radius:4px">
-        <p style="color:#c0a062;font-size:10px;font-weight:700;letter-spacing:0.4em;text-transform:uppercase;margin-bottom:12px">Sonraki Adım</p>
-        <p class="text-white font-playfair" style="font-size:24px;font-weight:500;margin-bottom:8px">Bu sorunları birlikte çözelim.</p>
-        <p style="color:rgba(255,255,255,0.4);font-size:13px;font-weight:300;margin-bottom:28px;line-height:1.7">Ücretsiz detaylı analiz için iletişime geçin — web sitenizi rakiplerinizin önüne taşıyalım.</p>
+        <p style="color:#c0a062;font-size:10px;font-weight:700;letter-spacing:0.4em;text-transform:uppercase;margin-bottom:12px" data-i18n="audit_cta_next_step">Sonraki Adım</p>
+        <p class="text-white font-playfair" style="font-size:24px;font-weight:500;margin-bottom:8px" data-i18n="audit_cta_title">Bu sorunları birlikte çözelim.</p>
+        <p style="color:rgba(255,255,255,0.4);font-size:13px;font-weight:300;margin-bottom:28px;line-height:1.7" data-i18n="audit_cta_desc">Ücretsiz detaylı analiz için iletişime geçin — web sitenizi rakiplerinizin önüne taşıyalım.</p>
         <div style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap">
-          <button class="analysis-btn" style="background:#c0a062;color:#080808;border:none;border-radius:3px;padding:16px 36px;font-size:10px;font-weight:700;letter-spacing:0.3em;text-transform:uppercase;cursor:pointer;font-family:inherit;transition:all 0.3s ease"
+          <button class="analysis-btn" data-i18n="audit_cta_btn" style="background:#c0a062;color:#080808;border:none;border-radius:3px;padding:16px 36px;font-size:10px;font-weight:700;letter-spacing:0.3em;text-transform:uppercase;cursor:pointer;font-family:inherit;transition:all 0.3s ease"
             onmouseover="this.style.background='#d4b574'" onmouseout="this.style.background='#c0a062'">Ücretsiz Analiz İste</button>
-          <button onclick="resetAudit()" style="background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.1);border-radius:3px;padding:16px 28px;font-size:10px;font-weight:700;letter-spacing:0.3em;text-transform:uppercase;cursor:pointer;font-family:inherit;transition:all 0.3s ease"
+          <button onclick="resetAudit()" data-i18n="audit_new_btn" style="background:transparent;color:rgba(255,255,255,0.5);border:1px solid rgba(255,255,255,0.1);border-radius:3px;padding:16px 28px;font-size:10px;font-weight:700;letter-spacing:0.3em;text-transform:uppercase;cursor:pointer;font-family:inherit;transition:all 0.3s ease"
             onmouseover="this.style.borderColor='rgba(255,255,255,0.3)';this.style.color='#fff'" onmouseout="this.style.borderColor='rgba(255,255,255,0.1)';this.style.color='rgba(255,255,255,0.5)'">Yeni Analiz</button>
         </div>
       </div>
@@ -491,6 +493,19 @@
     {s:'critical',t:'<strong>Title etiketi çok uzun.</strong> 60 karakteri aşıyor, SERP\'te kesiliyor.'},
     {s:'warning', t:'<strong>Mobil viewport ayarı hatalı.</strong> Bazı sayfalarda responsive meta eksik.'},
   ];
+  var SEO_ISSUES_EN=[
+    {s:'critical',t:'<strong>Missing meta description.</strong> Page meta description is not defined, leading to CTR losses.'},
+    {s:'critical',t:'<strong>Multiple H1 tags.</strong> There should only be one H1 tag per page.'},
+    {s:'warning', t:'<strong>Empty alt text.</strong> Images are missing alt attributes, resulting in weak image SEO.'},
+    {s:'warning', t:'<strong>Unclear canonical tag.</strong> Risk of duplicate content detected.'},
+    {s:'warning', t:'<strong>Missing structured data.</strong> Add schema markup to win rich results in SERPs.'},
+    {s:'warning', t:'<strong>Weak internal linking.</strong> Not enough internal links built per page.'},
+    {s:'good',    t:'<strong>Robots.txt exists.</strong> Search crawler directives are defined.'},
+    {s:'good',    t:'<strong>Sitemap.xml detected.</strong> Crawling efficiency is in good standing.'},
+    {s:'critical',t:'<strong>Title tag too long.</strong> Exceeds 60 characters and gets truncated in SERPs.'},
+    {s:'warning', t:'<strong>Invalid mobile viewport setting.</strong> Responsive meta is missing on some pages.'},
+  ];
+
   var SPEED_ISSUES=[
     {s:'critical',t:'<strong>LCP 4.2s — yavaş.</strong> Largest Contentful Paint Google Core Web Vitals eşiğinin üstünde.'},
     {s:'critical',t:'<strong>Render-blocking JS.</strong> 3 kritik JS dosyası sayfa boyamasını engelliyor.'},
@@ -503,6 +518,19 @@
     {s:'warning', t:'<strong>Üçüncü parti script yükü ağır.</strong> Analytics + chat widget ~180kb ekliyor.'},
     {s:'warning', t:'<strong>Font render gecikmesi.</strong> Font-display:swap ile FOIT önlenebilir.'},
   ];
+  var SPEED_ISSUES_EN=[
+    {s:'critical',t:'<strong>LCP 4.2s — slow.</strong> Largest Contentful Paint is above Google\'s Core Web Vitals threshold.'},
+    {s:'critical',t:'<strong>Render-blocking JS.</strong> 3 critical JS files are blocking page rendering.'},
+    {s:'warning', t:'<strong>Unoptimized images.</strong> Switching to WebP/AVIF formats can reduce sizes by ~40%.'},
+    {s:'warning', t:'<strong>Browser caching not configured.</strong> Cache-control headers are missing for static assets.'},
+    {s:'warning', t:'<strong>TTFB 620ms.</strong> Server response time needs optimization.'},
+    {s:'good',    t:'<strong>Gzip/Brotli active.</strong> Text-based assets are compressed.'},
+    {s:'good',    t:'<strong>CDN detected.</strong> Static content is served via a global distribution network.'},
+    {s:'critical',t:'<strong>CLS 0.28 — high.</strong> Cumulative Layout Shift is degrading user experience.'},
+    {s:'warning', t:'<strong>Heavy third-party script load.</strong> Analytics + chat widget add ~180kb.'},
+    {s:'warning', t:'<strong>Font rendering delay.</strong> FOIT can be prevented with font-display:swap.'},
+  ];
+
   var UX_ISSUES=[
     {s:'critical',t:'<strong>Mobil menü kullanılamaz.</strong> Dokunma hedefleri 44px altında, tıklama hataları yüksek.'},
     {s:'critical',t:'<strong>Renk kontrastı yetersiz.</strong> Metin/arka plan oranı WCAG AA standardını karşılamıyor.'},
@@ -515,6 +543,19 @@
     {s:'warning', t:'<strong>Sayfa uzunluğu aşırı.</strong> İçerik hiyerarşisi ve sticky navigasyon eksik.'},
     {s:'warning', t:'<strong>Yükleme göstergesi yok.</strong> Form gönderimleri sonrası kullanıcı belirsizlikte kalıyor.'},
   ];
+  var UX_ISSUES_EN=[
+    {s:'critical',t:'<strong>Unusable mobile menu.</strong> Touch targets are below 44px, leading to high misclick rates.'},
+    {s:'critical',t:'<strong>Insufficient color contrast.</strong> Text-to-background ratio does not meet WCAG AA standards.'},
+    {s:'warning', t:'<strong>Unfriendly form validation.</strong> Error messages are unclear and display too late.'},
+    {s:'warning', t:'<strong>No empty states.</strong> Instructional content is missing in search and filter results.'},
+    {s:'warning', t:'<strong>Low scroll depth.</strong> 68% of users do not scroll past the first screen.'},
+    {s:'good',    t:'<strong>Custom 404 page.</strong> Safely redirects users back into the site.'},
+    {s:'good',    t:'<strong>HTTPS active.</strong> SSL certificate is valid and up-to-date.'},
+    {s:'critical',t:'<strong>Broken keyboard navigation.</strong> Focus indicator is missing on some interactive elements.'},
+    {s:'warning', t:'<strong>Excessive page length.</strong> Lacks proper content hierarchy and sticky navigation.'},
+    {s:'warning', t:'<strong>No loading indicator.</strong> Users are left in uncertainty after submitting forms.'},
+  ];
+
   var CONV_ISSUES=[
     {s:'critical',t:'<strong>CTA "above the fold" yok.</strong> İlk görünümde hiçbir dönüşüm butonu bulunmuyor.'},
     {s:'critical',t:'<strong>Güven sinyalleri eksik.</strong> Sosyal kanıt, sertifika veya müşteri yorumu görünmüyor.'},
@@ -526,6 +567,18 @@
     {s:'critical',t:'<strong>Aciliyet/kıtlık yok.</strong> Hiçbir teklif sona erme veya stok bilgisi kullanılmıyor.'},
     {s:'warning', t:'<strong>Mikro dönüşüm hedeflenmemiş.</strong> Newsletter, PDF, demo gibi ara hedefler tanımlanmamış.'},
     {s:'warning', t:'<strong>Mobil ödeme adımları karmaşık.</strong> Mobil checkout terk oranı masaüstünden 2× yüksek.'},
+  ];
+  var CONV_ISSUES_EN=[
+    {s:'critical',t:'<strong>No CTA "above the fold".</strong> No call-to-action buttons are present in the initial view.'},
+    {s:'critical',t:'<strong>Missing trust signals.</strong> No social proof, certificates, or client reviews are visible.'},
+    {s:'warning', t:'<strong>Too many form fields.</strong> 8+ fields cause unnecessary friction, lowering conversion rate.'},
+    {s:'warning', t:'<strong>No pricing page.</strong> Visitors might leave to check transparent competitors.'},
+    {s:'warning', t:'<strong>No exit-intent mechanism.</strong> Visitors who are about to leave are not engaged.'},
+    {s:'good',    t:'<strong>Contact form exists.</strong> Basic lead capturing is active.'},
+    {s:'good',    t:'<strong>WhatsApp/live support visible.</strong> Instant communication option is present.'},
+    {s:'critical',t:'<strong>No urgency/scarcity.</strong> No offer deadlines or limited spots are used.'},
+    {s:'warning', t:'<strong>No micro-conversions targeted.</strong> No intermediate steps like newsletters or PDFs are defined.'},
+    {s:'warning', t:'<strong>Complex mobile checkout.</strong> Mobile cart abandonment rate is 2x higher than desktop.'},
   ];
 
   function pickIssues(pool, n, s){
@@ -550,9 +603,19 @@
   function renderBadge(elId, score){
     var el=document.getElementById(elId);
     el.className='audit-card-badge';
-    if(score>=75){el.classList.add('badge-good');el.textContent='İyi';}
-    else if(score>=50){el.classList.add('badge-warning');el.textContent='Orta';}
-    else{el.classList.add('badge-critical');el.textContent='Kritik';}
+    var currentLang = document.documentElement.lang || 'tr';
+    if(score>=75){
+      el.classList.add('badge-good');
+      el.textContent = currentLang === 'en' ? 'Good' : 'İyi';
+    }
+    else if(score>=50){
+      el.classList.add('badge-warning');
+      el.textContent = currentLang === 'en' ? 'Fair' : 'Orta';
+    }
+    else{
+      el.classList.add('badge-critical');
+      el.textContent = currentLang === 'en' ? 'Critical' : 'Kritik';
+    }
   }
 
   function renderIssues(listId, issues){
@@ -592,13 +655,21 @@
   }
 
   /* --- Scan phases --- */
-  var PHASES=[
+  var PHASES_TR=[
     'DNS & SSL taranıyor…',
     'Meta etiketler kontrol ediliyor…',
     'Sayfa hızı ölçülüyor…',
     'Mobil uyumluluk test ediliyor…',
     'Dönüşüm akışı analiz ediliyor…',
     'Rapor hazırlanıyor…'
+  ];
+  var PHASES_EN=[
+    'Scanning DNS & SSL…',
+    'Checking meta tags…',
+    'Measuring page speed…',
+    'Testing mobile responsiveness…',
+    'Analyzing conversion flow…',
+    'Generating report…'
   ];
 
   /* --- Main run function --- */
@@ -626,7 +697,10 @@
     var subEl=document.getElementById('audit-scan-sub');
     var bar=document.getElementById('audit-progress-bar');
 
-    labelEl.textContent='Taranıyor…';
+    var currentLang = document.documentElement.lang || 'tr';
+    var PHASES = currentLang === 'en' ? PHASES_EN : PHASES_TR;
+
+    labelEl.textContent = currentLang === 'en' ? 'Scanning…' : 'Taranıyor…';
     subEl.textContent=domain;
     bar.style.width='0%';
 
@@ -642,7 +716,7 @@
     setTimeout(function(){
       clearInterval(phaseInterval);
       bar.style.width='100%';
-      labelEl.textContent='Tamamlandı!';
+      labelEl.textContent = currentLang === 'en' ? 'Complete!' : 'Tamamlandı!';
 
       setTimeout(function(){
         hide('audit-scanning');
@@ -653,6 +727,8 @@
   };
 
   function buildResults(domain){
+    window.currentAuditDomain = domain;
+    var currentLang = document.documentElement.lang || 'tr';
     var s=seed(domain);
 
     var seoScore   = scoreFromSeed(s*1,38,88);
@@ -663,9 +739,15 @@
 
     // Score label
     var label='';
-    if(overall>=75)label='Genel durumunuz iyi — ince ayar fırsatları var.';
-    else if(overall>=55)label='Ortalama performans — önemli iyileştirme alanları tespit edildi.';
-    else label='Kritik sorunlar bulundu — acil aksiyon gerekiyor.';
+    if(currentLang === 'en') {
+      if(overall>=75)label='Overall health is good — there are opportunities for fine-tuning.';
+      else if(overall>=55)label='Average performance — significant areas for improvement identified.';
+      else label='Critical issues found — urgent action required.';
+    } else {
+      if(overall>=75)label='Genel durumunuz iyi — ince ayar fırsatları var.';
+      else if(overall>=55)label='Ortalama performans — önemli iyileştirme alanları tespit edildi.';
+      else label='Kritik sorunlar bulundu — acil aksiyon gerekiyor.';
+    }
 
     animateScore('audit-overall-score',overall,800);
     animateScore('mini-seo-val',seoScore,700);
@@ -679,13 +761,20 @@
     renderBadge('badge-ux',    uxScore);
     renderBadge('badge-conv',  convScore);
 
-    renderIssues('issues-seo',   pickIssues(SEO_ISSUES,   4, s*2));
-    renderIssues('issues-speed', pickIssues(SPEED_ISSUES, 4, s*5));
-    renderIssues('issues-ux',    pickIssues(UX_ISSUES,    4, s*11));
-    renderIssues('issues-conv',  pickIssues(CONV_ISSUES,  4, s*17));
+    var seoPool = currentLang === 'en' ? SEO_ISSUES_EN : SEO_ISSUES;
+    var speedPool = currentLang === 'en' ? SPEED_ISSUES_EN : SPEED_ISSUES;
+    var uxPool = currentLang === 'en' ? UX_ISSUES_EN : UX_ISSUES;
+    var convPool = currentLang === 'en' ? CONV_ISSUES_EN : CONV_ISSUES;
+
+    renderIssues('issues-seo',   pickIssues(seoPool,   4, s*2));
+    renderIssues('issues-speed', pickIssues(speedPool, 4, s*5));
+    renderIssues('issues-ux',    pickIssues(uxPool,    4, s*11));
+    renderIssues('issues-conv',  pickIssues(convPool,  4, s*17));
   }
+  window.buildResults = buildResults;
 
   window.resetAudit=function(){
+    window.currentAuditDomain = null;
     document.getElementById('audit-url-input').value='';
     hide('audit-results');
     hide('audit-scanning');

@@ -521,7 +521,33 @@ const translations = {
         "project_prev": "Previous Project",
         "project_next": "Next Project",
         "blog_prev": "Previous Post",
-        "blog_next": "Next Post"
+        "blog_next": "Next Post",
+        "audit_badge": "AI Tool",
+        "audit_title": "Website Analysis",
+        "audit_subtitle": "Enter your website's URL — our AI will instantly detect SEO issues, speed suggestions, UX gaps, and conversion opportunities.",
+        "audit_input_label": "Website Address",
+        "audit_placeholder": "your-website.com",
+        "audit_btn": "Analyze",
+        "audit_error": "Please enter a valid domain name (e.g., google.com)",
+        "audit_scanning": "Scanning...",
+        "audit_score_title": "Overall Score",
+        "audit_seo_label": "SEO",
+        "audit_speed_label": "Speed",
+        "audit_ux_label": "UX",
+        "audit_conv_label": "Conversion",
+        "audit_card_seo_title": "SEO",
+        "audit_card_seo_desc": "Search Engine Optimization",
+        "audit_card_speed_title": "Speed",
+        "audit_card_speed_desc": "Performance & Load Time",
+        "audit_card_ux_title": "UX",
+        "audit_card_ux_desc": "User Experience",
+        "audit_card_conv_title": "Conversion",
+        "audit_card_conv_desc": "Sales & Lead Optimization",
+        "audit_cta_next_step": "Next Step",
+        "audit_cta_title": "Let's solve these issues together.",
+        "audit_cta_desc": "Contact us for a free detailed analysis — let's move your website ahead of your competitors.",
+        "audit_cta_btn": "Request Free Audit",
+        "audit_new_btn": "New Audit"
     },
     "tr": {
         "404_subtitle": "SAYFA BULUNAMADI",
@@ -1033,7 +1059,33 @@ const translations = {
         "project_prev": "Önceki Proje",
         "project_next": "Sonraki Proje",
         "blog_prev": "Önceki Yazı",
-        "blog_next": "Sonraki Yazı"
+        "blog_next": "Sonraki Yazı",
+        "audit_badge": "AI Araç",
+        "audit_title": "Web Sitesi Analizi",
+        "audit_subtitle": "Web sitenizin URL'sini girin — AI'ımız SEO sorunlarını, hız önerilerini, UX açıklarını ve dönüşüm fırsatlarını anında tespit etsin.",
+        "audit_input_label": "Web Sitesi Adresi",
+        "audit_placeholder": "sizin-siteniz.com",
+        "audit_btn": "Analiz Et",
+        "audit_error": "Lütfen geçerli bir alan adı girin (örn: google.com)",
+        "audit_scanning": "Taranıyor...",
+        "audit_score_title": "Genel Skor",
+        "audit_seo_label": "SEO",
+        "audit_speed_label": "Hız",
+        "audit_ux_label": "UX",
+        "audit_conv_label": "Dönüşüm",
+        "audit_card_seo_title": "SEO",
+        "audit_card_seo_desc": "Arama Motoru Optimizasyonu",
+        "audit_card_speed_title": "Hız",
+        "audit_card_speed_desc": "Performans & Yükleme Süresi",
+        "audit_card_ux_title": "UX",
+        "audit_card_ux_desc": "Kullanıcı Deneyimi",
+        "audit_card_conv_title": "Dönüşüm",
+        "audit_card_conv_desc": "Satış & Lead Optimizasyonu",
+        "audit_cta_next_step": "Sonraki Adım",
+        "audit_cta_title": "Bu sorunları birlikte çözelim.",
+        "audit_cta_desc": "Ücretsiz detaylı analiz için iletişime geçin — web sitenizi rakiplerinizin önüne taşıyalım.",
+        "audit_cta_btn": "Ücretsiz Analiz İste",
+        "audit_new_btn": "Yeni Analiz"
     }
 };;
 
@@ -1447,6 +1499,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
         });
+
+        // Re-run website audit results if audit results are currently shown to localize them instantly
+        if (typeof window.buildResults === 'function' && window.currentAuditDomain) {
+            window.buildResults(window.currentAuditDomain);
+        }
 
         // Update all internal links to preserve lang query param for search engines
         const internalLinks = document.querySelectorAll('a[href^="/"], a[href^="./"]');
