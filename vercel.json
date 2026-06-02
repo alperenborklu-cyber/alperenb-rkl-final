@@ -31,6 +31,19 @@
   ],
   "headers": [
     {
+      "source": "/:path*",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=0, must-revalidate"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    },
+    {
       "source": "/(.*\\.(?:css|js|webp|png|jpg|jpeg|gif|ico|svg|mp4|woff2))$",
       "headers": [
         {
@@ -43,16 +56,8 @@
       "source": "/",
       "headers": [
         {
-          "key": "Cache-Control",
-          "value": "public, max-age=0, must-revalidate"
-        },
-        {
           "key": "Link",
-          "value": "<./styles.css>; rel=preload; as=style, <./alperen-borklu-profile-profil.webp>; rel=preload; as=image"
-        },
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
+          "value": "<./styles.css>; rel=preload; as=style"
         }
       ]
     }
