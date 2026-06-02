@@ -213,3 +213,153 @@ footer.py-12.text-center {
 body:has([data-i18n="blog_cta_title"]) footer.py-12.text-center {
   padding-top: 2rem !important; /* 32px instead of 40px */
 }
+
+/* ============================================
+   AI WEBSITE AUDIT TOOL STYLES
+   ============================================ */
+
+.audit-ring {
+  position: absolute;
+  border-radius: 50%;
+  border: 1.5px solid rgba(192,160,98,0.3);
+  animation: auditPulse 2s ease-in-out infinite;
+}
+.audit-ring-1 { inset: 0; animation-delay: 0s; }
+.audit-ring-2 { inset: -16px; animation-delay: 0.35s; border-color: rgba(192,160,98,0.18); }
+.audit-ring-3 { inset: -32px; animation-delay: 0.7s; border-color: rgba(192,160,98,0.09); }
+
+@keyframes auditPulse {
+  0%, 100% { opacity: 0.3; transform: scale(0.96); }
+  50% { opacity: 1; transform: scale(1.04); }
+}
+
+.audit-category-card {
+  background: #0a0a0a;
+  border: 1px solid rgba(255,255,255,0.06);
+  border-radius: 4px;
+  padding: 28px;
+  transition: border-color 0.4s ease, box-shadow 0.4s ease;
+}
+.audit-category-card:hover {
+  border-color: rgba(192,160,98,0.25);
+  box-shadow: 0 0 40px rgba(192,160,98,0.05);
+}
+.audit-card-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+.audit-card-icon {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(192,160,98,0.08);
+  border-radius: 3px;
+}
+.audit-card-title {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 2px;
+}
+.audit-card-score-label {
+  color: rgba(255,255,255,0.3);
+  font-size: 10px;
+  letter-spacing: 0.05em;
+  font-weight: 300;
+}
+.audit-card-badge {
+  margin-left: auto;
+  padding: 4px 10px;
+  border-radius: 99px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+}
+.badge-good { background: rgba(56,196,124,0.12); color: #38c47c; border: 1px solid rgba(56,196,124,0.2); }
+.badge-warning { background: rgba(255,183,71,0.12); color: #ffb747; border: 1px solid rgba(255,183,71,0.2); }
+.badge-critical { background: rgba(232,93,93,0.12); color: #e85d5d; border: 1px solid rgba(232,93,93,0.2); }
+
+.audit-issue-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.audit-issue-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 14px;
+  background: rgba(255,255,255,0.02);
+  border-radius: 3px;
+  border-left: 2px solid;
+  animation: auditItemIn 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(8px);
+}
+.audit-issue-item.severity-critical { border-left-color: #e85d5d; }
+.audit-issue-item.severity-warning  { border-left-color: #ffb747; }
+.audit-issue-item.severity-good     { border-left-color: #38c47c; }
+
+@keyframes auditItemIn {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.audit-issue-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 4px;
+}
+.audit-issue-item.severity-critical .audit-issue-dot { background: #e85d5d; }
+.audit-issue-item.severity-warning  .audit-issue-dot { background: #ffb747; }
+.audit-issue-item.severity-good     .audit-issue-dot { background: #38c47c; }
+
+.audit-issue-text {
+  font-size: 12px;
+  color: rgba(255,255,255,0.65);
+  line-height: 1.6;
+  font-weight: 300;
+}
+.audit-issue-text strong {
+  color: rgba(255,255,255,0.9);
+  font-weight: 600;
+}
+
+.audit-mini-score {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  min-width: 52px;
+}
+.mini-label {
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.35);
+}
+.mini-val {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'Playfair Display', serif;
+}
+
+@media (max-width: 640px) {
+  #audit-cards-grid { grid-template-columns: 1fr !important; }
+  #audit-input-card { padding: 28px 20px !important; }
+}
