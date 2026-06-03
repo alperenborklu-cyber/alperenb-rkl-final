@@ -1102,6 +1102,32 @@ const translations = {
 };;
 
 document.addEventListener('DOMContentLoaded', () => {
+    // --- Meta Pixel Contact Event Tracking ---
+    // 1. Track form submissions
+    document.addEventListener('submit', (e) => {
+        if (typeof fbq === 'function') {
+            fbq('track', 'Contact');
+        }
+    });
+
+    // 2. Track WhatsApp button clicks
+    document.querySelectorAll('.whatsapp-float, a[href*="wa.me"]').forEach(el => {
+        el.addEventListener('click', () => {
+            if (typeof fbq === 'function') {
+                fbq('track', 'Contact');
+            }
+        });
+    });
+
+    // 3. Track Email clicks
+    document.querySelectorAll('a[href^="mailto:"]').forEach(el => {
+        el.addEventListener('click', () => {
+            if (typeof fbq === 'function') {
+                fbq('track', 'Contact');
+            }
+        });
+    });
+
     // --- 0. Preloader ---
     const preloader = document.getElementById('preloader') || document.querySelector('.fixed.inset-0.z-1000');
     if (preloader) {
