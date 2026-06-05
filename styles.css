@@ -363,3 +363,169 @@ body:has([data-i18n="blog_cta_title"]) footer.py-12.text-center {
   #audit-cards-grid { grid-template-columns: 1fr !important; }
   #audit-input-card { padding: 28px 20px !important; }
 }
+
+/* Accessibility Skip Link */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #c0a062;
+  color: #000000;
+  padding: 12px 24px;
+  z-index: 10000;
+  transition: top 0.3s ease;
+  font-weight: 700;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-radius: 0 0 4px 4px;
+  border: 1px solid rgba(192, 160, 98, 0.4);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+}
+.skip-link:focus {
+  top: 0;
+  outline: none;
+}
+
+/* Portfolio Filter Tabs */
+.portfolio-filter-btn {
+  transition: all 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+.portfolio-filter-btn.active {
+  background-color: #c0a062 !important;
+  color: #000000 !important;
+  border-color: #c0a062 !important;
+  box-shadow: 0 0 15px rgba(192, 160, 98, 0.3);
+}
+
+.portfolio-item {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+.portfolio-item.hidden {
+  display: none !important;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+/* Premium Initials Avatar Badges */
+.avatar-badge-initials {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #141414, #080808);
+  border: 2px solid rgba(192, 160, 98, 0.4);
+  color: #c0a062;
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), inset 0 2px 4px rgba(255, 255, 255, 0.05);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  flex-shrink: 0;
+}
+.break-inside-avoid:hover .avatar-badge-initials {
+  border-color: #c0a062;
+  box-shadow: 0 4px 20px rgba(192, 160, 98, 0.25);
+}
+
+/* ================================================
+   Accessibility: Skip to Main Content Link
+   ================================================ */
+.skip-link {
+  position: absolute;
+  top: -100px;
+  left: 16px;
+  z-index: 9999;
+  background: #c0a062;
+  color: #080808;
+  padding: 10px 20px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  border-radius: 0 0 4px 4px;
+  text-decoration: none;
+  transition: top 0.2s ease;
+}
+.skip-link:focus {
+  top: 0;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+
+/* ================================================
+   Manual Audit CTA — Pillar Cards
+   ================================================ */
+.audit-pillar-card {
+  background: #0a0a0a;
+  border: 1px solid rgba(192, 160, 98, 0.12);
+  border-radius: 4px;
+  padding: 40px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  transition: border-color 0.4s ease, transform 0.4s ease, box-shadow 0.4s ease;
+}
+.audit-pillar-card:hover {
+  border-color: rgba(192, 160, 98, 0.4);
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(192, 160, 98, 0.08);
+}
+.audit-pillar-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(192, 160, 98, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c0a062;
+  flex-shrink: 0;
+}
+
+/* ================================================
+   Portfolio Filter Tabs
+   ================================================ */
+.portfolio-filter-btn {
+  position: relative;
+  padding: 10px 24px;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.4);
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 2px;
+  cursor: pointer;
+  transition: color 0.3s ease, border-color 0.3s ease, background 0.3s ease;
+  font-family: inherit;
+}
+.portfolio-filter-btn::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 50%;
+  transform: translateX(-50%) scaleX(0);
+  width: 40%;
+  height: 2px;
+  background: #c0a062;
+  transition: transform 0.3s ease;
+}
+.portfolio-filter-btn:hover {
+  color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.2);
+}
+.portfolio-filter-btn.active {
+  color: #c0a062;
+  border-color: rgba(192, 160, 98, 0.4);
+  background: rgba(192, 160, 98, 0.05);
+}
+.portfolio-filter-btn.active::after {
+  transform: translateX(-50%) scaleX(1);
+}
+

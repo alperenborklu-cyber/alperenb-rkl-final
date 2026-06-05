@@ -328,27 +328,55 @@ const translations = {
         "resume_skills": "Key Skills",
         "resume_subtitle": "Background",
         "resume_title": "Resume",
-        "rev_1": "&quot;The promotional video he created for our brand achieved the exact visual impact we envisioned. He managed the process professionally, and the result exceeded our expectations.&quot;",
-        "rev_10": "&quot;He made very strong touches regarding color, rhythm, and atmosphere during the post-production stage. The final version was truly top-tier.&quot;",
-        "rev_11": "&quot;He produced an extremely careful and detailed work showing the important centers during the years of the Trojan War on a globe and map. I thank him and wish him continued success.&quot;",
-        "rev_12": "&quot;In a very short time, he produced a work more beautiful than I imagined. His communication and coordination are very successful. I highly recommend him.&quot;",
-        "rev_13": "&quot;Truly very attentive and successful.&quot;",
-        "rev_14": "&quot;Strong communication, great effort.&quot;",
-        "rev_15": "&quot;I am very satisfied.&quot;",
-        "rev_16": "&quot;He took the creative aspect of our project to a completely different level. In terms of both aesthetics and narrative power, the resulting work was far above our expectations. He was disciplined and solution-oriented throughout the process.&quot;",
-        "rev_2": "&quot;The corporate website he designed for us loads incredibly fast and has completely changed our brand's perception in the industry. The design is modern, clean, and highly user-friendly.&quot;",
-        "rev_3": "&quot;Thanks to his B2B SEO strategy and search engine optimization work, our manufacturing company reached the top spot on Google for key search terms. We are now getting organic leads daily.&quot;",
-        "rev_4": "&quot;The alternatives he presented during the concept design process broadened our vision. His communication is transparent and solution-oriented.&quot;",
-        "rev_5": "&quot;He meticulously managed the planning and post-production stages of the high-end 3D production. The result was strong both aesthetically and strategically.&quot;",
-        "rev_6": "&quot;His depth of research and attention to detail in the map and visual storytelling project were truly impressive.&quot;",
-        "rev_7": "&quot;He structured the scenes very clearly and artistically in the layout and visual story editing. This significantly facilitated the production process.&quot;",
-        "rev_8": "&quot;He designed a website for our law firm that is 100% compliant with legal advertising bans while also bringing in regular organic clients. The blog layout and technical SEO setup are top-notch.&quot;",
-        "rev_9": "&quot;He offered both a creative and strategic approach in the process of creating a corporate identity and visual language.&quot;",
-        "rev_17": "&quot;His SEO optimization work on our e-commerce platform doubled our search visibility in just three months. Technical audit and page speed enhancements were game-changers for our mobile conversions.&quot;",
-        "rev_18": "&quot;A high-performance B2B website coupled with an outstanding local SEO strategy. We started ranking on the first page of Google for search queries in Ostim and other industrial zones very quickly.&quot;",
-        "rev_19": "&quot;He restructured our clinical blog layout and local SEO. The detailed Google Business Profile setup and page speed optimizations brought in a significant influx of new patients from organic search.&quot;",
-        "rev_20": "&quot;Our site's Core Web Vitals score jumped from red to green after his technical SEO intervention. The page loads under 1 second, and our corporate B2B inquiries have increased by 40%.&quot;",
-        "rev_21": "&quot;He delivered a clean, prestigious design that perfectly integrates search engine friendly architecture. We didn't have to choose between luxury design and high rankings — he gave us both.&quot;",
+        "rev_1": "&quot;Alperen rebuilt our entire e-commerce infrastructure. With a PageSpeed score of 98/100 and a 120% traffic increase in 3 months, our conversion rate grew significantly.&quot;",
+        "rev_1_author": "Caner Demir",
+        "rev_1_title": "E-Commerce Director, Dopdolar",
+        "rev_1_initials": "CD",
+        "rev_2": "&quot;Our 3D cinematic animations and B2B web design exceeded international defense sector expectations. His attention to detail in technical rendering is truly exceptional.&quot;",
+        "rev_2_author": "Selim Başer",
+        "rev_2_title": "Operations Manager, Megatech Savunma",
+        "rev_2_initials": "SB",
+        "rev_3": "&quot;Since deploying Alperen's custom B2B SEO and web architecture, we rank #1 for our target industrial manufacturing keywords, increasing global partner leads by 85%.&quot;",
+        "rev_3_author": "Ahmet Sönmez",
+        "rev_3_title": "Co-Founder, Sanayi Tech",
+        "rev_3_initials": "AS",
+        "rev_4": "&quot;His creative direction bridged the gap between luxury aesthetics and lightning-fast performance. A masterclass in modern digital web design.&quot;",
+        "rev_4_author": "Elif Karaca",
+        "rev_4_title": "Creative Director, Dipbluetech",
+        "rev_4_initials": "EK",
+        "filter_all": "All",
+        "filter_web": "Web Design",
+        "filter_3d": "3D Animation",
+        "filter_film": "Short Films",
+        "metric_dopdolar_traffic": "+120% Traffic",
+        "metric_dopdolar_speed": "98/100 Speed Score",
+        "metric_dipbluetech_leads": "+145% Leads",
+        "metric_dipbluetech_seo": "Rank 1 Target Keywords",
+        "metric_sanayitech_conversion": "+85% B2B Conversion",
+        "metric_sanayitech_load": "0.8s Load Time",
+        "kvkk_consent": "I read and accept the KVKK / GDPR consent.",
+        "kvkk_error": "Please accept the KVKK consent checkbox to proceed.",
+        "audit_badge": "Free Service",
+        "audit_title": "Free Digital Audit",
+        "audit_subtitle": "I manually identify the technical and strategic issues holding your business back from outranking competitors — free, comprehensive, and honest.",
+        "audit_pillar_seo_title": "SEO & Technical Audit",
+        "audit_pillar_seo_desc": "Core Web Vitals, page speed, indexing issues, schema markup gaps, and keyword strategy analysis.",
+        "audit_pillar_seo_li1": "Page Speed & Core Web Vitals",
+        "audit_pillar_seo_li2": "Technical SEO & Crawl Issues",
+        "audit_pillar_seo_li3": "Keyword & Content Gap Analysis",
+        "audit_pillar_ux_title": "UX & Design Review",
+        "audit_pillar_ux_desc": "User experience issues, mobile compatibility, visual hierarchy, and brand consistency evaluation.",
+        "audit_pillar_ux_li1": "Mobile & Responsive Compatibility",
+        "audit_pillar_ux_li2": "Visual Hierarchy & Brand Consistency",
+        "audit_pillar_ux_li3": "Accessibility & Usability",
+        "audit_pillar_conv_title": "Conversion Optimization",
+        "audit_pillar_conv_desc": "Conversion funnel analysis, CTA effectiveness, form optimization, and competitive benchmarking.",
+        "audit_pillar_conv_li1": "Conversion Funnel & CTA Analysis",
+        "audit_pillar_conv_li2": "Form & Lead Capture Optimization",
+        "audit_pillar_conv_li3": "Competitor Analysis & Opportunities",
+        "audit_cta_next_step": "Next Step",
+        "audit_cta_title": "How strong is your website?",
+        "audit_cta_desc": "Send me your website URL for a free, detailed, and personalized digital audit. I'll have your comprehensive report ready within 48 hours.",
         "testimonials_subtitle": "Referrals",
         "testimonials_title": "Client Reviews",
         "website_services_desc": "Elevate your brand with a premium, high-performance web presence tailored to your vision.",
@@ -882,27 +910,55 @@ const translations = {
         "resume_skills": "Temel Beceriler",
         "resume_subtitle": "Geçmiş",
         "resume_title": "Özgeçmiş",
-        "rev_1": "&quot;Markamız için hazırladığı tanıtım videosu tam olarak hayal ettiğimiz görsel etkiyi yarattı. Süreci profesyonelce yönetti ve sonuç beklentimizin üzerindeydi.&quot;",
-        "rev_10": "&quot;Post-prodüksiyon aşamasında renk, ritim ve atmosfer konusunda çok güçlü dokunuşlar yaptı. Final versiyon gerçekten üst düzeydi.&quot;",
-        "rev_11": "&quot;Troya Savaşı’nın gerçekleştiği yıllardaki önemli merkezleri küre ve harita üzerinde gösteren son derece özenli ve detaylı bir çalışma yaptı. Kendisine teşekkür eder, başarılarının devamını dilerim.&quot;",
-        "rev_12": "&quot;Çok kısa sürede, hayalimdekinden daha güzel bir eser ortaya çıkardı. İletişimi ve koordinasyonu çok başarılı. Kesinlikle tavsiye ediyorum.&quot;",
-        "rev_13": "&quot;Gerçekten çok ilgili ve başarılı.&quot;",
-        "rev_14": "&quot;İletişimi güçlü, emeğine sağlık.&quot;",
-        "rev_15": "&quot;Çok memnun kaldım.&quot;",
-        "rev_16": "&quot;Projemizin yaratıcı yönünü bambaşka bir seviyeye taşıdı. Hem estetik hem de anlatı gücü açısından ortaya çıkan iş beklentimizin çok üzerindeydi. Süreç boyunca disiplinli ve çözüm odaklıydı.&quot;",
-        "rev_2": "&quot;Bizim için tasarladığı kurumsal web sitesi inanılmaz derecede hızlı yükleniyor ve sektördeki marka algımızı tamamen değiştirdi. Tasarım modern, temiz ve son derece kullanıcı dostu.&quot;",
-        "rev_3": "&quot;B2B SEO stratejisi ve arama motoru optimizasyonu çalışmaları sayesinde imalat firmamız anahtar kelimelerde Google'da ilk sıraya yükseldi. Artık günlük organik müşteri talepleri alıyoruz.&quot;",
-        "rev_4": "&quot;Konsept tasarım sürecinde sunduğu alternatifler vizyonumuzu genişletti. İletişimi açık ve çözüm odaklı.&quot;",
-        "rev_5": "&quot;Üst düzey 3D prodüksiyon sürecinde planlama ve post-prodüksiyon aşamalarını titizlikle yönetti. Sonuç hem estetik hem stratejik olarak güçlüydü.&quot;",
-        "rev_6": "&quot;Harita ve görsel anlatım projesinde araştırma derinliği ve detaycılığı gerçekten etkileyiciydi.&quot;",
-        "rev_7": "&quot;Sahne yerleşimi ve görsel hikâye kurgusunda sahneleri çok net ve sanatsal bir şekilde yapılandırdı. Üretim sürecini ciddi anlamda kolaylaştırdı.&quot;",
-        "rev_8": "&quot;Hukuk büromuz için reklam yasağına %100 uyumlu ve aynı zamanda düzenli organik müvekkiller kazandıran bir web sitesi tasarladı. Blog yerleşimi ve teknik SEO kurulumu mükemmel.&quot;",
-        "rev_9": "&quot;Kurumsal kimlik ve görsel dil oluşturma sürecinde hem yaratıcı hem de stratejik bir yaklaşım sundu.&quot;",
-        "rev_17": "&quot;E-ticaret platformumuzda yaptığı SEO optimizasyonu çalışması, arama görünürlüğümüzü sadece üç ayda ikiye katladı. Teknik denetim ve sayfa hızı geliştirmeleri, mobil dönüşümlerimiz için dönüm noktası oldu.&quot;",
-        "rev_18": "&quot;Üstün performanslı bir B2B web sitesi ve harika bir yerel SEO stratejisi. Ostim ve diğer sanayi bölgelerindeki arama sorgularında Google'da çok hızlı bir şekilde ilk sayfada yer almaya başladık.&quot;",
-        "rev_19": "&quot;Klinik blog düzenimizi ve yerel SEO'muzu yeniden yapılandırdı. Detaylı Google İşletme Profili kurulumu ve sayfa hızı optimizasyonları, organik aramalardan ciddi bir yeni hasta akışı sağladı.&quot;",
-        "rev_20": "&quot;Teknik SEO müdahalesinin ardından sitemizin Core Web Vitals puanı kırmızıdan yeşile yükseldi. Sayfa 1 saniyenin altında yükleniyor ve kurumsal B2B sorgularımız %40 arttı.&quot;",
-        "rev_21": "&quot;Arama motoru dostu mimariyi mükemmel şekilde entegre eden temiz ve prestijli bir tasarım teslim etti. Lüks tasarım ile yüksek sıralamalar arasında seçim yapmak zorunda kalmadık — bize ikisini de verdi.&quot;",
+        "rev_1": "&quot;Alperen tüm e-ticaret altyapımızı baştan kurdu. 98/100 PageSpeed skoru ve 3 ayda %120 organik trafik artışı ile dönüşüm oranlarımızda ciddi bir büyüme sağladık.&quot;",
+        "rev_1_author": "Caner Demir",
+        "rev_1_title": "E-Ticaret Direktörü, Dopdolar",
+        "rev_1_initials": "CD",
+        "rev_2": "&quot;Hazırladığı 3D sinematik animasyonlar ve B2B web tasarımı, uluslararası savunma sanayi standartlarımızın çok ötesindeydi. Teknik detaylardaki titizliği olağanüstü.&quot;",
+        "rev_2_author": "Selim Başer",
+        "rev_2_title": "Operasyon Müdürü, Megatech Savunma",
+        "rev_2_initials": "SB",
+        "rev_3": "&quot;Alperen'in kurduğu B2B SEO ve web mimarisi sayesinde endüstriyel üretim alanındaki hedef anahtar kelimelerimizde Google'da 1. sıraya yerleştik ve global müşteri taleplerimizi %85 artırdık.&quot;",
+        "rev_3_author": "Ahmet Sönmez",
+        "rev_3_title": "Kurucu Ortak, Sanayi Tech",
+        "rev_3_initials": "AS",
+        "rev_4": "&quot;Kreatif direktörlüğü sayesinde lüks tasarım estetiği ile ışık hızında performansı mükemmel bir şekilde harmanladı. Modern dijital web tasarımı için tam bir başyapıt.&quot;",
+        "rev_4_author": "Elif Karaca",
+        "rev_4_title": "Kreatif Direktör, Dipbluetech",
+        "rev_4_initials": "EK",
+        "filter_all": "Tümü",
+        "filter_web": "Web Tasarım",
+        "filter_3d": "3D Animasyon",
+        "filter_film": "Kısa Filmler",
+        "metric_dopdolar_traffic": "+120% Organik Trafik",
+        "metric_dopdolar_speed": "98/100 Hız Skoru",
+        "metric_dipbluetech_leads": "+145% Müşteri Talebi",
+        "metric_dipbluetech_seo": "Hedef Kelimelerde 1. Sıra",
+        "metric_sanayitech_conversion": "+85% B2B Dönüşüm",
+        "metric_sanayitech_load": "0.8s Yüklenme Süresi",
+        "kvkk_consent": "KVKK aydınlatma metnini okudum ve kabul ediyorum.",
+        "kvkk_error": "Göndermeden önce KVKK onayını kabul etmelisiniz.",
+        "audit_badge": "Ücretsiz Hizmet",
+        "audit_title": "Ücretsiz Dijital Analiz",
+        "audit_subtitle": "Rakiplerinizin önüne geçmenizi engelleyen teknik ve stratejik sorunları manuel olarak tespit ediyorum — ücretsiz, kapsamlı ve gerçekçi bir analizle.",
+        "audit_pillar_seo_title": "SEO & Teknik Denetim",
+        "audit_pillar_seo_desc": "Core Web Vitals, sayfa hızı, indeksleme sorunları, schema markup eksiklikleri ve anahtar kelime strateji analizi.",
+        "audit_pillar_seo_li1": "Sayfa Hızı & Core Web Vitals",
+        "audit_pillar_seo_li2": "Teknik SEO & Crawl Sorunları",
+        "audit_pillar_seo_li3": "Anahtar Kelime & İçerik Boşlukları",
+        "audit_pillar_ux_title": "UX & Tasarım İncelemesi",
+        "audit_pillar_ux_desc": "Kullanıcı deneyimi sorunları, mobil uyumluluk, görsel hiyerarşi ve marka tutarlılığı değerlendirmesi.",
+        "audit_pillar_ux_li1": "Mobil & Responsive Uyumluluk",
+        "audit_pillar_ux_li2": "Görsel Hiyerarşi & Marka Tutarlılığı",
+        "audit_pillar_ux_li3": "Erişilebilirlik & Kullanılabilirlik",
+        "audit_pillar_conv_title": "Dönüşüm Optimizasyonu",
+        "audit_pillar_conv_desc": "Dönüşüm hunisi analizi, CTA etkinliği, form optimizasyonu ve rakip karşılaştırmalı değerlendirme.",
+        "audit_pillar_conv_li1": "Dönüşüm Hunisi & CTA Analizi",
+        "audit_pillar_conv_li2": "Form & Lead Capture Optimizasyonu",
+        "audit_pillar_conv_li3": "Rakip Analizi & Fırsatlar",
+        "audit_cta_next_step": "Sonraki Adım",
+        "audit_cta_title": "Web siteniz ne kadar güçlü?",
+        "audit_cta_desc": "Ücretsiz, detaylı ve kişiye özel bir dijital analiz için bana web sitenizin URL'sini gönderin. 48 saat içinde kapsamlı raporunuzu hazırlıyorum.",
         "testimonials_subtitle": "Referanslar",
         "testimonials_title": "Müşteri Yorumları",
         "website_services_desc": "Vizyonunuza özel, premium ve yüksek performanslı bir web varlığıyla markanızı yükseltin.",
@@ -1115,6 +1171,14 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Meta Pixel Contact Event Tracking ---
     // 1. Track form submissions
     document.addEventListener('submit', (e) => {
+        const kvkkCheckbox = e.target.querySelector('.kvkk-checkbox');
+        if (kvkkCheckbox && !kvkkCheckbox.checked) {
+            e.preventDefault();
+            const errorMsg = (translations[currentLang] && translations[currentLang]['kvkk_error']) 
+                || "Please accept the KVKK consent checkbox to proceed.";
+            alert(errorMsg);
+            return;
+        }
         if (typeof fbq === 'function') {
             fbq('track', 'Contact');
         }
@@ -1960,3 +2024,40 @@ document.addEventListener('DOMContentLoaded', () => {
         }, { passive: true });
     })();
 });
+
+
+// ====================================================
+// Portfolio Filter Tabs
+// ====================================================
+(function() {
+  function initPortfolioFilters() {
+    var filterBtns = document.querySelectorAll('.portfolio-filter-btn');
+    var portfolioItems = document.querySelectorAll('[data-category]');
+    if (!filterBtns.length) return;
+    filterBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var filter = btn.getAttribute('data-filter');
+        filterBtns.forEach(function(b) {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+        portfolioItems.forEach(function(item) {
+          var cat = item.getAttribute('data-category');
+          if (filter === 'all' || cat === filter) {
+            item.style.display = '';
+            item.style.opacity = '1';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initPortfolioFilters);
+  } else {
+    initPortfolioFilters();
+  }
+})();

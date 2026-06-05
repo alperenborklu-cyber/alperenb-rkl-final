@@ -8,6 +8,11 @@
   ],
   "redirects": [
     {
+      "source": "/contact",
+      "destination": "/#contact",
+      "statusCode": 301
+    },
+    {
       "source": "/on-2024",
       "destination": "/deneysel-kisa-film-on",
       "statusCode": 301
